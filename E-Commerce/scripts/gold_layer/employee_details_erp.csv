@@ -1,0 +1,251 @@
+employee_id,first_name,last_name,gender,department,job_title,hire_date,salary,manager_id,employment_status,email
+E0001,Anna,Santos,M,HR,IT Analyst,2024-02-12,60000,,Active,
+E0002,Sofia,Rivera,,Sales,Manager,2023-01-14,28000,,Active,sofia.rivera@company.com
+E0003,Mark,Lim,Female,HR, MARKETING SPECIALIST ,2020-12-19,75000,,Resigned,mark.lim@company.com
+E0004,David,Cruz,,Operations,Supervisor,2022-01-21,32000,,Active,david.cruz@company.com
+E0005,Robert,Cruz,Female,IT,Logistics Coordinator,2022-02-03,50000,,Active,robert.cruz@company.com
+E0006,James,White,Female, HR,Manager,2021-08-21,28000,,Active,james.white@company.com
+E0007,James,Torres,,Marketing,Logistics Coordinator,2025-03-18,45000,,Active,james.torres@company.com
+E0008,Angela,Moore,M,Customer Service,Customer Service Officer,2019-07-21,32000,,Active,angela.moore@company.com
+E0009,Michael,Mendoza,F,IT,Supervisor,2023-12-08,28000,,,michael.mendoza@company.com
+E0010,Angela,Lim,M,IT,Accountant,2020-12-14,35000,,Resigned,angela.lim@company.com
+E0011,Robert,Thomas,,HR,Manager,2024-09-19,28000,E0002,Active,robert.thomas@company.com
+E0012,Robert,Rivera,Male,HR, IT ANALYST,2019-05-31,75000,E0009,Active,robert.rivera@company.com
+E0013,Rachel,Wilson,Female,HR,Customer Service Officer,2025-04-15,90000,E0008,Active,rachel.wilson@company.com
+E0014,James,Smith,Male,HR, sales representative,2021-09-15,40000,E0005,,james.smith@company.com
+E0015,Angela,Dela Cruz,,Logistics,Logistics Coordinator,2020-02-19,60000,E0006,On Leave,angela.delacruz@company.com
+E0016,Maria,Garcia,Male,Customer Service,IT Analyst,2020-02-19,35000,E0007,Active,maria.garcia@company.com
+E0017,Kevin,Cruz,F,it, HR Specialist ,2022-07-01,60000,E0001,On Leave,kevin.cruz@company.com
+E0018,Alex,Tan,F, Logistics,Supervisor,2018-09-07,28000,E0001,Resigned,alex.tan@company.com
+E0019,Brian,Mendoza,Male,IT,IT Analyst,2020-08-21,,E0004,Resigned,brian.mendoza@company.com
+E0020,Rachel,Cruz,F,Marketing,HR Specialist,2021-07-10,60000,E0003,,rachel.cruz@company.com
+E0021,Alex,Smith,Male,Sales,Supervisor,2018-10-28,90000,E0005,Active,alex.smith@company.com
+E0022,James,Rivera,M,Operations,Supervisor,2025-05-02,90000,E0005,,james.rivera@company.com
+E0023,Michael,Lim,Male,IT,Accountant,2024-10-13,50000,E0004,,michael.lim@company.com
+E0024,Emily,Thomas,F,Operations, SALES REPRESENTATIVE ,2019-06-20,35000,E0008,Resigned,emily.thomas@company.com
+E0025,Angela,Santos,Male,IT,Accountant,2022-02-21,35000,E0007,Active,
+E0026,Grace,Reyes,M,HR,IT Analyst,2024-04-12,35000,E0004,Active,grace.reyes@company.com
+E0027,Daniel,Wilson,Male,Finance,Marketing Specialist,2022-08-14,40000,E0005,Active,daniel.wilson@company.com
+E0028,Anna,Brown,Male,Logistics,Logistics Coordinator,2020-07-21,40000,E0007,Active,anna.brown@company.com
+E0029,James,Lim,M,Customer Service,Manager,2018-04-24,45000,E0003,Resigned,james.lim@company.com
+E0030,Emily,Reyes,Male,Customer Service,Marketing Specialist,2023-09-26,,E0004,Active,
+E0031,Nicole,Santos,,HR,IT Analyst,2021-09-14,32000,E0005,Resigned,nicole.santos@company.com
+E0032,Nicole,Smith,F,Operations,HR Specialist,2022-04-02,35000,E0010,Resigned,nicole.smith@company.com
+E0033,Angela,Santos,M,Operations,Supervisor,2021-08-12,75000,E0004,Resigned,angela.santos@company.com
+E0034,Daniel,Cruz,M, marketing , HR Specialist,2024-11-08,60000,E0010,Active,daniel.cruz@company.com
+E0035,David,Martin,F,HR,IT Analyst,2020-06-15,90000,E0008,Active,david.martin@company.com
+E0036,Anna,Anderson,Female,Logistics,Manager,2022-12-18,90000,E0007,Resigned,anna.anderson@company.com
+E0037,Daniel,Martin,F,Operations,Operations Analyst,2023-11-06,40000,E0005,On Leave,daniel.martin@company.com
+E0038,Robert,Rivera,M,Marketing, MANAGER ,2020-05-26,60000,E0006,Resigned,robert.rivera@company.com
+E0039,Maria,Torres,F,Customer Service,Supervisor,2018-03-22,75000,E0001,Active,maria.torres@company.com
+E0040,David,Wilson,,HR,Operations Analyst,2018-04-29,60000,E0003,On Leave,david.wilson@company.com
+E0041,Rachel,Moore,Male,Customer Service,SALES REPRESENTATIVE ,2020-12-01,40000,E0008,Active,rachel.moore@company.com
+E0042,David,Lim,F,Operations,,2024-01-19,40000,E0002,,
+E0043,John,Rivera,Female,Sales,HR Specialist,2020-06-11,45000,E0006,Active,john.rivera@company.com
+E0044,Anna,Mendoza,M,IT,Operations Analyst,2022-03-18,40000,E0002,Resigned,anna.mendoza@company.com
+E0045,Kevin,Garcia,M,IT,Supervisor,2021-11-23,50000,E0002,Resigned,kevin.garcia@company.com
+E0046,John,Wilson,F,IT,Marketing Specialist,2023-02-27,60000,E0003,,john.wilson@company.com
+E0047,Emily,White,,Logistics,Supervisor,2020-10-02,75000,E0004,On Leave,emily.white@company.com
+E0048,David,Smith,Male,Logistics,Accountant,2021-12-24,45000,E0010,,david.smith@company.com
+E0049,Angela,Santos,, hr,Logistics Coordinator,2023-07-04,28000,E0002,Active,angela.santos@company.com
+E0050,Kevin,Tan,,Marketing,Manager,2024-03-04,75000,E0005,Active,kevin.tan@company.com
+E0051,Anna,Torres,M,IT,Accountant,2023-06-07,,E0009,Resigned,anna.torres@company.com
+E0052,Anna,Torres,M,HR,,2023-12-28,28000,E0001,Resigned,anna.torres@company.com
+E0053,Michael,Martin,Male,Sales,Logistics Coordinator,2021-10-27,45000,E0008,Active,michael.martin@company.com
+E0054,David,Martin,Male,Sales,IT Analyst,2019-05-01,60000,E0010,Resigned,david.martin@company.com
+E0055,Kevin,Thomas,F,Logistics,Operations Analyst,2022-10-23,,E0001,Resigned,kevin.thomas@company.com
+E0056,Anna,Torres,Female,Operations,Accountant,2024-03-10,28000,E0007,On Leave,anna.torres@company.com
+E0057,Jennifer,Tan,Male,HR,Operations Analyst,2023-02-03,40000,E0005,,jennifer.tan@company.com
+E0058,Sofia,Wilson,Male,HR,Operations Analyst,2018-10-20,45000,E0010,,sofia.wilson@company.com
+E0059,Robert,Anderson,Male,Logistics,Customer Service Officer,2023-08-12,75000,E0002,Resigned,
+E0060,Nicole,Smith,,,HR Specialist,2024-06-14,45000,E0010,Active,nicole.smith@company.com
+E0061,Daniel,Martin,,Logistics,Accountant,2022-11-21,75000,E0002,On Leave,daniel.martin@company.com
+E0062,Mark,Smith,Male,Finance,Logistics Coordinator,2022-06-29,75000,E0002,Active,mark.smith@company.com
+E0063,Anna,Brown,,Sales,Manager,2018-08-11,50000,E0010,On Leave,anna.brown@company.com
+E0064,Maria,Torres,M,Finance,Logistics Coordinator,2023-06-09,,E0004,,maria.torres@company.com
+E0065,Angela,Santos,,customer service ,IT Analyst,2019-09-23,45000,E0009,,angela.santos@company.com
+E0066,Jennifer,Martin,Female,Logistics,Customer Service Officer,2024-09-21,35000,E0002,Active,jennifer.martin@company.com
+E0067,Nicole,Smith,,Operations,Operations Analyst,2024-08-01,75000,E0003,On Leave,nicole.smith@company.com
+E0068,Grace,Smith,,Customer Service,Marketing Specialist,2020-09-05,40000,E0007,Active,grace.smith@company.com
+E0069,Jennifer,Brown,F,Finance,Sales Representative ,2019-02-16,90000,E0008,Active,jennifer.brown@company.com
+E0070,Nicole,Dela Cruz,Male,Logistics,Operations Analyst,2022-06-17,50000,E0009,On Leave,nicole.delacruz@company.com
+E0071,Jennifer,Moore,Male,IT,Operations Analyst,2019-01-06,32000,E0008,Active,jennifer.moore@company.com
+E0072,John,Reyes,M,Sales,Marketing Specialist,2020-09-27,,E0003,Active,john.reyes@company.com
+E0073,Rachel,Brown,,HR, Supervisor ,2020-11-11,75000,E0005,,rachel.brown@company.com
+E0074,James,Anderson,M,Operations,Customer Service Officer,2023-02-15,60000,E0008,Active,james.anderson@company.com
+E0075,Chris,Johnson,,Operations,,2025-05-20,28000,E0010,,chris.johnson@company.com
+E0076,Maria,White,F,Operations,HR Specialist,2021-12-14,40000,E0010,Active,maria.white@company.com
+E0077,Michael,Garcia,Male,Operations,Sales Representative,2019-06-23,45000,E0006,,michael.garcia@company.com
+E0078,Sofia,Dela Cruz,,Marketing,Operations Analyst,2020-11-18,45000,E0006,Active,sofia.delacruz@company.com
+E0079,James,Dela Cruz,Female,Customer Service,Manager,2022-06-05,90000,E0002,On Leave,james.delacruz@company.com
+E0080,Emily,Taylor,F, MARKETING,Manager,2024-11-03,32000,E0008,,emily.taylor@company.com
+E0081,Nicole,Garcia,Female,Sales,Operations Analyst,2019-04-21,90000,E0003,On Leave,nicole.garcia@company.com
+E0082,Angela,Wilson,,Finance,IT Analyst,2024-11-26,28000,E0006,Active,angela.wilson@company.com
+E0083,Kevin,Johnson,Male,Marketing,MARKETING SPECIALIST,2023-02-06,40000,E0010,Active,
+E0084,Mark,Rivera,Female, hr ,HR Specialist,2019-08-28,45000,E0003,Active,mark.rivera@company.com
+E0085,Daniel,Garcia,Male,,HR Specialist,2018-03-06,28000,E0003,,daniel.garcia@company.com
+E0086,Anna,Cruz,F,Logistics,Manager,2023-01-26,,E0001,,anna.cruz@company.com
+E0087,Brian,Tan,F, SALES,Logistics Coordinator,2022-12-22,32000,E0006,Resigned,brian.tan@company.com
+E0088,Michael,Lim,,Marketing,Supervisor,2023-02-02,60000,E0002,,michael.lim@company.com
+E0089,Angela,Torres,F,Logistics,Customer Service Officer,2023-02-01,32000,E0006,On Leave,angela.torres@company.com
+E0090,Emily,Johnson,Female, logistics ,Marketing Specialist,2024-03-28,90000,E0009,Active,emily.johnson@company.com
+E0091,Nicole,Johnson,F,Sales,Supervisor,2019-03-01,40000,E0003,,nicole.johnson@company.com
+E0092,Anna,Johnson,, Marketing ,Customer Service Officer,2024-12-21,90000,E0001,Resigned,anna.johnson@company.com
+E0093,Emily,Santos,Female,Operations,Operations Analyst,2021-12-08,35000,E0010,,emily.santos@company.com
+E0094,Michael,Santos,Male,HR,Logistics Coordinator,2022-02-24,50000,E0010,Resigned,michael.santos@company.com
+E0095,Maria,Dela Cruz,Female,Sales,Operations Analyst,2022-10-03,75000,E0007,Active,maria.delacruz@company.com
+E0096,Brian,Garcia,M,Customer Service,Manager,2018-07-06,,E0001,Active,brian.garcia@company.com
+E0097,Sofia,Dela Cruz,M,Operations,Sales Representative,2022-10-30,60000,E0009,,sofia.delacruz@company.com
+E0098,Angela,Johnson,Male,Customer Service,Sales Representative,2023-02-27,50000,E0010,On Leave,angela.johnson@company.com
+E0099,Nicole,Tan,Male,,Marketing Specialist ,2022-01-22,32000,E0004,On Leave,nicole.tan@company.com
+E0100,Brian,Cruz,F,Operations,HR Specialist,2019-11-20,32000,E0009,Resigned,brian.cruz@company.com
+E0101,Grace,Johnson,Female, HR ,IT Analyst ,2024-04-28,,E0010,Active,grace.johnson@company.com
+E0102,Mark,Dela Cruz,F,IT,Operations Analyst,2024-08-19,90000,E0002,Active,mark.delacruz@company.com
+E0103,Maria,Reyes,M,operations,Manager,2024-07-05,28000,E0008,Resigned,maria.reyes@company.com
+E0104,Mark,White,F,Finance, logistics coordinator,2023-08-29,28000,E0004,,mark.white@company.com
+E0105,Alex,Thomas,,Finance,Operations Analyst,2021-10-17,28000,E0006,Active,alex.thomas@company.com
+E0106,Angela,Brown,M,Operations,Supervisor,2021-09-27,35000,E0006,Active,angela.brown@company.com
+E0107,David,Dela Cruz,,IT,Customer Service Officer,2021-09-07,90000,E0002,,david.delacruz@company.com
+E0108,Brian,Johnson,Male,Marketing,HR Specialist,2023-06-15,35000,E0003,Active,brian.johnson@company.com
+E0109,Anna,Thomas,,Sales, Supervisor ,2025-01-02,75000,E0001,On Leave,anna.thomas@company.com
+E0110,Kevin,Anderson,,Operations,Logistics Coordinator,2020-09-06,75000,E0004,Active,kevin.anderson@company.com
+E0111,Chris,Anderson,F,Operations,Manager,2019-10-26,,E0003,Active,
+E0112,Jennifer,Johnson,,IT,Manager,2021-03-13,35000,E0005,On Leave,jennifer.johnson@company.com
+E0113,Michael,Wilson,Male,HR,Marketing Specialist,2022-08-27,90000,E0006,Active,michael.wilson@company.com
+E0114,James,Johnson,Female,Sales,IT Analyst,2025-04-16,35000,E0003,Active,james.johnson@company.com
+E0115,Jennifer,Dela Cruz,F,Logistics,,2020-06-02,,E0009,On Leave,jennifer.delacruz@company.com
+E0116,Robert,Rivera,M,IT ,IT Analyst,2023-08-10,28000,E0009,Resigned,robert.rivera@company.com
+E0117,Michael,Tan,F,Sales,HR Specialist,2020-02-07,32000,E0009,Active,michael.tan@company.com
+E0118,Brian,Moore,,Sales, LOGISTICS COORDINATOR,2022-01-02,40000,E0002,Resigned,brian.moore@company.com
+E0119,Mark,Dela Cruz,Male,Marketing,Accountant,2023-03-19,35000,E0003,Active,mark.delacruz@company.com
+E0120,Alex,Reyes,M, HR,Manager,2024-02-03,28000,E0004,Active,alex.reyes@company.com
+E0121,Maria,Smith,M,IT,Customer Service Officer,2022-12-07,35000,E0008,,maria.smith@company.com
+E0122,Brian,Lim,Male,customer service, MARKETING SPECIALIST ,2022-10-12,75000,E0006,On Leave,
+E0123,Grace,White,F,Operations, sales representative,2019-10-18,,E0008,Active,grace.white@company.com
+E0124,Kevin,Johnson,M,Customer Service,Sales Representative,2023-01-17,75000,E0002,Resigned,kevin.johnson@company.com
+E0125,Grace,Brown,M,Operations,,2020-02-02,60000,E0009,Active,grace.brown@company.com
+E0126,Emily,Anderson,Female,Operations,Logistics Coordinator,2019-07-10,35000,E0008,Active,emily.anderson@company.com
+E0127,Mark,Johnson,Male,Operations,Accountant,2025-02-25,50000,E0009,Active,mark.johnson@company.com
+E0128,Sofia,Dela Cruz,Female,,Manager,2023-03-30,,E0002,Active,sofia.delacruz@company.com
+E0129,Jennifer,Thomas,F,Customer Service, IT Analyst ,2023-03-24,50000,E0003,Resigned,jennifer.thomas@company.com
+E0130,Daniel,Dela Cruz,F,Sales, Manager ,2020-07-12,45000,E0002,Active,daniel.delacruz@company.com
+E0131,Angela,Lim,Female,Operations,IT Analyst,2019-11-22,35000,E0003,,angela.lim@company.com
+E0132,Rachel,Smith,,Sales,sales representative ,2020-05-13,,E0001,On Leave,rachel.smith@company.com
+E0133,Angela,Tan,M,Logistics,Customer Service Officer,2018-10-26,35000,E0008,On Leave,angela.tan@company.com
+E0134,Sofia,Smith,,Finance,Marketing Specialist,2021-11-15,50000,E0009,Resigned,sofia.smith@company.com
+E0135,Kevin,Anderson,Male,Operations, ACCOUNTANT,2020-10-13,50000,E0010,,kevin.anderson@company.com
+E0136,Daniel,Martin,,Logistics,Operations Analyst,2019-01-04,75000,E0004,Active,daniel.martin@company.com
+E0137,Maria,Reyes,M,Logistics,Logistics Coordinator,2018-02-03,35000,E0005,,maria.reyes@company.com
+E0138,David,Johnson,Male, customer service ,Customer Service Officer,2024-03-02,,E0010,Active,david.johnson@company.com
+E0139,Anna,Brown,M,Marketing,Marketing Specialist,2020-03-26,60000,E0009,Active,
+E0140,Michael,Smith,F,Logistics ,Supervisor,2022-05-29,45000,E0010,Active,michael.smith@company.com
+E0141,Brian,Moore,F,Operations,Sales Representative,2019-03-25,45000,E0001,Resigned,brian.moore@company.com
+E0142,Chris,Taylor,Female,Sales,Accountant,2024-12-13,40000,E0001,Resigned,chris.taylor@company.com
+E0143,Anna,Torres,Male,Logistics,Accountant,2020-04-15,,E0008,,anna.torres@company.com
+E0144,Michael,Thomas,Female,Marketing,Logistics Coordinator,2021-07-09,90000,E0006,Resigned,michael.thomas@company.com
+E0145,Emily,White,F,HR,Operations Analyst,2020-07-10,45000,E0004,,emily.white@company.com
+E0146,Mark,Martin,M,Operations,Supervisor,2022-04-05,50000,E0003,Active,
+E0147,James,Johnson,F,Operations,HR Specialist,2024-01-16,90000,E0005,Active,james.johnson@company.com
+E0148,Chris,Rivera,Female,Sales,Manager,2020-08-11,60000,E0006,,chris.rivera@company.com
+E0149,Michael,Santos,,Finance,Logistics Coordinator,2020-03-27,45000,E0001,Active,michael.santos@company.com
+E0150,Kevin,Moore,Male,Finance,Accountant,2018-05-29,75000,E0003,,kevin.moore@company.com
+E0151,Robert,Reyes,Male,Operations,IT Analyst,2021-10-04,90000,E0009,On Leave,robert.reyes@company.com
+E0152,Michael,Thomas,F,Operations,IT Analyst,2023-02-23,35000,E0001,,michael.thomas@company.com
+E0153,Robert,Taylor,Female,Finance,Customer Service Officer,2023-10-12,60000,E0002,Active,robert.taylor@company.com
+E0154,Jennifer,Smith,Female,Sales,HR Specialist,2020-12-29,,E0010,Active,jennifer.smith@company.com
+E0155,Grace,Rivera,Male,IT,Accountant,2023-08-21,45000,E0002,,grace.rivera@company.com
+E0156,Robert,Johnson,,HR,Accountant,2023-02-07,50000,E0007,,robert.johnson@company.com
+E0157,Jennifer,Moore,Female,HR,Supervisor,2018-12-02,90000,E0006,Active,jennifer.moore@company.com
+E0158,Anna,Reyes,,HR,Accountant ,2020-04-21,75000,E0002,Resigned,anna.reyes@company.com
+E0159,Maria,Anderson,Female,Customer Service,Sales Representative,2021-06-16,60000,E0005,Active,maria.anderson@company.com
+E0160,Chris,Cruz,Male,Customer Service,IT Analyst,2018-09-04,75000,E0001,Active,chris.cruz@company.com
+E0161,Michael,Wilson,M,Customer Service,Customer Service Officer,2025-06-03,50000,E0002,Active,michael.wilson@company.com
+E0162,David,Thomas,Female,HR,Sales Representative,2023-03-12,90000,E0007,Resigned,david.thomas@company.com
+E0163,Kevin,Rivera,F, Marketing,it analyst,2018-03-06,32000,E0002,Resigned,
+E0164,Rachel,Reyes,Female,Sales,HR Specialist,2018-08-20,45000,E0004,,rachel.reyes@company.com
+E0165,Chris,White,M,HR,Accountant,2023-11-06,45000,E0005,Active,chris.white@company.com
+E0166,Chris,Mendoza,F,LOGISTICS ,Manager,2022-09-02,45000,E0007,Active,chris.mendoza@company.com
+E0167,Jennifer,Rivera,Female,Operations,Accountant,2018-08-25,60000,E0009,Resigned,jennifer.rivera@company.com
+E0168,Kevin,Lim,Female,Marketing,Logistics Coordinator,2019-01-14,40000,E0001,Active,kevin.lim@company.com
+E0169,Rachel,White,Male,IT,Manager,2020-05-05,28000,E0004,Active,rachel.white@company.com
+E0170,Anna,Martin,Female,HR,HR Specialist,2021-03-05,90000,E0006,Active,anna.martin@company.com
+E0171,Brian,Martin,F,IT,Logistics Coordinator,2021-08-04,50000,E0007,Active,brian.martin@company.com
+E0172,Kevin,Dela Cruz,Male,Operations,Supervisor,2022-09-07,40000,E0006,Active,kevin.delacruz@company.com
+E0173,Kevin,Martin,,Marketing,Logistics Coordinator,2025-03-13,75000,E0003,,kevin.martin@company.com
+E0174,Daniel,Dela Cruz,,Logistics,Sales Representative,2018-11-01,28000,E0007,Active,daniel.delacruz@company.com
+E0175,Kevin,Cruz,Female,Sales,Logistics Coordinator,2024-12-05,,E0008,,kevin.cruz@company.com
+E0176,John,Moore,,,Manager,2024-01-04,90000,E0007,Active,john.moore@company.com
+E0177,Anna,Thomas,Female,HR,Manager,2021-12-22,60000,E0002,Active,anna.thomas@company.com
+E0178,Alex,Taylor,Female,HR,IT Analyst,2025-04-15,60000,E0007,On Leave,alex.taylor@company.com
+E0179,Maria,Santos,Female,IT,Customer Service Officer,2021-09-18,32000,E0009,Active,maria.santos@company.com
+E0180,Chris,Martin,M,Sales,Operations Analyst,2024-04-27,35000,E0006,Active,chris.martin@company.com
+E0181,Chris,Dela Cruz,F,IT,Supervisor,2022-05-13,90000,E0006,On Leave,chris.delacruz@company.com
+E0182,Michael,Cruz,,MARKETING ,Supervisor,2022-06-13,45000,E0008,On Leave,michael.cruz@company.com
+E0183,Angela,Brown,F,Finance,customer service officer,2018-12-03,60000,E0003,,angela.brown@company.com
+E0184,Grace,Garcia,Male,Sales,Logistics Coordinator,2021-01-09,32000,E0003,On Leave,grace.garcia@company.com
+E0185,Angela,Thomas,F,,Marketing Specialist,2024-09-11,50000,E0007,Active,angela.thomas@company.com
+E0186,David,Cruz,,HR,Accountant,2019-11-26,45000,E0005,On Leave,david.cruz@company.com
+E0187,Daniel,Wilson,M,Customer Service,IT Analyst,2020-10-07,75000,E0010,Resigned,daniel.wilson@company.com
+E0188,Anna,Dela Cruz,M,Sales,Marketing Specialist,2022-04-06,50000,E0007,,anna.delacruz@company.com
+E0189,Michael,Tan,M,HR,Accountant,2021-07-31,75000,E0010,Active,michael.tan@company.com
+E0190,Emily,Brown,M,IT,HR Specialist,2024-02-13,90000,E0001,,emily.brown@company.com
+E0191,Sofia,Anderson,M,IT,Customer Service Officer,2019-07-25,40000,E0005,,sofia.anderson@company.com
+E0192,Nicole,Brown,Male,Logistics,Logistics Coordinator,2023-12-29,60000,E0009,Active,nicole.brown@company.com
+E0193,Grace,Moore,,IT ,supervisor ,2021-09-20,28000,E0002,Active,grace.moore@company.com
+E0194,Brian,Moore,,HR,Customer Service Officer,2024-08-07,35000,E0006,Active,brian.moore@company.com
+E0195,Robert,Wilson,Male,IT,Accountant,2021-11-06,40000,E0009,On Leave,robert.wilson@company.com
+E0196,Anna,Anderson,F,MARKETING ,Marketing Specialist,2019-11-05,90000,E0003,Resigned,anna.anderson@company.com
+E0197,Angela,Wilson,F,HR,Accountant ,2024-11-20,,E0007,On Leave,
+E0198,Sofia,Torres,M,IT, Manager ,2020-12-10,75000,E0009,,sofia.torres@company.com
+E0199,David,White,F,IT,Logistics Coordinator,2021-05-03,32000,E0003,Active,david.white@company.com
+E0200,Robert,Garcia,Female,Marketing,Manager,2024-09-08,60000,E0007,Active,robert.garcia@company.com
+E0201,Angela,Mendoza,,Finance,Accountant,2022-01-10,35000,E0004,On Leave,angela.mendoza@company.com
+E0202,Brian,Martin,F,Logistics,Logistics Coordinator,2018-12-05,40000,E0005,Active,brian.martin@company.com
+E0203,Angela,Tan,Female,Logistics,Logistics Coordinator,2019-04-09,45000,E0009,Active,angela.tan@company.com
+E0204,Maria,Anderson,,HR,IT Analyst,2025-05-01,28000,E0008,Active,maria.anderson@company.com
+E0205,James,Anderson,Male,HR,Supervisor,2024-11-04,35000,E0010,Active,james.anderson@company.com
+E0206,Sofia,Reyes,,Marketing,Supervisor,2021-08-18,45000,E0010,Active,sofia.reyes@company.com
+E0207,Brian,Garcia,Female,Customer Service,Operations Analyst,2019-06-04,35000,E0004,Active,brian.garcia@company.com
+E0208,Kevin,Brown,F,Finance,Operations Analyst,2022-03-17,32000,E0007,Resigned,kevin.brown@company.com
+E0209,Grace,Anderson,F,Marketing,IT Analyst,2023-02-21,50000,E0002,Resigned,grace.anderson@company.com
+E0210,Nicole,Torres,F,Operations,Operations Analyst,2024-06-25,75000,E0006,,nicole.torres@company.com
+E0211,Maria,Garcia,F,Sales ,Sales Representative,2022-10-19,35000,E0005,Active,maria.garcia@company.com
+E0212,Emily,Cruz,M,operations ,Operations Analyst,2020-08-17,32000,E0002,Active,emily.cruz@company.com
+E0213,James,Dela Cruz,,HR,,2021-11-08,60000,E0003,On Leave,james.delacruz@company.com
+E0214,David,Cruz,Male,IT,Operations Analyst,2019-06-30,35000,E0002,Resigned,david.cruz@company.com
+E0215,Rachel,Mendoza,F,Marketing,Accountant,2024-11-28,40000,E0002,Active,rachel.mendoza@company.com
+E0216,Anna,Taylor,F,Marketing,Marketing Specialist,2020-10-11,32000,E0004,Resigned,anna.taylor@company.com
+E0217,Rachel,Tan,Male,Operations,Supervisor,2022-05-24,28000,E0004,On Leave,rachel.tan@company.com
+E0218,Kevin,Martin,,IT,Sales Representative,2021-07-20,,E0007,Active,kevin.martin@company.com
+E0219,Daniel,Martin,Male,Sales,Sales Representative,2018-06-13,60000,E0009,Active,daniel.martin@company.com
+E0220,Brian,Wilson,F,customer service ,operations analyst ,2021-08-31,32000,E0005,,brian.wilson@company.com
+E0221,Kevin,Reyes,Female,IT,IT Analyst,2024-10-29,35000,E0002,Active,kevin.reyes@company.com
+E0222,John,Mendoza,F,Marketing, Operations Analyst,2021-01-05,32000,E0001,Active,john.mendoza@company.com
+E0223,Emily,Thomas,Male,Operations,Supervisor,2023-07-26,50000,E0001,On Leave,emily.thomas@company.com
+E0224,Daniel,Johnson,Female,Operations,Supervisor,2019-04-18,90000,E0001,Active,daniel.johnson@company.com
+E0225,John,Rivera,Male,Logistics,Accountant ,2025-05-09,50000,E0004,On Leave,john.rivera@company.com
+E0226,Mark,Lim,Male,Marketing ,HR Specialist,2018-07-08,75000,E0005,Active,mark.lim@company.com
+E0227,Angela,Anderson,Male,Marketing,Supervisor,2024-12-25,50000,E0010,On Leave,angela.anderson@company.com
+E0228,Sofia,Moore,Female,,,2024-01-28,28000,E0006,Active,sofia.moore@company.com
+E0229,David,Tan,Male,HR,HR Specialist,2018-09-03,45000,E0002,Active,david.tan@company.com
+E0230,Brian,Wilson,M,Logistics,IT Analyst,2023-09-02,60000,E0002,Resigned,brian.wilson@company.com
+E0231,Nicole,Dela Cruz,Female,Operations,Marketing Specialist,2022-05-29,50000,E0006,On Leave,nicole.delacruz@company.com
+E0232,James,Torres,Female, IT , Customer Service Officer,2023-01-26,45000,E0002,Active,james.torres@company.com
+E0233,Robert,White,Male,HR,Marketing Specialist,2022-06-12,45000,E0005,Active,
+E0234,David,Anderson,,HR ,Sales Representative,2020-06-29,60000,E0006,,david.anderson@company.com
+E0235,James,Taylor,,Operations,,2018-09-22,75000,E0003,Active,james.taylor@company.com
+E0236,Mark,Garcia,Male, logistics,,2022-10-14,40000,E0003,Active,mark.garcia@company.com
+E0237,Michael,Reyes,,HR,Logistics Coordinator,2024-03-05,32000,E0005,On Leave,michael.reyes@company.com
+E0238,Sofia,Thomas,Female,Sales,Marketing Specialist,2023-06-09,,E0009,Active,sofia.thomas@company.com
+E0239,Daniel,Santos,M,,operations analyst,2020-08-11,40000,E0004,Active,daniel.santos@company.com
+E0240,Maria,Rivera,,Customer Service,Accountant,2022-01-09,50000,E0010,Resigned,maria.rivera@company.com
+E0241,Sofia,Martin,, Operations ,Supervisor,2023-11-27,50000,E0010,Active,sofia.martin@company.com
+E0242,Mark,Mendoza,M,,Supervisor,2019-08-04,90000,E0006,Active,mark.mendoza@company.com
+E0243,David,Taylor,Male,Marketing,Accountant,2022-11-25,50000,E0003,,david.taylor@company.com
+E0244,Rachel,Johnson,Female,Finance,Operations Analyst,2024-06-04,,E0001,Active,rachel.johnson@company.com
+E0245,Rachel,Rivera,,IT,Accountant,2018-11-15,50000,E0003,,rachel.rivera@company.com
+E0246,James,Smith,F,Sales,HR Specialist,2021-12-06,32000,E0001,Active,james.smith@company.com
+E0247,Nicole,Mendoza,F,Logistics,Marketing Specialist,2019-02-20,,E0004,Active,nicole.mendoza@company.com
+E0248,Maria,Tan,Male,Marketing, IT ANALYST,2024-02-19,,E0010,On Leave,maria.tan@company.com
+E0249,Nicole,Mendoza,, Customer Service ,HR Specialist,2024-03-19,90000,E0005,,nicole.mendoza@company.com
+E0250,Kevin,Garcia,Male,Customer Service, Logistics Coordinator ,2021-04-21,,E0008,Active,kevin.garcia@company.com
