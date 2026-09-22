@@ -1,0 +1,132 @@
+-- 
+
+-- Designed the Silver layer to store cleaned and structured healthcare data, covering appointments, billing, patients, diagnoses, prescriptions, medications, departments, rooms, nurses, and physicians.
+
+-- Improved data typing and consistency by converting date fields from raw text into appropriate DATE types while maintaining TIME, DECIMAL, and INT data types for accurate storage and analysis.
+
+-- Prepared standardized tables for downstream analytics by maintaining consistent identifiers such as patient_id, visit_id, physician_id, department_id, and room_id to support relationships between healthcare datasets.
+
+
+DROP TABLE IF EXISTS silver_appointment_visits;
+CREATE TABLE silver_appointment_visits
+(
+	visit_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    nurse_id VARCHAR (50),
+    department_id VARCHAR(50),
+    visit_date DATE ,
+    visit_time TIME,
+    visit_status VARCHAR (50),
+    visit_type VARCHAR (50),
+    room_id VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS silver_billing_payments ;
+CREATE TABLE silver_billing_payments
+(
+	billing_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    visit_id VARCHAR (50),
+    billing_date DATE,
+    charge_type VARCHAR (50),
+    amount DECIMAL (20,2),
+    currency VARCHAR (20),
+    payment_status VARCHAR (50),
+    payment_method VARCHAR (50),
+    amount_paid DECIMAL (20,2)
+);
+
+
+DROP TABLE IF EXISTS silver_departments ;
+CREATE TABLE silver_departments
+(
+	deparment_id VARCHAR (50),
+    department_name VARCHAR (50)
+);
+
+DROP TABLE IF EXISTS silver_medical_record_diagnosis ;
+CREATE TABLE silver_medical_record_diagnosis
+(
+	medical_record VARCHAR (50),
+    visit_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    diagnosis_code VARCHAR (50),
+    diagnosis_description VARCHAR (50),
+    severity VARCHAR (50),
+    clinical_status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS silver_medications;
+CREATE TABLE silver_medications
+(
+	medication_id VARCHAR (50),
+    medication_name VARCHAR(50),
+    strength_from VARCHAR (50)
+) ;
+
+
+DROP TABLE IF EXISTS silver_patients;
+CREATE TABLE silver_patients
+(
+	patient_id VARCHAR (50),
+    patient_name VARCHAR (50),
+    gender VARCHAR (50),
+    date_of_birth DATE ,
+    phone VARCHAR (50),
+    address VARCHAR (50),
+    city VARCHAR (50),
+    country VARCHAR (50),
+    status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS silver_prescriptions ;
+CREATE TABLE silver_prescriptions
+(
+	prescription_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    medication_id VARCHAR (50),
+    visit_id VARCHAR (50),
+    prescription_date DATE ,
+    dosage VARCHAR (50),
+    duration VARCHAR (50),
+    status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS silver_wards_rooms ;
+CREATE TABLE silver_wards_rooms
+(
+	room_id VARCHAR (50),
+    ward_name VARCHAR (50),
+    room_number VARCHAR (50),
+    room_type VARCHAR (50),
+    status VARCHAR (50),
+    bed_capacity INT
+) ;
+
+DROP TABLE IF EXISTS silver_nurses ;
+CREATE TABLE silver_nurses
+(
+	nurse_id VARCHAR (50),
+    nurse_name VARCHAR (50),
+    credentials VARCHAR (50),
+    department_id VARCHAR (50),
+    shift VARCHAR (50),
+    phone VARCHAR (50) ,
+    salary VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS silver_physicians ; 
+CREATE TABLE silver_physicians
+(
+	physician_id VARCHAR (50),
+    physician_name VARCHAR (50),
+    credentials VARCHAR (50),
+    speciality VARCHAR (50),
+    department_id VARCHAR (50),
+    status VARCHAR (50),
+    phone VARCHAR (50),
+	salary VARCHAR (50)
+)
