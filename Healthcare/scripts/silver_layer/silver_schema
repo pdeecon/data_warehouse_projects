@@ -1,4 +1,4 @@
--- 
+-- Healthcare Data Warehouse — Silver Layer
 
 -- Designed the Silver layer to store cleaned and structured healthcare data, covering appointments, billing, patients, diagnoses, prescriptions, medications, departments, rooms, nurses, and physicians.
 
