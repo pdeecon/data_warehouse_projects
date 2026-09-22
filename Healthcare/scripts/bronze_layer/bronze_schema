@@ -1,0 +1,136 @@
+-- Healthcare Data Warehouse — Bronze Layer
+
+-- Designed the Bronze layer of a healthcare data warehouse to store raw data from appointments, billing, patients, physicians, nurses, medications, prescriptions, diagnoses, departments, and rooms.
+
+-- Created structured staging tables using MySQL CREATE TABLE, defining appropriate data types such as VARCHAR, TIME, DECIMAL, and INT for different source attributes.
+
+-- Implemented a repeatable ETL workflow using DROP TABLE IF EXISTS before table creation, allowing the Bronze tables to be safely recreated during data-loading and development cycles.
+
+-- Organized healthcare data into domain-specific tables, including patient visits, medical records, billing payments, prescriptions, and healthcare staff, providing a foundation for downstream data transformation and analytics.
+
+-- Prepared raw data for the next warehouse layer by establishing consistent table structures and relationships through identifiers such as patient_id, visit_id, physician_id, nurse_id, department_id, and room_id.
+
+DROP TABLE IF EXISTS bronze_appointment_visits;
+CREATE TABLE bronze_appointment_visits
+(
+	visit_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    nurse_id VARCHAR (50),
+    department_id VARCHAR(50),
+    visit_date VARCHAR(50),
+    visit_time TIME,
+    visit_status VARCHAR (50),
+    visit_type VARCHAR (50),
+    room_id VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS bronze_billing_payments ;
+CREATE TABLE bronze_billing_payments
+(
+	billing_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    visit_id VARCHAR (50),
+    billing_date VARCHAR (50),
+    charge_type VARCHAR (50),
+    amount DECIMAL (20,2),
+    currency VARCHAR (20),
+    payment_status VARCHAR (50),
+    payment_method VARCHAR (50),
+    amount_paid DECIMAL (20,2)
+);
+
+
+DROP TABLE IF EXISTS bronze_departments ;
+CREATE TABLE bronze_departments
+(
+	deparment_id VARCHAR (50),
+    department_name VARCHAR (50)
+);
+
+DROP TABLE IF EXISTS bronze_medical_record_diagnosis ;
+CREATE TABLE bronze_medical_record_diagnosis
+(
+	medical_record VARCHAR (50),
+    visit_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    diagnosis_code VARCHAR (50),
+    diagnosis_description VARCHAR (50),
+    severity VARCHAR (50),
+    clinical_status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS bronze_medications;
+CREATE TABLE bronze_medications
+(
+	medication_id VARCHAR (50),
+    medication_name VARCHAR(50),
+    strength_from VARCHAR (50)
+) ;
+
+
+DROP TABLE IF EXISTS bronze_patients;
+CREATE TABLE bronze_patients
+(
+	patient_id VARCHAR (50),
+    patient_name VARCHAR (50),
+    gender VARCHAR (50),
+    date_of_birth VARCHAR (50),
+    phone VARCHAR (50),
+    address VARCHAR (50),
+    city VARCHAR (50),
+    country VARCHAR (50),
+    status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS bronze_prescriptions ;
+CREATE TABLE bronze_prescriptions
+(
+	prescription_id VARCHAR (50),
+    patient_id VARCHAR (50),
+    physician_id VARCHAR (50),
+    medication_id VARCHAR (50),
+    visit_id VARCHAR (50),
+    prescription_date VARCHAR (50),
+    dosage VARCHAR (50),
+    duration VARCHAR (50),
+    status VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS bronze_wards_rooms ;
+CREATE TABLE bronze_wards_rooms
+(
+	room_id VARCHAR (50),
+    ward_name VARCHAR (50),
+    room_number VARCHAR (50),
+    room_type VARCHAR (50),
+    status VARCHAR (50),
+    bed_capacity INT
+) ;
+
+DROP TABLE IF EXISTS bronze_nurses ;
+CREATE TABLE bronze_nurses
+(
+	nurse_id VARCHAR (50),
+    nurse_name VARCHAR (50),
+    credentials VARCHAR (50),
+    department_id VARCHAR (50),
+    shift VARCHAR (50),
+    phone VARCHAR (50),
+    salary VARCHAR (50)
+) ;
+
+DROP TABLE IF EXISTS bronze_physicians ; 
+CREATE TABLE bronze_physicians
+(
+	physician_id VARCHAR (50),
+    physician_name VARCHAR (50),
+    credentials VARCHAR (50),
+    speciality VARCHAR (50),
+    department_id VARCHAR (50),
+    status VARCHAR (50),
+    phone VARCHAR (50),
+	salary VARCHAR (50)
+)
+    
