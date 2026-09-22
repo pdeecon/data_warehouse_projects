@@ -1,0 +1,99 @@
+-- BRONZE DATA LOADING
+
+-- Loaded raw healthcare CSV datasets into the Bronze layer using MySQL LOAD DATA INFILE, covering patients, appointments, billing, diagnoses, medications, prescriptions, rooms, nurses, and physicians.
+
+-- Implemented a repeatable data-loading process by using TRUNCATE TABLE before each load, ensuring the Bronze tables are cleared before importing fresh source data.
+
+-- Configured CSV ingestion parameters using FIELDS TERMINATED BY ',', ENCLOSED BY '"', LINES TERMINATED BY '\n', and IGNORE 1 ROWS to correctly parse CSV files and exclude header rows.
+
+
+-- Loading the data to bronze appointment visits table
+TRUNCATE TABLE bronze_appointment_visits;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/appointments_visits.csv'
+	INTO TABLE bronze_appointment_visits
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze billing payments table
+TRUNCATE TABLE bronze_billing_payments;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/billing_payments.csv'
+	INTO TABLE bronze_billing_payments
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze departments table
+TRUNCATE TABLE bronze_departments;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/departments.csv'
+	INTO TABLE bronze_departments
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze medical record table
+TRUNCATE TABLE bronze_medical_record_diagnosis;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/medical_records_diagnoses.csv'
+	INTO TABLE bronze_medical_record_diagnosis
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze medication table
+TRUNCATE TABLE bronze_medications;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/medications.csv'
+	INTO TABLE bronze_medications
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze patients table
+TRUNCATE TABLE bronze_patients;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/patients.csv'
+	INTO TABLE bronze_patients
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze prescriptions table
+TRUNCATE TABLE bronze_prescriptions;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/prescriptions.csv'
+	INTO TABLE bronze_prescriptions
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+
+-- Loading the data to bronze rooms table
+TRUNCATE TABLE bronze_wards_rooms;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/wards_rooms.csv'
+	INTO TABLE bronze_wards_rooms
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;    
+
+-- Loading the data to bronze nurses table
+TRUNCATE TABLE bronze_nurses;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/nurses.csv'
+	INTO TABLE bronze_nurses
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;    
+
+-- Loading the data to bronze physician table
+TRUNCATE TABLE bronze_physicians;
+	LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/healthcare_datasets/physicians.csv'
+	INTO TABLE bronze_physicians
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;    
+
