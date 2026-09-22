@@ -1,0 +1,439 @@
+-- SILVER Data cleaning and transformation
+
+
+-- Developed a MySQL stored procedure to automate the transformation and loading of cleaned healthcare data from the Bronze layer into the Silver layer.
+
+-- Standardized identifiers and text fields using functions such as TRIM(), REPLACE(), UPPER(), and LOWER() to remove unnecessary spaces and normalize inconsistent values.
+
+-- Converted multiple date formats into standardized MySQL DATE values using REGEXP validation and STR_TO_DATE().
+
+-- Standardized appointment and billing attributes, including visit statuses, visit types, charge types, payment statuses, and payment methods using CASE statements.
+
+-- Cleaned and standardized financial data by removing currency symbols, commas, and negative signs while converting monetary values into consistent numeric formats.
+
+-- Normalized healthcare terminology, including diagnosis descriptions, severity levels, clinical statuses, nurse credentials, medication strengths, and prescription statuses.
+
+-- Standardized patient information by cleaning names, phone numbers, addresses, gender values, cities, countries, and patient status fields while handling missing values.
+
+-- Transformed physician and staff data by standardizing credentials, specialties, names, phone numbers, salaries, and employment statuses.
+
+-- Mapped and classified hospital rooms and wards, assigning standardized ward names and room types such as Private, Semi Private, Shared, and ICU-related rooms based on room attributes.
+
+-- Handled data quality issues and missing values using COALESCE(), NULLIF(), conditional logic, and default values such as Unknown and N/a, producing cleaner data for downstream analytics.
+
+
+-- INSERTING CLEAN DATA TO SILVER LAYER
+DELIMITER //
+CREATE PROCEDURE inserting_silver_layer()
+BEGIN
+
+-- INSERTING TRANSFORMED AND CLEAN APPOINTMENT VISITS TABLE
+INSERT INTO silver_appointment_visits
+(
+	visit_id ,
+    patient_id ,
+    physician_id ,
+    nurse_id ,
+    department_id ,
+    visit_date ,
+    visit_time ,
+    visit_status ,
+    visit_type ,
+    room_id 
+)
+SELECT
+	TRIM(visit_id) AS visit_id,
+    TRIM(patient_id) AS patient_id,
+    TRIM(physician_id) AS physician_id,
+    TRIM(nurse_id) AS nurse_id,
+    TRIM(department_id) as department_id,
+	CASE
+		WHEN visit_date REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' THEN STR_TO_DATE(visit_date, '%Y-%m-%d') -- YYYY-MM-DD
+		WHEN visit_date REGEXP '^[0-9]{4}/[0-9]{2}/[0-9]{2}$' THEN STR_TO_DATE(visit_date, '%Y/%m/%d') -- YYYY/MM/DD
+		WHEN visit_date REGEXP '^[0-9]{2}-[0-9]{2}-[0-9]{4}$' THEN STR_TO_DATE(visit_date, '%d-%m-%Y')  -- DD-MM-YYYY
+		WHEN visit_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$' THEN STR_TO_DATE(visit_date, '%m/%d/%Y')  -- MM/DD/YYYY
+        WHEN visit_date REGEXP '^[A-Za-z]{3} [0-9]{1,2}, [0-9]{4}$'THEN STR_TO_DATE(visit_date, '%b %d, %Y')
+		ELSE NULL END AS visit_date,
+	STR_TO_DATE(visit_time, '%H:%i:%s') AS visit_time,
+    CASE
+		WHEN  UPPER(TRIM(visit_status))  = 'COMPLETED' THEN 'Completed'
+        WHEN  UPPER(TRIM(visit_status))  = 'SCHEDULED' THEN 'Scheduled'
+        WHEN  UPPER(TRIM(visit_status))  = 'NO SHOW' THEN 'No show'
+        WHEN  UPPER(TRIM(visit_status))  = 'CANCELLED' THEN 'Cancelled'
+	ELSE 'Unknown' END AS visit_status ,
+    CASE
+		WHEN  UPPER(TRIM(visit_type))  = 'EMERGENCY' THEN 'Emergency'
+        WHEN  UPPER(TRIM(visit_type))  = 'OUTPATIENT' THEN 'Scheduled'
+        WHEN  UPPER(TRIM(visit_type))  = 'INPATIENT' THEN 'Inpatient'
+        WHEN  UPPER(TRIM(visit_type))  = 'OPD' THEN 'OPD'
+        WHEN  UPPER(TRIM(visit_type))  = 'ER' THEN 'ER'
+	ELSE 'Unknown' END AS visit_type ,
+    room_id 
+FROM bronze_appointment_visits ;
+
+
+
+-- INSERTING TRANSFORMED AND CLEAN BILLING PAYMENTS TABLE
+INSERT INTO silver_billing_payments
+(
+	billing_id ,
+    patient_id ,
+    visit_id ,
+    billing_date ,
+    charge_type ,
+    amount ,
+    currency ,
+    payment_status ,
+    payment_method ,
+    amount_paid 
+
+)
+SELECT
+	REPLACE(TRIM(billing_id), '_DUP_0', '0032') AS billing_id,
+    TRIM(patient_id) AS patient_id,
+    TRIM(visit_id) AS visit_id,
+    CASE
+		WHEN billing_date REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' THEN STR_TO_DATE(billing_date, '%Y-%m-%d') -- YYYY-MM-DD
+		WHEN billing_date REGEXP '^[0-9]{4}/[0-9]{2}/[0-9]{2}$' THEN STR_TO_DATE(billing_date, '%Y/%m/%d') -- YYYY/MM/DD
+		WHEN billing_date REGEXP '^[0-9]{2}-[0-9]{2}-[0-9]{4}$' THEN STR_TO_DATE(billing_date, '%d-%m-%Y')  -- DD-MM-YYYY
+		WHEN billing_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$' THEN STR_TO_DATE(billing_date, '%m/%d/%Y')  -- MM/DD/YYYY
+        WHEN billing_date REGEXP '^[A-Za-z]{3} [0-9]{1,2}, [0-9]{4}$'THEN STR_TO_DATE(billing_date, '%b %d, %Y')
+		ELSE NULL END AS billing_date,
+	CASE
+		WHEN UPPER(TRIM(charge_type)) = 'SURGERY' THEN 'Surgery'
+        WHEN UPPER(TRIM(charge_type)) = 'EMERGENCY' THEN 'Emergency'
+        WHEN UPPER(TRIM(charge_type)) = 'ROOM' THEN 'Room'
+        WHEN UPPER(TRIM(charge_type)) = 'OTHER' THEN 'Other'
+        WHEN UPPER(TRIM(charge_type)) = 'LABORATORY' THEN 'Laboratory'
+        WHEN UPPER(TRIM(charge_type)) = 'CONSULTATION' THEN 'Consultation'
+        WHEN UPPER(TRIM(charge_type)) = 'MEDICATION' THEN 'Medication'
+	ELSE charge_type END AS charge_type,
+    TRIM(ABS(amount)) AS amount,
+    'Php' AS currency,
+	CASE 
+		 WHEN amount_paid = 0 THEN 'Pending'
+		 WHEN amount_paid = amount THEN 'Paid'
+		 WHEN amount > amount_paid THEN 'Partial'
+	ELSE payment_status END AS payment_status ,
+    CASE
+		WHEN payment_status IS NULL OR TRIM(payment_method) = '' THEN 'Cash' 
+        WHEN UPPER(TRIM(payment_method)) = 'GCASH' THEN 'GCash'
+        WHEN UPPER(TRIM(payment_method)) = 'CASH' THEN 'Cash'
+        WHEN UPPER(TRIM(payment_method)) = 'DEBIT CARD' THEN 'Debit Card'
+        WHEN UPPER(TRIM(payment_method)) = 'INSURANCE' THEN 'Insurance'
+        WHEN UPPER(TRIM(payment_method)) = 'CREDIT CARD' THEN 'Credit Card'
+        WHEN UPPER(TRIM(payment_method)) = 'BANK TRANSFER' THEN 'Bank Transfer'
+	ELSE NULL END AS payment_method,
+    TRIM(ABS(amount_paid)) AS amount_paid
+FROM bronze_billing_payments;
+
+
+-- INSERTING TRANSFORMED AND CLEAN DEPARTMENTS TABLE
+INSERT INTO silver_departments
+(
+	deparment_id ,
+    department_name 
+)
+SELECT
+	TRIM(deparment_id) AS department_id,
+    TRIM(department_name) AS department_name
+FROM bronze_departments
+WHERE deparment_id NOT IN ('D011', 'D010' , 'D009') ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN MEDICAL RECORD DIAGNOSIS TABLE
+INSERT INTO silver_medical_record_diagnosis
+(
+	medical_record ,
+    visit_id ,
+    patient_id ,
+    physician_id ,
+    diagnosis_code ,
+    diagnosis_description ,
+    severity ,
+    clinical_status 
+)
+SELECT
+	medical_record ,
+    visit_id ,
+    patient_id ,
+    physician_id ,
+    CASE
+		WHEN diagnosis_description = 'Headache' THEN 'R51.9'
+        WHEN diagnosis_description = 'Migraine' THEN 'G43.9'
+        WHEN diagnosis_description = 'Hypertension' THEN 'I10'
+        WHEN diagnosis_description = 'Gastroenteritis' THEN 'A09'
+        WHEN diagnosis_description = 'Gastro-esophageal reflux disease' THEN 'K21.9'
+        WHEN diagnosis_description = 'Acute upper respiratory infection' THEN 'J06.9'
+        WHEN diagnosis_description = 'Coronary artery disease' THEN 'I25.10'
+        WHEN diagnosis_description = 'Type 2 diabetes mellitus' THEN 'E11.9'
+        WHEN diagnosis_description = 'Low back pain' THEN 'M54.5'
+        WHEN diagnosis_description = 'Fracture of tibia' THEN  'S82.201'
+        WHEN diagnosis_description = 'Urinary tract infection' THEN 'N39.0'
+        WHEN diagnosis_description = 'Pneumonia' THEN  'J18.9'
+	ELSE NULL END AS diagnosis_code,
+    diagnosis_description ,
+    severity ,
+    clinical_status 
+FROM
+(
+SELECT
+	TRIM(medical_record) AS medical_record,
+    TRIM(visit_id) AS visit_id,
+    TRIM(patient_id) AS patient_id,
+    TRIM(physician_id) AS physician_id,
+    diagnosis_code ,
+    CONCAT(UPPER(LEFT(REGEXP_REPLACE(TRIM(diagnosis_description), '[[:space:]]+', ' '), 1)),
+		   LOWER(SUBSTRING(REGEXP_REPLACE(TRIM(diagnosis_description), '[[:space:]]+', ' '), 2))) AS diagnosis_description,
+	CASE 
+		WHEN UPPER(TRIM(severity)) = 'MILD' THEN 'Mild'
+        WHEN UPPER(TRIM(severity)) = 'SEVERE' THEN 'Severe'
+        WHEN UPPER(TRIM(severity)) = 'MODERATE' THEN 'Moderate'
+	ELSE 'Unknown' END AS severity,
+    CASE 
+		WHEN UPPER(TRIM(clinical_status)) = 'STABLE' THEN 'Stable'
+        WHEN UPPER(TRIM(clinical_status)) = 'CRITICAL' THEN 'Critical'
+        WHEN UPPER(TRIM(clinical_status)) = 'IMPROVING' THEN 'Improving'
+	ELSE 'Unknown' END AS clinical_status
+FROM bronze_medical_record_diagnosis    
+) t  ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN MEDICATIONS TABLE
+INSERT INTO silver_medications
+(
+	medication_id ,
+    medication_name ,
+    strength_from 
+)
+SELECT
+	TRIM(medication_id) AS medication_id,
+    TRIM(medication_name) AS medication_name ,
+	REGEXP_REPLACE(
+        REGEXP_REPLACE(
+            REGEXP_REPLACE(
+                LOWER(TRIM(strength_from)),
+                '[[:space:]]*mg[[:space:]]*',' mg '),
+            '(tab|tablet|tabletlet)$','tablet'),
+        '(cap|capsule|capsulesule)$','capsule'
+    ) AS strength_from 
+FROM bronze_medications ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN NURSES TABLE
+INSERT INTO silver_nurses
+(
+	nurse_id ,
+    nurse_name ,
+    credentials ,
+    department_id ,
+    shift ,
+    phone ,
+    salary 
+)	
+SELECT
+	TRIM(nurse_id) AS nurse_id,
+    TRIM(nurse_name) AS nurse_name,
+    CASE 
+		WHEN UPPER(TRIM(credentials)) = 'RN' THEN 'Registered Nurse'
+        WHEN UPPER(TRIM(credentials)) = 'R.N.' THEN 'Registered Nurse'
+        WHEN UPPER(TRIM(credentials)) = 'REGISTERED NURSE' THEN 'Registered Nurse'
+	ELSE 'Unknown' END AS credentials,
+    TRIM(department_id) AS department_id,
+    CASE 
+		WHEN UPPER(TRIM(shift)) = 'ROTATING' THEN 'Rotating'
+        WHEN UPPER(TRIM(shift)) = 'DAY' THEN 'Day'
+        WHEN UPPER(TRIM(shift)) = 'NIGHT' THEN 'Night'
+	ELSE NULL END AS shift,
+	COALESCE(NULLIF(LEFT(REPLACE(REPLACE(REPLACE(TRIM(phone), ' ', ''), '+63', '09'), '-', ''),11),''),'N/a' ) AS phone ,
+    ABS(TRIM(REPLACE(REPLACE(REPLACE(salary, '₱', ''), 'PHP' , ''),',' ,''))) AS salary
+FROM bronze_nurses ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN APPOINTMENT PATIENTS TABLE
+INSERT INTO silver_patients
+(
+	patient_id ,
+    patient_name ,
+    gender ,
+    date_of_birth ,
+    phone ,
+    address ,
+    city ,
+    country ,
+    status 
+)
+SELECT
+	TRIM(patient_id) AS patient_id,
+    REPLACE(TRIM(patient_name),'  ' , ' ') AS patient_name ,
+    CASE
+		WHEN UPPER(TRIM(gender)) = 'M' THEN 'Male'
+        WHEN UPPER(TRIM(gender)) = 'F' THEN 'Female'
+        WHEN UPPER(TRIM(gender)) = 'MALE' THEN 'Male'
+        WHEN UPPER(TRIM(gender)) = 'FEMALE' THEN 'Female'
+	ELSE 'Unknown' END AS gender,
+    CASE
+		WHEN date_of_birth REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' THEN STR_TO_DATE(date_of_birth, '%Y-%m-%d')
+		WHEN date_of_birth REGEXP '^[0-9]{4}/(0[1-9]|1[0-2])/[0-9]{2}$' THEN STR_TO_DATE(date_of_birth, '%Y/%m/%d')
+		WHEN date_of_birth REGEXP '^[0-9]{4}/(1[3-9]|2[0-9]|3[0-1])/[0-9]{2}$' THEN STR_TO_DATE(date_of_birth, '%Y/%d/%m')
+		WHEN date_of_birth REGEXP '^[0-9]{2}-[0-9]{2}-[0-9]{4}$' THEN STR_TO_DATE(date_of_birth, '%d-%m-%Y')
+		WHEN date_of_birth REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$' THEN STR_TO_DATE(date_of_birth, '%m/%d/%Y')
+		WHEN date_of_birth REGEXP '^[A-Za-z]{3} [0-9]{1,2}, [0-9]{4}$' THEN STR_TO_DATE(date_of_birth, '%b %d, %Y')
+	ELSE NULL END AS date_of_birth,
+    COALESCE(NULLIF(LEFT(REPLACE(REPLACE(REPLACE(REPLACE(TRIM(phone), ' ', ''), '+63', '09'), '-', ''),'N/A' , ''),11),''),'N/a' ) AS phone ,
+    REGEXP_REPLACE(TRIM(address),'(ST|St|Streetreet)$','Street') AS address,
+	CONCAT(REPLACE(REPLACE(TRIM(city) , 'Bulacan' , 'Malolos'), 'City' , ''), ' City' ) AS full_name,
+    CASE 
+		WHEN country IS NULL OR TRIM(country) = '' THEN 'Philippines'
+		WHEN country = 'Pilipinas' THEN 'Philippines'
+        WHEN country = 'PH' THEN 'Philippines'
+	ELSE country END AS country,
+    CASE 
+		WHEN status IS NULL OR TRIM(status) = '' THEN 'Unknown'
+		WHEN UPPER(TRIM(status)) = 'INACTIVE' THEN 'Inactive'
+        WHEN UPPER(TRIM(status)) = 'ACTIVE' THEN 'Active'
+	ELSE UPPER(TRIM(status)) END AS status
+FROM bronze_patients ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN APPOINTMENT PHYSICIANS TABLE
+INSERT INTO silver_physicians
+(
+	physician_id ,
+    physician_name ,
+    credentials ,
+    speciality ,
+    department_id ,
+    status,
+    phone,
+	salary 
+)
+SELECT
+	physician_id ,
+    CASE 
+		WHEN credentials = 'Doctor of Medicine' THEN CONCAT(physician_name, ' ', 'MD') 
+        WHEN credentials = 'Doctor' THEN CONCAT('Dr.' , ' ', physician_name) 
+	ELSE credentials END AS physician_name,
+    credentials ,
+    speciality ,
+    department_id ,
+    status ,
+    phone,
+	salary
+FROM
+(
+SELECT
+	TRIM(physician_id) AS physician_id ,
+    TRIM(REPLACE(REPLACE(physician_name ,'Dr.', '' ),'DR.' ,'')) AS physician_name,
+    CASE
+		WHEN credentials = 'M.D.' OR credentials ='MD' THEN 'Doctor of Medicine'
+		WHEN status IS NULL OR TRIM(credentials) = '' THEN 'Doctor'
+	ELSE credentials END AS credentials,
+    CASE
+		WHEN department_id = 'D001' THEN 'Cardiology'
+        WHEN department_id = 'D002' THEN 'Pediatrics'
+        WHEN department_id = 'D003' THEN 'Internal Medicine'
+        WHEN department_id = 'D004' THEN 'Emergency'
+        WHEN department_id = 'D005' THEN 'Orthopedics'
+        WHEN department_id = 'D006' THEN 'Neurology'
+        WHEN department_id = 'D007' THEN 'Obstetrics & Gynecology'
+        WHEN department_id = 'D008' THEN 'General Surgery'
+	ELSE 'Unknown' END AS speciality,
+    department_id,
+    CASE 
+		WHEN ABS(TRIM(REPLACE(REPLACE(REPLACE(salary, '₱', ''), 'PHP' , ''),',' ,''))) = 0 THEN 'Inactive'
+        WHEN ABS(TRIM(REPLACE(REPLACE(REPLACE(salary, '₱', ''), 'PHP' , ''),',' ,''))) > 0 THEN 'Active'
+	ELSE UPPER(TRIM(status)) END AS status,
+    COALESCE(NULLIF(LEFT(REPLACE(REPLACE(REPLACE(REPLACE(TRIM(phone), ' ', ''), '+63', '09'), '-', ''),'N/A' , ''),11),''),'N/a' ) AS phone ,
+	ABS(TRIM(REPLACE(REPLACE(REPLACE(salary, '₱', ''), 'PHP' , ''),',' ,''))) AS salary
+FROM bronze_physicians
+)t ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN APPOINTMENT PRESCRIPTIONS TABLE
+INSERT INTO silver_prescriptions
+(
+	prescription_id ,
+    patient_id ,
+    physician_id ,
+    medication_id ,
+    visit_id ,
+    prescription_date ,
+    dosage ,
+    duration ,
+    status 
+)
+SELECT
+	TRIM(prescription_id) AS prescription_id,
+    TRIM(patient_id) AS patient_id,
+    TRIM(physician_id) AS physician_id,
+    TRIM(medication_id) AS medication_id ,
+    TRIM(visit_id) AS visit_id ,
+    CASE
+		WHEN prescription_date REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' THEN STR_TO_DATE(prescription_date, '%Y-%m-%d')
+		WHEN prescription_date REGEXP '^[0-9]{4}/(0[1-9]|1[0-2])/[0-9]{2}$' THEN STR_TO_DATE(prescription_date, '%Y/%m/%d')
+		WHEN prescription_date REGEXP '^[0-9]{4}/(1[3-9]|2[0-9]|3[0-1])/[0-9]{2}$' THEN STR_TO_DATE(prescription_date, '%Y/%d/%m')
+		WHEN prescription_date REGEXP '^[0-9]{2}-[0-9]{2}-[0-9]{4}$' THEN STR_TO_DATE(prescription_date, '%d-%m-%Y')
+		WHEN prescription_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$' THEN STR_TO_DATE(prescription_date, '%m/%d/%Y')
+		WHEN prescription_date REGEXP '^[A-Za-z]{3} [0-9]{1,2}, [0-9]{4}$' THEN STR_TO_DATE(prescription_date, '%b %d, %Y')
+	ELSE NULL END AS prescription_date,
+    COALESCE(NULLIF(TRIM(dosage), ''), 'N/a') AS dosage,
+    COALESCE(NULLIF(TRIM(duration), ''), 'N/a') AS duration,
+    CASE 
+		WHEN status IS NULL OR TRIM(status) = '' THEN 'Unknown'
+        WHEN UPPER(TRIM(status)) = 'ACTIVE' THEN 'Active'
+        WHEN UPPER(TRIM(status)) = 'COMPLETED' THEN 'Completed'
+        WHEN UPPER(TRIM(status)) = 'DISCONTINUED' THEN 'Discontinued'
+	ELSE UPPER(TRIM(status)) END AS status
+FROM bronze_prescriptions ;
+
+
+-- INSERTING TRANSFORMED AND CLEAN APPOINTMENT WARDS ROOMS TABLE
+INSERT INTO silver_wards_rooms
+(
+	room_id ,
+    ward_name ,
+    room_number ,
+    room_type ,
+    status ,
+    bed_capacity 
+)
+SELECT
+	room_id ,
+    ward_name ,
+    room_number ,
+    CASE
+		WHEN room_number IN ('ICU-02','203','202','201') THEN 'Private'
+        WHEN room_number = 'ICU-01' THEN 'Semi Private'
+        WHEN room_number IN ('302','301','103','102','101') THEN 'Shared'
+	ELSE room_type END AS room_type,
+    status ,
+    bed_capacity
+FROM
+(
+SELECT
+	room_id ,
+    CASE 
+		WHEN room_number IN ('ICU-01','ICU-02') THEN 'ICU'
+        WHEN room_number IN ( '101' , '201' ) THEN 'Ward A'
+        WHEN room_number IN ( '102' , '202' ) THEN 'Ward B'
+        WHEN room_number IN ( '103' , '203' ) THEN 'Emergency'
+        WHEN room_number = '301' THEN 'Pediatric'
+        WHEN room_number = '302' THEN 'Surgical'
+	ELSE ward_name END AS ward_name,
+    room_number ,
+    COALESCE(NULLIF(TRIM(room_type), ''), 'Unknown') AS room_type,
+    CASE 
+		WHEN status IS NULL OR TRIM(status) = '' THEN 'Unknown'
+        WHEN UPPER(TRIM(status)) = 'OCCUPIED' THEN 'Occupied'
+        WHEN UPPER(TRIM(status)) = 'MAINTENANCE' THEN 'Maintenance'
+        WHEN UPPER(TRIM(status)) = 'AVAILABLE' THEN 'Available'
+	ELSE UPPER(TRIM(status)) END AS status ,
+    bed_capacity 
+FROM bronze_wards_rooms
+)t ;
+
+COMMIT;
+END //
+
+DELIMITER ;
