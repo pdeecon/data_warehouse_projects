@@ -1,0 +1,74 @@
+SELECT
+UPPER(TRIM(charge_type)) AS new,
+COUNT(*)
+FROM bronze_billing_payments
+GROUP BY charge_type ;
+
+SELECT
+	TRIM(deparment_id) AS department_id,
+    TRIM(department_name) AS department_name
+FROM bronze_departments
+
+
+SELECT
+room_number AS new,
+COUNT(*) as count
+FROM bronze_wards_rooms
+GROUP BY room_number
+ORDER BY room_number DESC
+
+-- CHECKING INCORRECT PRIMARY OR FOREIGN KEY FORMAT
+SELECT
+*
+FROM bronze_medical_record_diagnosis
+WHERE medical_record NOT LIKE 'MR00%'
+    
+-- CHECKING IF THERE ARE NULL VALUES IN PRIMARY AND FOREIGN KEYS
+SELECT
+*
+FROM bronze_appointment_visits
+WHERE room_id IS NULL ;
+
+-- CHECKING THE DIAGNOSIS AND DESCRIPTION CODE
+SELECT
+    UPPER(TRIM(room_number)) AS new,
+    ward_name,
+    COUNT(ward_name) AS count
+FROM bronze_wards_rooms
+WHERE UPPER(TRIM(ward_name)) IS NOT NULL
+  AND UPPER(TRIM(ward_name)) <> ''
+  AND UPPER(TRIM(ward_name)) <> 'INVALID'
+GROUP BY
+    UPPER(TRIM(room_number)),
+    ward_name
+HAVING count > 1
+
+-- CHECKING THE TYPES OF VISIT
+SELECT
+UPPER(TRIM(physician_id)) AS new,
+COUNT(*) as count
+FROM bronze_physicians
+GROUP BY physician_id
+HAVING count > 1
+
+-- CHECKING IF THERE ARE DUPLICATE VALUES
+SELECT
+UPPER(TRIM(patient_name)) AS new,
+COUNT(*) as count
+FROM bronze_patients
+GROUP BY patient_name
+HAVING count > 1
+
+-- CHECKING THE FORMAT OF ALL DATE VALUES
+SELECT visit_date
+FROM bronze_appointment_visits
+WHERE visit_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$';
+
+SELECT
+ward_name AS new,
+COUNT(*) as count
+FROM bronze_wards_rooms
+GROUP BY ward_name
+ORDER BY ward_name DESC
+HAVING count > 1
+
