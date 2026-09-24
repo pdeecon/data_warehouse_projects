@@ -44,9 +44,9 @@ INSERT INTO silver_appointment_visits
 SELECT
 	TRIM(visit_id) AS visit_id,
     TRIM(patient_id) AS patient_id,
-    TRIM(physician_id) AS physician_id,
+    REPLACE(TRIM(physician_id),'DR0102','DR0101') AS physician_id,
     TRIM(nurse_id) AS nurse_id,
-    TRIM(department_id) as department_id,
+    REPLACE(REPLACE(REPLACE(TRIM(department_id),'D011' , 'D003'),'D010', 'D004'),'D009', 'D001') as department_id,
 	CASE
 		WHEN visit_date REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' THEN STR_TO_DATE(visit_date, '%Y-%m-%d') -- YYYY-MM-DD
 		WHEN visit_date REGEXP '^[0-9]{4}/[0-9]{2}/[0-9]{2}$' THEN STR_TO_DATE(visit_date, '%Y/%m/%d') -- YYYY/MM/DD
@@ -70,7 +70,6 @@ SELECT
 	ELSE 'Unknown' END AS visit_type ,
     room_id 
 FROM bronze_appointment_visits ;
-
 
 
 -- INSERTING TRANSFORMED AND CLEAN BILLING PAYMENTS TABLE
@@ -437,3 +436,6 @@ COMMIT;
 END //
 
 DELIMITER ;
+
+-- CALL inserting_silver_layer;
+
