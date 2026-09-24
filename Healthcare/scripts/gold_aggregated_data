@@ -1,0 +1,247 @@
+-- GOLD LAYER - VIEWS
+
+-- Business-ready fact table containing one row per patient visit, 
+-- enriched with physician, nurse, department, room, and diagnosis information.
+CREATE VIEW patient_visit_fact_table AS 
+SELECT
+-- silver_appointment_visits table
+a.visit_id,
+a.patient_id,
+-- silver_patients table
+p.patient_name,
+p.gender,
+p.date_of_birth ,
+TIMESTAMPDIFF(YEAR, p.date_of_birth, a.visit_date) AS age,
+-- silver_physicians
+ps.physician_id,
+ps.physician_name,
+ps.speciality,
+-- silver_nurses
+n.nurse_id,
+n.nurse_name,
+-- silver_departments
+d.deparment_id as department_id ,
+d.department_name,
+-- silver_wards_rooms
+wr.room_id,
+wr.ward_name,
+wr.room_type,
+a.visit_date,
+a.visit_time,
+a.visit_status,
+a.visit_type,
+-- silver_medical_record_diagnosis
+mrd.diagnosis_code,
+mrd.diagnosis_description,
+mrd.severity,
+mrd.clinical_status
+FROM silver_appointment_visits as a
+LEFT JOIN silver_patients as p
+	ON a.patient_id = p.patient_id
+LEFT JOIN silver_physicians as ps 
+	ON a.physician_id = ps.physician_id
+LEFT JOIN silver_nurses as n
+	ON a.nurse_id = n.nurse_id
+LEFT JOIN silver_departments as d
+	ON a.department_id = d.deparment_id
+LEFT JOIN silver_wards_rooms as wr
+	ON a.room_id = wr.room_id
+LEFT JOIN silver_medical_record_diagnosis mrd
+	ON a.patient_id = mrd.patient_id ;
+
+
+
+-- Financial fact table that combines billing and visit information
+CREATE VIEW revenue_payment_fact_table AS 
+SELECT
+bp.billing_id,
+bp.patient_id,
+bp.visit_id,
+bp.billing_date,
+bp.charge_type,
+bp.amount,
+bp.currency,
+bp.payment_status,
+bp.payment_method,
+bp.amount_paid ,
+bp.amount - bp.amount_paid AS outstanding_amount,
+CASE
+	WHEN amount > 0 THEN ROUND((amount_paid / amount) * 100 , 1)
+	ELSE 0 END AS payment_percentage,
+av.visit_type,
+d.deparment_id AS department_id,
+d.department_name
+FROM silver_billing_payments as bp
+LEFT JOIN silver_appointment_visits as av
+	ON bp.visit_id = av.visit_id
+LEFT JOIN silver_departments as d
+	ON av.department_id = d.deparment_id ;
+
+
+
+-- Single patient-level analytical dataset.
+CREATE VIEW patient_360_dimension AS 
+WITH visit_summary AS (
+	SELECT
+		patient_id,
+        MIN(visit_date) AS first_visit_date,
+        MAX(visit_date) AS last_visit_date,
+        COUNT(visit_id) AS total_visit,
+        SUM(visit_status = 'Completed') AS completed_visits,
+		SUM(visit_status = 'Cancelled') AS cancelled_visits
+	FROM silver_appointment_visits
+    GROUP BY patient_id
+),
+
+payment_summary AS (
+	SELECT
+        patient_id,
+        COUNT(billing_id) AS total_payments,
+        SUM(amount) AS total_amount,
+        SUM(amount_paid) AS total_paid_amount
+    FROM silver_billing_payments
+    GROUP BY patient_id
+),
+
+prescriptions_summary AS (
+	SELECT 
+    patient_id,
+    COUNT(prescription_id) AS total_prescriptions
+    FROM silver_prescriptions
+    GROUP BY patient_id
+),
+
+diagnosis_summary AS (
+	SELECT 
+    patient_id,
+    COUNT(medical_record) AS total_diagnosis
+    FROM silver_medical_record_diagnosis
+    GROUP BY patient_id
+)
+
+SELECT
+    p.patient_id,
+    p.patient_name,
+    p.gender,
+    p.date_of_birth,
+    TIMESTAMPDIFF(YEAR, p.date_of_birth, vs.last_visit_date) AS age,
+    p.city,
+    p.country,
+    p.status AS patient_status,
+	COALESCE(vs.total_visit, 0) AS total_visits,
+    COALESCE(vs.completed_visits, 0) AS completed_visits,
+    COALESCE(vs.cancelled_visits, 0) AS cancelled_visits,
+    COALESCE(ps.total_amount, 0) AS total_amount,
+    COALESCE(ps.total_paid_amount , 0) AS total_paid_amount,
+    COALESCE(ps.total_amount - ps.total_paid_amount , 0) AS outstanding_amount,
+    COALESCE(total_prescriptions, 0)  AS total_prescriptions,
+	COALESCE(total_diagnosis, 0) AS total_diagnosis,
+    first_visit_date,
+    last_visit_date
+FROM silver_patients as p
+
+LEFT JOIN visit_summary as vs
+    ON p.patient_id = vs.patient_id
+    
+LEFT JOIN payment_summary as ps
+	ON p.patient_id = ps.patient_id
+    
+LEFT JOIN prescriptions_summary as prs
+	ON p.patient_id = prs.patient_id
+
+LEFT JOIN diagnosis_summary as ds
+	ON p.patient_id = ds.patient_id
+
+
+
+-- Analytical table for physician and department performance.
+CREATE VIEW physician_and_department_performance AS 
+WITH departmentt AS (
+	SELECT 
+		deparment_id AS department_id,
+		department_name
+    FROM silver_departments
+),
+
+visit_summary AS (
+	SELECT 
+		physician_id,
+        MIN(visit_date) AS first_visit_date,
+        MAX(visit_date) AS last_visit_date,
+		COUNT(visit_id) as total_visits,
+		SUM(visit_status = 'Completed') AS completed_visits,
+		SUM(visit_status = 'Cancelled') AS cancelled_visits,
+		SUM(visit_status = 'Scheduled') AS pending_visits,
+		COUNT(visit_id) / COUNT(DISTINCT visit_date) AS average_daily_visits
+    FROM silver_appointment_visits
+    GROUP BY physician_id
+),
+
+diagnosis_summary AS (
+	SELECT
+		physician_id,
+		COUNT(medical_record) AS total_diagnosis,
+        SUM(clinical_status = 'Critical') AS critical_diagnosis
+    FROM silver_medical_record_diagnosis
+    GROUP BY physician_id
+)
+
+SELECT 
+	ph.physician_id,
+    ph.physician_name,
+    ph.speciality,
+    d.department_id,
+    d.department_name,
+    COALESCE(completed_visits, 0) AS completed_visits,
+    COALESCE(cancelled_visits, 0) AS cancelled_visits,
+    COALESCE(pending_visits, 0) AS pending_visits,
+    ROUND((completed_visits / NULLIF(total_visits , 0 ) * 100), 1) AS completion_rate,
+    COALESCE(total_diagnosis, 0) AS total_diagnosis,
+    COALESCE(critical_diagnosis, 0) AS critical_diagnosis,
+    ROUND(COALESCE(average_daily_visits, 0),2) AS average_daily_visits,
+    first_visit_date,
+    last_visit_date
+FROM silver_physicians ph
+LEFT JOIN departmentt as d
+ON ph.department_id = d.department_id
+
+LEFT JOIN visit_summary vs
+ON ph.physician_id = vs.physician_id
+
+LEFT JOIN diagnosis_summary ds
+ON ph.physician_id = ds.physician_id
+
+
+
+-- Business-ready dataset for medication usage and prescription analysis
+CREATE VIEW medication_and_prescription_analytics AS 
+SELECT
+	pr.prescription_id,
+    p.patient_id,
+    p.patient_name,
+    ph.physician_id,
+    ph.physician_name,
+    ph.speciality,
+    d.deparment_id,
+    m.medication_id,
+    m.medication_name,
+    m.strength_from,
+    pr.visit_id,
+    pr.prescription_date,
+    pr.dosage,
+    pr.duration,
+    pr.status
+FROM silver_prescriptions as pr
+LEFT JOIN silver_patients as p
+	ON pr.patient_id = p.patient_id
+LEFT JOIN silver_physicians as ph
+	ON pr.physician_id = ph.physician_id
+LEFT JOIN silver_departments as d
+	ON ph.department_id = d.deparment_id
+LEFT JOIN silver_medications as m
+	ON pr.medication_id = m.medication_id
+
+
+
+
+
