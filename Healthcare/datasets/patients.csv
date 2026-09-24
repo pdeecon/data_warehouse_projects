@@ -1,0 +1,1004 @@
+patient_id,patient_name,gender,date_of_birth,phone,address,city,country,status
+P00001,Ana Dela Cruz,female,09/03/1964,09339670711,605 Quezon St,Manila,Philippines,Active
+P00002,Sofia Garcia,male,1994-01-03,+63 936687537,460 National St,Caloocan,Philippines,ACTIVE
+P00003,Liza Bautista,M,12/12/1953,N/A,100 Mabini St,San Fernando,Pilipinas,Active
+P00004,Grace Ramos,Male,1973-12-16,+63 949349722,722 Main St,Manila,PH,Inactive
+P00005,Jose Flores,Female,2017-09-25,+63 947308985,380 Mabini St,Pasig,Pilipinas,Active
+P00006,Thomas Torres,Female,12/02/1987,+63 972043515,702 Mabini St,Manila,PH,Active
+P00007,John Gonzales,M,12/08/1945,N/A,906 Quezon St,Makati,Pilipinas,ACTIVE
+P00008,Daniel Navarro,male,09-05-1988,095600-7700828,225 Rizal St,Meycauayan,,Active
+P00009,Maria Flores,Male,09/17/1953,N/A,391 National St,Malolos,Pilipinas,Active
+P00010,Ana Torres,male,13-05-2007,094652-2871534,446 Rizal St,Malolos,Philippines,Inactive
+P00011,Andrea Castillo,Female,1985-07-18,+63 950056581,157 Mabini St,Makati,Philippines,Inactive
+P00012,Kevin Dela Cruz,Male,25-07-1972,09357109965,750 Quezon St,Quezon City,PH,ACTIVE
+P00013,Kevin Ramos,Female,1963/10/12,093274-4374754,409 Mabini St,Malolos,,Active
+P00014,Daniel Garcia,Male,1970-05-01,09731691672,73 Main St,Pasig,Philippines,Active
+P00015,John Santos,male,08-05-1961,N/A,249 Quezon St,Angeles,PH,Active
+P00016,Ana Torres,F,"Oct 14, 1971",09541417711,63 Quezon St,San Fernando,Philippines,ACTIVE
+P00017,Sofia Garcia,male,03/31/1980,+63 934627347,896 Main St,Malolos,Philippines,Active
+P00018,Luis Flores,Male,05/14/1948,+63 964547971,886 Quezon St,Manila,PH,
+P00019,Juan Gonzales,M,"May 05, 2010",+63 966775103,195 Mabini St,Pasig,Philippines,Active
+P00020,John Dela Cruz,Male,"May 29, 1992",09639931481,872 Rizal St,Quezon City,Philippines,ACTIVE
+P00021,Ramon Santos,male,1962/02/01,N/A,674 National St,Bulacan,Pilipinas,Inactive
+P00022,Sofia Torres,female,03/09/1968,N/A,324 Main St,Manila,,Active
+P00023,Jose Ramos,Female,20-05-1985,091738-5098412,292 Rizal St,Malolos,Pilipinas,Active
+P00024,Luis Mendoza,female,04/17/1949,092149-3607983,289 National St,Pasig,Pilipinas,ACTIVE
+P00025,Angela Ramos,F,1962-07-12,09199104722,4 Mabini St,Makati,Pilipinas,ACTIVE
+P00026,Grace Ramos,female,1978/05/15,09110382761,855 Mabini St,Bulacan,PH,
+P00027,Carlos Dela Cruz,M,1972-09-17,09484194737,363 National St,Angeles,PH,ACTIVE
+P00028,Miguel Castillo,,"Nov 19, 1955",N/A,822 Rizal St,Caloocan,PH,Active
+P00029,Ramon Flores,Male,"Jan 10, 2017",099768-8722606,313 Rizal St,Pasig,Philippines,ACTIVE
+P00030,Ramon Bautista,M,2017-07-18,N/A,696 National St,San Fernando,Philippines,Active
+P00031,Angela Reyes,male,1963-10-25,095666-6799667,447 National St,Meycauayan,Philippines,
+P00032,Bea Garcia,M,"Dec 25, 1943",099659-4305700,442 Main St,San Fernando,Pilipinas,Active
+P00033,Mark Ramos,M,"Oct 30, 1999",+63 964009265,197 Quezon St,Angeles,PH,Inactive
+P00034,Ramon Ramos,,14-01-1940,N/A,453 Quezon St,Pasig,,ACTIVE
+P00035,Jose Mendoza,male,1999/07/23,099787-4940441,231 Rizal St,Makati,Philippines,Active
+P00036,Daniel Cruz,male,2016-03-26,N/A,507 Quezon St,Pasig,PH,Active
+P00037,Ana Castillo,F,08/19/1959,+63 979519112,940 Main St,Malolos,PH,
+P00038,Andrea Ramos,male,"Jun 19, 1968",+63 977750178,762 Quezon St,Malolos,Pilipinas,ACTIVE
+P00039,Angela Castillo,,"Oct 07, 1986",09772966010,731 Mabini St,Pasig,Pilipinas,Inactive
+P00040,John Rivera,male,03/25/1947,+63 941039390,66 Quezon St,Angeles,Pilipinas,
+P00041,Liza Dela Cruz,Female,"Sep 21, 2014",N/A,489 Main St,San Fernando,Pilipinas,
+P00042,Liza Ramos,female,2005/11/27,+63 990967191,280 Quezon St,Malolos,Philippines,
+P00043,John Torres,female,"Aug 09, 2011",09877583839,929 Quezon St,Bulacan,Philippines,Active
+P00044,Liza Reyes,,06/02/1981,+63 944917589,466 Mabini St,San Fernando,,Inactive
+P00045,Liza Mendoza,,"May 07, 1947",+63 982399599,666 Main St,Manila,Philippines,ACTIVE
+P00046,Sofia Flores,Male,09/28/1995,+63 926941092,477 Mabini St,San Fernando,PH,Active
+P00047,Miguel Mendoza,Male,1991-12-01,N/A,965 Rizal St,Quezon City,PH,Active
+P00048,Mark Flores,female,1993-11-12,099403-1689025,546 Quezon St,San Fernando,Philippines,Inactive
+P00049,Juan Flores,F,"Oct 10, 2013",+63 968186525,446 Rizal St,Meycauayan,Pilipinas,
+P00050,Grace Gonzales,,2005/08/01,093635-2453962,903 Quezon St,Pasig,,
+P00051,John Dela Cruz,F,05-05-2016,093277-6952975,349 Mabini St,Bulacan,Pilipinas,Active
+P00052,Andrea Garcia,Male,"Aug 26, 1961",N/A,662 Quezon St,Malolos,Philippines,Active
+P00053,Mark Garcia,F,01/23/2002,N/A,567 National St,San Fernando,,Inactive
+P00054,Patricia Navarro,F,21-04-1964,092295-4231028,123 National St,Makati,PH,ACTIVE
+P00055,Kevin Mendoza,female,1992/11/22,092079-4256752,233 Mabini St,Makati,Pilipinas,Active
+P00056,Luis Reyes,M,1944-01-31,N/A,106 Main St,Bulacan,Pilipinas,
+P00057,Kevin Cruz,M,1956-07-16,N/A,504 Main St,Bulacan,Philippines,ACTIVE
+P00058,Carlos Castillo,male,1967-04-05,+63 925898299,795 National St,Angeles,,
+P00059,Mark Flores,male,21-06-1978,+63 993352876,641 Rizal St,Caloocan,Philippines,ACTIVE
+P00060,Daniel Reyes,male,09/25/1946,095837-8883823,34 Rizal St,Caloocan,Pilipinas,
+P00061,Jose Torres,Female,1963/09/25,+63 936550845,664 Rizal St,Caloocan,PH,Active
+P00062,Maria Reyes,,1967/08/06,09904187231,480 Mabini St,Angeles,Pilipinas,
+P00063,Grace Santos,male,"Jul 30, 1943",09888699799,94 Rizal St,Bulacan,Philippines,Inactive
+P00064,Bea Dela Cruz,,11/06/2007,097995-8419378,186 National St,Angeles,,Active
+P00065,Kevin Bautista,F,25-11-1969,N/A,711 Quezon St,Caloocan,,Active
+P00066,Grace Santos,M,23-08-1962,N/A,424 Main St,Pasig,Pilipinas,
+P00067,Grace Castillo,Male,06-04-1958,N/A,125 Main St,Bulacan,PH,ACTIVE
+P00068,Mark Ramos,Male,"Jul 18, 1989",09200082623,664 Rizal St,Malolos,Pilipinas,Inactive
+P00069,Liza Flores,F,05/13/1982,+63 983989546,944 National St,Meycauayan,PH,Active
+P00070,Angela Castillo,,"Aug 26, 2016",093868-1043037,744 Mabini St,Bulacan,,ACTIVE
+P00071,Grace Ramos,F,18-12-1970,095050-8639414,891 Rizal St,Pasig,,ACTIVE
+P00072,Liza Dela Cruz,M,"Oct 23, 2006",N/A,988 Main St,Makati,Pilipinas,Active
+P00073,Grace Santos,male,"Sep 05, 2021",09116479358,481 Mabini St,San Fernando,,Active
+P00074,John Flores,female,2017/02/03,09508031980,633 Main St,Pasig,Pilipinas,ACTIVE
+P00075,Jose Gonzales,Male,2008-03-19,09576396216,48 Mabini St,Manila,Pilipinas,Inactive
+P00076,Patricia Gonzales,Female,1961/11/27,+63 985957578,180 Main St,Bulacan,,ACTIVE
+P00077,Kevin Rivera,male,11/02/1952,093727-8710313,683 Main St,Malolos,Pilipinas,ACTIVE
+P00078,Jose Cruz,M,17-09-1992,N/A,866 Mabini St,Pasig,,
+P00079,Ana Garcia,F,23-04-1991,09717199615,850 Quezon St,Caloocan,Philippines,Active
+P00080,Thomas Navarro,F,19-09-2014,+63 940885967,652 Rizal St,Bulacan,Pilipinas,ACTIVE
+P00081,Ana Rivera,female,1997-12-26,+63 969166287,93 Mabini St,San Fernando,,ACTIVE
+P00082,Sofia Reyes,,23-05-1988,093926-3760597,936 Quezon St,Caloocan,Pilipinas,Active
+P00083,Grace Santos,Female,08/29/2007,09826197069,810 Quezon St,Manila,Pilipinas,Active
+P00084,Grace Bautista,female,13-03-2007,09727666622,692 Rizal St,Malolos,Philippines,Inactive
+P00085,Thomas Garcia,female,"Sep 02, 1945",09852775879,144 Main St,Manila,Pilipinas,
+P00086,Ana Santos,Female,2019/08/07,N/A,602 Rizal St,Angeles,Philippines,
+P00087,Thomas Gonzales,M,08-12-1942,095774-4961312,102 Mabini St,Meycauayan,Pilipinas,Active
+P00088,Ramon Mendoza,Female,"Dec 16, 1950",09198433586,806 Mabini St,Pasig,PH,ACTIVE
+P00089,Jose Flores,,09/20/1989,099730-4909069,793 Rizal St,Bulacan,Philippines,Inactive
+P00090,Carlos Reyes,male,06/27/1962,09218032515,367 Rizal St,Bulacan,Pilipinas,Active
+P00091,Miguel Mendoza,Male,"May 16, 1951",N/A,460 Mabini St,Meycauayan,Philippines,
+P00092,Andrea Garcia,male,1943/11/21,09423873102,491 Quezon St,Angeles,Philippines,
+P00093,Grace Santos,Male,1968/11/23,092354-5614002,391 National St,Meycauayan,Pilipinas,
+P00094,Andrea Aquino,F,1948-11-23,N/A,463 Rizal St,Angeles,Pilipinas,
+P00095,Ramon Gonzales,female,12-07-1948,098141-5276341,977 Rizal St,Malolos,Philippines,Active
+P00096,Jose Santos,F,30-08-1948,096973-2006313,687 Main St,Angeles,Pilipinas,
+P00097,Maria Mendoza,male,12-01-1968,+63 987566910,673 Quezon St,Pasig,Philippines,Inactive
+P00098,Luis Bautista,Male,01-06-2008,09716435189,624 Mabini St,Manila,PH,Inactive
+P00099,Mark Rivera,M,1971-06-29,09294782734,146 Main St,Quezon City,PH,
+P00100,Liza Cruz,M,13-02-1954,09434618074,160 Rizal St,Bulacan,Philippines,Active
+P00101,Angela Cruz,female,"Jan 15, 1978",+63 969330166,774 National St,Quezon City,Pilipinas,
+P00102,Ana Mendoza,female,2000/11/13,09622517939,226 Quezon St,Bulacan,Philippines,Active
+P00103,Sofia Mendoza,Female,11/03/2008,09920511515,8 Quezon St,Angeles,PH,ACTIVE
+P00104,Ramon Ramos,female,1960/08/23,09699924859,407 Main St,Angeles,Philippines,
+P00105,Jose Flores,M,"Aug 27, 1991",098618-8007741,118 Quezon St,Manila,Pilipinas,ACTIVE
+P00106,Thomas Cruz,,13-11-2001,N/A,604 Quezon St,Meycauayan,Philippines,
+P00107,Mark Navarro,M,17-11-1959,09936571442,544 National St,Pasig,Pilipinas,Inactive
+P00108,Carlos Garcia,Male,19-02-1953,09311818984,182 Quezon St,Malolos,,Inactive
+P00109,John Reyes,F,"Feb 15, 1946",09574817290,361 National St,Quezon City,Pilipinas,
+P00110,Grace Dela Cruz,Male,29-01-1973,N/A,474 National St,Meycauayan,Philippines,
+P00111,Bea Torres,Female,1968/11/04,N/A,106 Mabini St,Quezon City,PH,Active
+P00112,Daniel Navarro,F,1979/06/03,092704-7105194,940 Mabini St,Angeles,,Inactive
+P00113,Thomas Dela Cruz,,06-08-1996,092014-7485471,259 National St,Makati,Pilipinas,Active
+P00114,Bea Torres,Female,20-05-1971,09804433388,318 National St,Angeles,Pilipinas,ACTIVE
+P00115,Andrea Santos,female,"Feb 24, 2000",091195-7083379,185 Rizal St,San Fernando,,ACTIVE
+P00116,Daniel Reyes,Female,03-12-1946,09946237594,678 Mabini St,Bulacan,PH,
+P00117,Carlos Reyes,Female,2014/08/01,09968704078,421 Mabini St,Pasig,,Inactive
+P00118,Grace Garcia,male,16-06-1961,099966-4255051,695 National St,Malolos,,Inactive
+P00119,Ramon Ramos,male,07/23/1977,099603-3321942,54 Quezon St,San Fernando,Philippines,Active
+P00120,Mark Santos,,20-05-1954,09582452834,970 Rizal St,Malolos,Pilipinas,Active
+P00121,Liza Dela Cruz,F,13-01-1985,+63 961830338,29 Mabini St,Quezon City,Pilipinas,ACTIVE
+P00122,Carlos Dela Cruz,M,"Jun 10, 2014",N/A,631 Main St,Quezon City,Philippines,Inactive
+P00123,Sofia Flores,Female,1989/03/27,+63 966808292,309 Main St,Manila,PH,
+P00124,Thomas Cruz,Male,"Dec 11, 1949",+63 981947921,736 Rizal St,Caloocan,,Active
+P00125,Thomas Bautista,Female,"Mar 13, 1991",098174-2436363,70 National St,Meycauayan,Philippines,
+P00126,Kevin Dela Cruz,female,16-09-1974,094834-2133461,247 Main St,Bulacan,Pilipinas,ACTIVE
+P00127,Maria Bautista,male,05/16/1970,+63 972360629,831 Rizal St,Quezon City,,Active
+P00128,Mark Garcia,Male,12/22/2010,N/A,835 National St,Malolos,Pilipinas,Active
+P00129,Sofia Mendoza,M,2017-05-06,093933-3088344,448 Quezon St,Malolos,,Inactive
+P00130,Miguel Cruz,female,19-08-1984,N/A,81 Quezon St,Bulacan,PH,Inactive
+P00131,John Santos,Male,02-06-1969,+63 969849800,707 Quezon St,San Fernando,,Active
+P00132,Patricia Aquino,F,1964-08-18,+63 995565484,976 Main St,Makati,,Active
+P00133,Carlos Santos,Female,04-11-2009,+63 961385847,696 Quezon St,San Fernando,Pilipinas,
+P00134,Jose Aquino,Female,02-07-1987,+63 952196099,984 Main St,Manila,PH,
+P00135,Andrea Gonzales,male,25-07-1950,+63 944935501,627 Mabini St,Malolos,PH,Active
+P00136,Carlos Flores,Male,07/21/1980,091942-6361793,727 Main St,Meycauayan,Pilipinas,Inactive
+P00137,Miguel Navarro,female,10/26/2002,09952225000,206 Rizal St,Pasig,,Active
+P00138,Patricia Ramos,male,"Feb 04, 1973",09962925204,317 Quezon St,Malolos,,
+P00139,Bea Santos,Female,1968-06-10,098302-9679860,132 National St,Bulacan,PH,ACTIVE
+P00140,Liza Ramos,,1944-12-20,+63 930537388,331 Rizal St,San Fernando,Pilipinas,Active
+P00141,Angela Garcia,female,01-06-1989,09234400576,515 Rizal St,Bulacan,PH,ACTIVE
+P00142,Thomas Navarro,male,1970/04/16,091872-1762722,667 Rizal St,Bulacan,,Active
+P00143,Kevin Rivera,female,11-12-1988,N/A,305 Quezon St,Quezon City,Philippines,ACTIVE
+P00144,Grace Gonzales,F,08/31/1981,092542-6244264,752 Mabini St,Angeles,PH,Inactive
+P00145,Andrea Ramos,Male,08/17/1968,+63 926444612,145 Main St,Manila,Pilipinas,
+P00146,Thomas Gonzales,Female,08/18/2017,+63 953947691,782 Rizal St,Malolos,,
+P00147,Mark Cruz,Male,"Jan 29, 1948",093584-4609524,50 Main St,Caloocan,,
+P00148,Mark Ramos,Male,2016-01-02,N/A,375 Main St,Angeles,Philippines,ACTIVE
+P00149,Patricia Ramos,M,"Aug 06, 1946",09641440255,132 Main St,Angeles,Pilipinas,Inactive
+P00150,Luis Bautista,,12/10/1952,09746889670,47 Main St,Makati,Pilipinas,
+P00151,Andrea Cruz,Female,1994/05/22,+63 954018830,403 National St,Caloocan,Pilipinas,
+P00152,Bea Mendoza,F,2013-03-08,N/A,598 Mabini St,Manila,,Inactive
+P00153,Bea Aquino,Female,2004-09-19,N/A,152 Rizal St,Manila,Philippines,ACTIVE
+P00154,Juan Cruz,M,07/27/1977,N/A,894 Main St,Makati,PH,Inactive
+P00155,Kevin Ramos,F,02/24/1968,094675-6943949,625 Quezon St,Pasig,PH,Inactive
+P00156,Luis Mendoza,Female,13-09-1966,098411-9204110,492 Mabini St,Meycauayan,Pilipinas,Inactive
+P00157,Ana Aquino,female,"Sep 24, 1988",099300-3457461,44 Mabini St,Quezon City,Pilipinas,
+P00158,Angela Navarro,F,03/13/1959,+63 982286705,112 National St,Bulacan,PH,ACTIVE
+P00159,Maria Torres,male,03/30/1960,N/A,103 Rizal St,Manila,PH,
+P00160,Kevin Cruz,female,22-11-1957,09444851196,668 National St,Pasig,Philippines,ACTIVE
+P00161,Liza Rivera,,1955-10-09,+63 963283709,960 Mabini St,Manila,Philippines,Inactive
+P00162,Bea Aquino,Male,21-01-1970,N/A,911 Rizal St,Meycauayan,,Inactive
+P00163,Sofia Castillo,Male,08/31/1969,+63 971594457,15 Mabini St,Caloocan,PH,ACTIVE
+P00164,Thomas Flores,female,"Jun 23, 2020",09987973565,411 Main St,Makati,PH,
+P00165,John Rivera,Female,11-08-1940,095796-5479421,310 National St,Bulacan,Philippines,Inactive
+P00166,Patricia Navarro,Female,1945-07-28,092714-7801762,707 Main St,Caloocan,Pilipinas,ACTIVE
+P00167,Daniel Reyes,F,"Sep 28, 1953",N/A,776 National St,Pasig,PH,Active
+P00168,Andrea Cruz,male,20-02-2003,+63 985721444,587 National St,Makati,PH,Inactive
+P00169,Andrea Cruz,Male,01/11/2001,N/A,829 Main St,Malolos,PH,
+P00170,Grace Aquino,Male,"Feb 17, 1990",N/A,261 Main St,Pasig,Philippines,Active
+P00171,Liza Bautista,female,1945/09/20,096068-1532422,419 Rizal St,Makati,,Inactive
+P00172,Ramon Cruz,,"May 07, 2021",098330-3231198,122 Rizal St,Meycauayan,,ACTIVE
+P00173,Daniel Flores,Male,2007-11-03,N/A,844 Rizal St,Pasig,,Inactive
+P00174,Carlos Mendoza,Female,2018-07-08,+63 998610233,212 Main St,Quezon City,Philippines,
+P00175,Thomas Torres,female,2018-04-01,+63 915937353,553 Rizal St,Manila,PH,Inactive
+P00176,Daniel Flores,female,07-09-1991,+63 990251151,310 Rizal St,Meycauayan,PH,
+P00177,Mark Mendoza,Male,1989/12/11,N/A,49 Mabini St,Angeles,Pilipinas,
+P00178,Liza Reyes,M,10/09/1973,+63 982199509,308 Rizal St,Malolos,Philippines,
+P00179,Liza Ramos,male,"Jan 11, 1952",09360767346,945 Quezon St,San Fernando,Philippines,ACTIVE
+P00180,Maria Mendoza,F,2000/06/08,+63 915307982,491 Rizal St,San Fernando,Pilipinas,Active
+P00181,Sofia Rivera,Female,2006-07-09,N/A,938 Rizal St,Meycauayan,Pilipinas,Inactive
+P00182,Ramon Cruz,male,14-03-1998,N/A,478 Main St,Malolos,Pilipinas,ACTIVE
+P00183,Patricia Bautista,F,1944/02/07,N/A,303 Rizal St,Pasig,Pilipinas,ACTIVE
+P00184,Ramon Aquino,,"Jan 17, 1962",098353-6663388,782 Quezon St,Malolos,,ACTIVE
+P00185,Patricia Reyes,Female,2004/08/15,09624325659,860 Main St,Manila,Philippines,
+P00186,Carlos Flores,female,1960-10-05,N/A,383 Main St,Bulacan,,
+P00187,Juan Dela Cruz,male,"Jun 28, 1989",096684-5609384,18 National St,Angeles,PH,Active
+P00188,Ana Ramos,Female,08/14/1961,093710-6946534,815 Quezon St,Quezon City,Pilipinas,
+P00189,Grace Aquino,Female,07/21/2002,09422095317,416 Quezon St,Angeles,,Active
+P00190,Juan Navarro,Female,"Jun 02, 1947",09565906941,917 National St,Manila,PH,ACTIVE
+P00191,Bea Cruz,M,1944-03-05,+63 947631028,952 Mabini St,Manila,PH,ACTIVE
+P00192,Ramon Rivera,Male,11/06/1966,097084-7528964,394 Rizal St,Quezon City,Pilipinas,Active
+P00193,Ana Gonzales,Female,2015-03-29,099257-7655572,31 Mabini St,Malolos,,ACTIVE
+P00194,Patricia Ramos,F,09/28/1978,09829816799,791 National St,Caloocan,PH,Active
+P00195,Jose Mendoza,Female,02/02/1974,09894198823,94 Main St,Caloocan,,Inactive
+P00196,Angela Santos,Female,10/31/1947,N/A,106 Main St,Quezon City,Pilipinas,Active
+P00197,Thomas Aquino,,"Feb 07, 1969",09113250637,743 National St,Pasig,PH,
+P00198,Miguel Reyes,M,06-01-1967,N/A,283 Quezon St,Caloocan,,Active
+P00199,Patricia Mendoza,Female,"Sep 03, 2004",09737594763,139 Mabini St,Manila,,Inactive
+P00200,Thomas Gonzales,,08-05-2017,095623-3283789,329 National St,Pasig,,Inactive
+P00201,Miguel Gonzales,M,"Feb 23, 1966",094499-7309161,837 Quezon St,San Fernando,Philippines,ACTIVE
+P00202,Bea Ramos,Female,2001/02/27,N/A,817 Mabini St,Quezon City,,
+P00203,Carlos Torres,M,17-09-1961,N/A,76 Quezon St,Bulacan,,
+P00204,Luis Ramos,,"Jan 20, 2002",09683734594,112 Rizal St,San Fernando,PH,Active
+P00205,Bea Torres,female,"Jan 08, 1998",09908186980,11 Main St,Caloocan,PH,ACTIVE
+P00206,Grace Bautista,F,1981/07/17,09841351411,495 Main St,Caloocan,,Active
+P00207,Ana Flores,female,16-09-1952,N/A,357 Quezon St,Quezon City,,
+P00208,John Santos,M,1944-01-04,+63 956047142,953 Rizal St,Meycauayan,PH,ACTIVE
+P00209,John Ramos,F,06/14/1981,+63 964364546,656 Quezon St,Angeles,Philippines,ACTIVE
+P00210,Grace Aquino,F,1974-11-19,09856704108,592 Main St,Meycauayan,PH,Inactive
+P00211,John Garcia,F,23-03-1950,N/A,626 Quezon St,Bulacan,Philippines,Inactive
+P00212,Patricia Flores,F,05/21/1995,+63 949922369,321 Main St,Pasig,Pilipinas,Active
+P00213,Miguel Bautista,female,1952/09/06,N/A,434 Rizal St,Malolos,PH,ACTIVE
+P00214,Kevin Mendoza,Female,13-10-1956,09584258607,497 Rizal St,Pasig,,
+P00215,Liza Torres,F,"Apr 15, 1977",+63 932448383,300 Main St,Caloocan,PH,Inactive
+P00216,Miguel Castillo,F,"Sep 30, 1990",092215-2916069,794 National St,San Fernando,Philippines,
+P00217,Luis Garcia,F,03/09/1949,095828-5409307,883 Main St,Malolos,Philippines,ACTIVE
+P00218,Sofia Castillo,female,29-09-1992,+63 991907952,631 Rizal St,Pasig,PH,Active
+P00219,Bea Bautista,male,1965/03/20,094475-5909595,587 Mabini St,Meycauayan,Philippines,ACTIVE
+P00220,Liza Rivera,Male,11/17/1964,093680-3453557,849 Rizal St,Angeles,,ACTIVE
+P00221,Bea Torres,M,"Apr 28, 1996",N/A,528 Mabini St,San Fernando,,
+P00222,John Aquino,Male,2017-12-14,09884832186,815 National St,Angeles,PH,
+P00223,Sofia Cruz,M,18-12-1968,N/A,808 Mabini St,Manila,Philippines,Active
+P00224,Grace Dela Cruz,Male,12/10/2016,+63 971272827,706 Rizal St,Caloocan,PH,Inactive
+P00225,Jose Torres,M,1962-06-18,09499264207,406 Mabini St,Pasig,,Active
+P00226,Ana Dela Cruz,Female,1982-10-11,N/A,10 Main St,San Fernando,Philippines,
+P00227,Carlos Cruz,Male,"Jul 16, 1960",092108-6257165,903 Mabini St,Makati,,ACTIVE
+P00228,Carlos Santos,male,1990-07-14,092762-8383643,740 Rizal St,Makati,,
+P00229,Sofia Santos,Male,1952-07-23,094774-8203947,811 Rizal St,Pasig,Pilipinas,Active
+P00230,Daniel Ramos,male,1993/10/30,+63 913600310,531 National St,Meycauayan,PH,
+P00231,Mark Torres,Male,04/26/2010,N/A,654 National St,Quezon City,Philippines,Inactive
+P00232,John Reyes,F,2017/03/24,N/A,978 Main St,Manila,Philippines,Active
+P00233,Angela Garcia,Male,"Jun 04, 1945",N/A,434 Quezon St,Quezon City,PH,Inactive
+P00234,Jose Mendoza,Male,11/14/1985,N/A,601 Main St,Caloocan,,ACTIVE
+P00235,Maria Garcia,Male,1978-12-24,097537-1923227,683 Rizal St,Quezon City,Philippines,ACTIVE
+P00236,Juan Reyes,F,1971/02/07,+63 944795538,768 Mabini St,Quezon City,Philippines,Inactive
+P00237,Liza Mendoza,male,23-09-1945,N/A,467 National St,San Fernando,Philippines,
+P00238,Bea Reyes,M,10-02-1954,+63 923811663,759 National St,Manila,Philippines,Active
+P00239,Daniel Dela Cruz,F,"Aug 26, 1972",+63 934019729,330 Rizal St,Angeles,Pilipinas,Inactive
+P00240,Jose Aquino,M,1950/09/17,09822977979,977 Quezon St,Quezon City,,Inactive
+P00241,Mark Bautista,Male,"Aug 14, 1989",093154-5892153,758 National St,Pasig,,Inactive
+P00242,Bea Cruz,,08/10/2009,+63 983357939,7 Quezon St,Manila,PH,Inactive
+P00243,Juan Bautista,Male,"Feb 01, 2008",+63 951273379,430 Quezon St,Manila,PH,Inactive
+P00244,Jose Dela Cruz,Female,2020/07/01,09543516366,518 Rizal St,Angeles,Philippines,Active
+P00245,Liza Torres,Female,29-03-1961,099598-7592651,326 Quezon St,Caloocan,PH,Active
+P00246,Sofia Reyes,,2009/02/03,N/A,478 Mabini St,Angeles,Philippines,Inactive
+P00247,Sofia Cruz,M,26-07-1981,09228756206,221 Mabini St,Makati,Philippines,ACTIVE
+P00248,Patricia Gonzales,male,23-05-1944,N/A,570 National St,Pasig,Philippines,
+P00249,Ana Castillo,,1952-07-16,+63 918277097,203 Quezon St,San Fernando,Philippines,Inactive
+P00250,Jose Dela Cruz,Male,"Sep 27, 1957",09968977829,44 Quezon St,Manila,PH,
+P00251,Ramon Cruz,Male,"May 03, 1974",093305-4139874,287 Quezon St,Makati,Philippines,ACTIVE
+P00252,Mark Cruz,F,2019/03/13,N/A,141 Quezon St,Pasig,PH,Active
+P00253,Ramon Castillo,female,"Mar 20, 1972",094694-9428760,398 Mabini St,Makati,Philippines,Inactive
+P00254,Thomas Garcia,Male,12-05-2020,+63 973308406,998 Rizal St,Quezon City,PH,ACTIVE
+P00255,Angela Ramos,,2010-12-26,097181-7516648,958 Rizal St,Makati,PH,Inactive
+P00256,Patricia Rivera,male,13-07-1942,N/A,556 Mabini St,Makati,,Active
+P00257,Jose Dela Cruz,Female,12/23/1993,096132-1011467,940 National St,Pasig,PH,Inactive
+P00258,Miguel Rivera,,29-09-2015,09163947730,867 National St,San Fernando,Philippines,Inactive
+P00259,Ramon Aquino,Male,12-03-1970,N/A,665 Mabini St,Makati,Pilipinas,ACTIVE
+P00260,Bea Flores,Female,11-12-1973,09888121101,972 National St,Angeles,Philippines,ACTIVE
+P00261,Thomas Bautista,,11/06/1994,+63 985906869,340 Main St,Pasig,Pilipinas,Inactive
+P00262,Miguel Torres,Male,18-09-2013,+63 911529494,710 Main St,San Fernando,Pilipinas,Active
+P00263,Juan Dela Cruz,F,"Apr 25, 1979",096294-7353742,560 Quezon St,Quezon City,,ACTIVE
+P00264,Miguel Cruz,Male,2011-09-13,09416655712,76 Mabini St,Makati,,ACTIVE
+P00265,Jose Ramos,Male,1970/04/26,N/A,966 Rizal St,Bulacan,,ACTIVE
+P00266,Maria Santos,M,06/10/1958,098752-5450404,305 Rizal St,Quezon City,Philippines,
+P00267,Bea Ramos,,01/17/1984,09158524142,302 National St,Malolos,PH,Active
+P00268,Juan Garcia,Female,03-04-1997,N/A,483 Quezon St,Caloocan,Philippines,
+P00269,Miguel Bautista,F,02/20/1973,N/A,270 Rizal St,Caloocan,Philippines,ACTIVE
+P00270,Ana Santos,female,1970/11/04,N/A,839 National St,Angeles,,ACTIVE
+P00271,Kevin Mendoza,Male,1975-06-02,09639127345,973 Quezon St,Makati,PH,ACTIVE
+P00272,Sofia Reyes,Male,1977-12-25,093168-3480985,328 Main St,Quezon City,,
+P00273,Luis Bautista,,1964/10/11,N/A,116 Quezon St,Makati,PH,Active
+P00274,Ana Aquino,,22-01-1949,N/A,671 Quezon St,Bulacan,,Active
+P00275,Miguel Mendoza,F,1952/11/26,091416-7640300,708 Rizal St,Manila,,Inactive
+P00276,Patricia Dela Cruz,M,01-05-2013,+63 947627490,138 Mabini St,Malolos,Pilipinas,Inactive
+P00277,Liza Aquino,female,01/04/1948,N/A,778 National St,San Fernando,Philippines,ACTIVE
+P00278,Jose Mendoza,female,"Jun 19, 1985",+63 980368504,198 Rizal St,Manila,PH,Active
+P00279,Grace Dela Cruz,M,03/20/2003,N/A,651 Main St,Manila,PH,Inactive
+P00280,Kevin Aquino,F,"Dec 07, 1955",+63 983998759,858 Mabini St,Quezon City,Pilipinas,Active
+P00281,Ramon Dela Cruz,Female,2016/08/07,+63 938765353,276 Quezon St,Meycauayan,Philippines,Active
+P00282,Kevin Rivera,Female,01/29/1998,093402-5234408,730 Mabini St,Angeles,,Inactive
+P00283,Grace Mendoza,Female,13-11-1981,09827133833,8 National St,San Fernando,Pilipinas,Inactive
+P00284,Ana Cruz,Male,03-03-1970,093973-5381318,193 Rizal St,Meycauayan,PH,Active
+P00285,Thomas Gonzales,female,09/02/1968,098037-9344531,266 Quezon St,Angeles,,Active
+P00286,Bea Navarro,male,03/17/2013,N/A,929 Mabini St,Meycauayan,Pilipinas,ACTIVE
+P00287,Luis Reyes,M,"Oct 03, 1948",098786-4071377,671 Main St,Pasig,Pilipinas,ACTIVE
+P00288,Mark Gonzales,,25-07-2019,N/A,872 Main St,Malolos,Philippines,Active
+P00289,Kevin Rivera,Female,1984-11-24,N/A,56 Rizal St,Makati,PH,Inactive
+P00290,Liza Aquino,F,06-11-1952,N/A,341 Rizal St,San Fernando,Philippines,Active
+P00291,Grace Mendoza,Female,04/15/2008,+63 931264801,630 Quezon St,Angeles,,
+P00292,Kevin Gonzales,Male,1943/05/21,+63 960076822,19 Main St,Pasig,PH,Inactive
+P00293,Mark Reyes,Male,1974/05/30,09732080338,306 Mabini St,Malolos,Pilipinas,
+P00294,Carlos Bautista,F,03/24/1972,+63 964142310,745 Rizal St,Pasig,Philippines,ACTIVE
+P00295,Ana Bautista,female,1998-05-12,09502859804,609 Main St,Quezon City,Philippines,Active
+P00296,Ana Gonzales,F,1974-02-11,+63 943921959,712 Main St,Caloocan,,Active
+P00297,Andrea Mendoza,male,05/02/1994,096493-2975258,117 Main St,Malolos,PH,ACTIVE
+P00298,Angela Flores,male,03-02-1958,09855309458,562 Quezon St,Pasig,,Inactive
+P00299,Daniel Dela Cruz,Male,2000-04-03,+63 987061479,973 Main St,Meycauayan,Philippines,Active
+P00300,Angela Torres,Female,22-12-1980,+63 972314252,896 Main St,Caloocan,Pilipinas,Inactive
+P00301,Liza Navarro,Male,1948-07-09,098122-3860721,367 Quezon St,Bulacan,Pilipinas,Active
+P00302,Patricia Flores,M,1956-05-28,N/A,707 Quezon St,Angeles,PH,Active
+P00303,Carlos Navarro,female,04/05/1945,N/A,186 National St,Angeles,Pilipinas,Active
+P00304,Carlos Cruz,F,"Feb 17, 1950",091680-5389135,13 National St,Bulacan,PH,Inactive
+P00305,Andrea Ramos,female,2002/11/07,N/A,355 Quezon St,Makati,Philippines,Active
+P00306,Miguel Ramos,,"Feb 06, 1982",099068-9248484,247 Mabini St,Caloocan,Philippines,ACTIVE
+P00307,Luis Torres,F,03/06/1976,09184643708,878 Quezon St,Malolos,Pilipinas,Active
+P00308,Kevin Navarro,female,1941-08-05,09533190034,811 National St,Bulacan,Pilipinas,ACTIVE
+P00309,Grace Bautista,M,2014-01-15,N/A,734 Mabini St,Malolos,Philippines,Active
+P00310,Daniel Dela Cruz,M,11-11-1971,09688078280,919 Rizal St,Malolos,PH,
+P00311,Ana Mendoza,male,07/29/1957,+63 962733674,734 Mabini St,Quezon City,,Active
+P00312,Bea Santos,,"Jan 02, 2020",+63 998376561,987 Quezon St,Manila,Philippines,
+P00313,Bea Cruz,male,01/27/2010,09842833609,397 National St,Bulacan,Pilipinas,
+P00314,Liza Aquino,female,05/24/2008,N/A,825 Rizal St,Makati,,Inactive
+P00315,Luis Flores,M,2003/11/12,093157-4518395,704 Mabini St,Makati,PH,Inactive
+P00316,Ana Castillo,M,"Jun 11, 1990",098163-8004117,899 Quezon St,Manila,Philippines,Active
+P00317,Ramon Reyes,Male,2000-02-17,099055-3700047,700 Mabini St,Makati,Philippines,Inactive
+P00318,Sofia Castillo,male,24-11-1942,N/A,244 National St,Caloocan,Philippines,
+P00319,Ramon Gonzales,,19-06-2001,+63 917221208,636 Quezon St,Pasig,Pilipinas,ACTIVE
+P00320,Sofia Mendoza,F,1955-12-01,09300764570,387 Main St,Angeles,Pilipinas,Inactive
+P00321,Carlos Reyes,male,25-11-2015,09106061417,158 Mabini St,Bulacan,Philippines,Inactive
+P00322,Kevin Castillo,male,10-05-1989,+63 952662313,534 Main St,Meycauayan,PH,
+P00323,Luis Ramos,F,31-03-1948,098122-6568081,370 Mabini St,Pasig,,Active
+P00324,Ana Torres,M,12/25/1979,09789626099,699 Mabini St,Angeles,Philippines,
+P00325,Angela Ramos,female,1965-05-16,N/A,499 Main St,Caloocan,PH,Inactive
+P00326,Andrea Santos,Male,1955/01/07,+63 910983894,687 Rizal St,Angeles,Philippines,ACTIVE
+P00327,Luis Flores,female,"Oct 29, 2018",09794239754,471 Mabini St,Manila,Philippines,Active
+P00328,Maria Reyes,,1962/08/07,099822-4819259,418 Quezon St,Malolos,,
+P00329,John Dela Cruz,F,2000-05-27,09674274037,718 Main St,San Fernando,Philippines,Inactive
+P00330,Mark Aquino,Male,"Apr 03, 1965",N/A,161 National St,Pasig,PH,
+P00331,Luis Mendoza,female,04-12-1952,+63 996965116,127 Main St,Manila,,Active
+P00332,Mark Garcia,female,08-07-2006,+63 965385548,165 Rizal St,Pasig,Pilipinas,ACTIVE
+P00333,Ana Reyes,female,2011/09/28,095952-2227162,688 Main St,Caloocan,Philippines,ACTIVE
+P00334,Bea Cruz,M,01/15/1972,093518-2678477,635 Main St,Pasig,Pilipinas,
+P00335,Grace Bautista,male,27-02-1999,092636-7115185,982 Quezon St,Makati,Philippines,Inactive
+P00336,Daniel Castillo,Female,"Nov 23, 2003",N/A,474 Quezon St,San Fernando,Pilipinas,
+P00337,Luis Santos,Female,1997/11/30,+63 947663633,270 Main St,Quezon City,Philippines,Active
+P00338,Bea Aquino,F,2009/01/03,N/A,670 Rizal St,San Fernando,,ACTIVE
+P00339,Bea Navarro,,02/08/1966,N/A,373 National St,Manila,PH,ACTIVE
+P00340,Andrea Reyes,F,04/14/1954,N/A,962 Mabini St,Manila,PH,
+P00341,Daniel Santos,M,02/21/1973,093220-9688672,398 Quezon St,Malolos,Philippines,Active
+P00342,John Santos,female,10-10-1986,N/A,670 Quezon St,San Fernando,Philippines,Inactive
+P00343,Ramon Rivera,Female,"Apr 29, 1986",09478921345,514 Rizal St,Malolos,PH,ACTIVE
+P00344,Jose Ramos,female,03/11/1965,09261319410,677 Rizal St,Angeles,Pilipinas,Active
+P00345,Kevin Torres,F,12/22/1982,09734356903,250 Main St,Makati,PH,ACTIVE
+P00346,Andrea Dela Cruz,male,1953-03-05,N/A,614 National St,Manila,Pilipinas,Active
+P00347,Sofia Cruz,male,"Apr 17, 1982",+63 939442512,814 National St,Makati,Pilipinas,ACTIVE
+P00348,John Rivera,F,1993/07/08,+63 940845084,112 Main St,Pasig,,ACTIVE
+P00349,Thomas Santos,Female,1982/09/10,09744045166,96 Quezon St,Makati,Philippines,
+P00350,Andrea Gonzales,M,2018-06-26,N/A,809 Quezon St,San Fernando,Philippines,
+P00351,Carlos Mendoza,F,09/15/2008,097424-7855954,194 Main St,Manila,Philippines,Active
+P00352,Ramon Torres,Female,13-09-2001,N/A,668 National St,Caloocan,Pilipinas,
+P00353,Bea Bautista,male,"Sep 20, 1964",+63 937339300,380 National St,Meycauayan,,Inactive
+P00354,Mark Aquino,M,"Jun 15, 2009",+63 928531242,458 Rizal St,Quezon City,PH,
+P00355,John Castillo,male,1995-02-01,09272591127,844 Rizal St,Malolos,,Active
+P00356,Jose Mendoza,Female,1973-04-08,N/A,629 National St,Caloocan,Philippines,ACTIVE
+P00357,Kevin Cruz,Male,1958/02/04,+63 936138432,630 Rizal St,Manila,Pilipinas,ACTIVE
+P00358,Juan Reyes,Male,"Oct 02, 1964",+63 999880518,531 Main St,Quezon City,Philippines,Inactive
+P00359,Luis Rivera,male,25-03-1971,N/A,953 Quezon St,Bulacan,Philippines,Inactive
+P00360,Miguel Gonzales,male,1949/07/20,09177723844,823 National St,Caloocan,Pilipinas,
+P00361,Ramon Aquino,F,01/28/2009,N/A,919 National St,Manila,,Active
+P00362,Angela Santos,F,11/05/1996,N/A,979 Mabini St,Meycauayan,Philippines,Inactive
+P00363,Daniel Mendoza,Male,16-10-1975,092916-8995273,363 Rizal St,Bulacan,Pilipinas,ACTIVE
+P00364,Sofia Cruz,female,11/29/1957,+63 942488275,208 Rizal St,Bulacan,Pilipinas,ACTIVE
+P00365,Ana Santos,Male,"Aug 18, 2000",N/A,381 National St,San Fernando,,Inactive
+P00366,Kevin Reyes,,08-11-1985,09527219856,539 Quezon St,Malolos,Philippines,Inactive
+P00367,Ramon Flores,female,08/10/2009,N/A,324 Main St,Manila,PH,
+P00368,Bea Santos,M,1972/06/09,+63 935119175,276 Quezon St,Bulacan,Pilipinas,Inactive
+P00369,Miguel Cruz,F,"Nov 20, 1958",094919-7720828,462 Rizal St,Bulacan,PH,ACTIVE
+P00370,Ana Navarro,M,02/20/2012,+63 968011418,820 Rizal St,Malolos,Philippines,ACTIVE
+P00371,Liza Cruz,Female,2020/02/20,099432-9164132,257 National St,Bulacan,Philippines,
+P00372,Ana Navarro,Female,05/21/1945,N/A,763 Mabini St,Caloocan,Pilipinas,Inactive
+P00373,Luis Ramos,,13-02-1963,+63 965265613,591 National St,Meycauayan,PH,Inactive
+P00374,Patricia Bautista,female,"Oct 17, 1985",091841-7393310,475 Rizal St,Makati,Pilipinas,
+P00375,Thomas Aquino,F,2016-02-27,094689-4828861,325 Mabini St,Caloocan,,Inactive
+P00376,Grace Castillo,,1972/07/31,+63 970436720,875 Main St,Makati,PH,Inactive
+P00377,Jose Garcia,Female,1975-08-15,09202600029,790 Quezon St,Meycauayan,Philippines,Active
+P00378,Angela Aquino,Female,"Jul 25, 1947",N/A,642 Rizal St,Makati,PH,Active
+P00379,Maria Torres,M,09-03-2017,N/A,139 National St,Makati,,
+P00380,Andrea Torres,female,21-11-1987,09472769123,453 Mabini St,San Fernando,,Inactive
+P00381,Carlos Mendoza,Male,1940/01/04,N/A,548 Main St,Malolos,,Inactive
+P00382,Juan Castillo,F,03-08-2011,099555-1121097,194 Quezon St,Meycauayan,,
+P00383,Daniel Reyes,female,"Feb 16, 2006",09989516564,433 Rizal St,Meycauayan,Pilipinas,Inactive
+P00384,Luis Castillo,M,01/16/1977,09173512612,653 Quezon St,Bulacan,,Inactive
+P00385,Thomas Cruz,Female,1968-10-06,+63 916661503,996 Main St,Caloocan,Pilipinas,ACTIVE
+P00386,Grace Navarro,Male,1960-11-19,096299-4643811,431 Mabini St,Malolos,Pilipinas,
+P00387,Maria Bautista,Male,09/05/2015,09160170716,557 Quezon St,Makati,PH,Inactive
+P00388,Ramon Flores,Male,12/10/1950,+63 969453211,472 Main St,Meycauayan,PH,
+P00389,Ramon Torres,M,12/25/1968,09775559969,260 Quezon St,Caloocan,PH,Inactive
+P00390,Maria Flores,female,1959-07-16,09353366389,172 Mabini St,Bulacan,Philippines,
+P00391,Daniel Dela Cruz,Male,"Feb 17, 1992",09839170893,255 Rizal St,Malolos,Philippines,Inactive
+P00392,Maria Dela Cruz,M,10/29/1997,+63 981988124,500 Rizal St,San Fernando,Pilipinas,
+P00393,Sofia Dela Cruz,female,21-11-1973,N/A,724 Quezon St,Meycauayan,Pilipinas,
+P00394,Sofia Aquino,Female,08-10-1988,09447549695,544 Rizal St,Malolos,Pilipinas,Inactive
+P00395,Luis Bautista,F,1940/01/24,+63 934901990,329 Main St,Meycauayan,,ACTIVE
+P00396,Andrea Torres,F,2008/09/11,N/A,657 Mabini St,Quezon City,Philippines,Active
+P00397,Maria Flores,Female,1956-01-10,09316980704,33 National St,Angeles,,Inactive
+P00398,Maria Bautista,Female,1994-05-12,09114051099,480 Main St,San Fernando,,Inactive
+P00399,Maria Flores,male,1963/11/06,09143650990,968 Rizal St,Meycauayan,Philippines,Active
+P00400,Daniel Ramos,F,12/30/1956,N/A,765 Main St,Bulacan,Pilipinas,
+P00401,Liza Rivera,Male,12/19/1954,+63 963896091,547 National St,Malolos,Pilipinas,Inactive
+P00402,Luis Bautista,,"May 07, 1973",+63 994992144,577 National St,Pasig,,Inactive
+P00403,Patricia Cruz,F,1975-08-16,+63 914652375,912 Mabini St,Manila,Pilipinas,ACTIVE
+P00404,Sofia Flores,M,12-12-1941,09694491286,39 Quezon St,San Fernando,PH,ACTIVE
+P00405,Angela Bautista,male,06/01/1962,+63 950305910,752 Main St,San Fernando,,ACTIVE
+P00406,Kevin Flores,female,2003/01/20,09979947812,749 National St,Angeles,Philippines,Active
+P00407,John Bautista,,"Dec 18, 1978",N/A,56 Mabini St,Meycauayan,Philippines,Inactive
+P00408,Luis Aquino,Female,1969/04/27,N/A,995 Quezon St,Bulacan,Philippines,ACTIVE
+P00409,Liza Mendoza,,05/18/1975,09241936908,562 Quezon St,Caloocan,Philippines,
+P00410,Andrea Gonzales,,08/10/2002,N/A,405 National St,Pasig,PH,ACTIVE
+P00411,Jose Mendoza,,01-08-1978,N/A,434 Mabini St,San Fernando,PH,Inactive
+P00412,Patricia Aquino,female,04-03-1942,+63 956938140,452 Main St,Pasig,PH,Inactive
+P00413,Carlos Castillo,female,2016-07-03,093609-3477610,15 Mabini St,Quezon City,Pilipinas,
+P00414,Kevin Dela Cruz,M,1958/10/01,096867-9778944,562 Quezon St,Bulacan,PH,Active
+P00415,Ramon Aquino,female,1987-04-06,+63 932859916,809 National St,Caloocan,Philippines,
+P00416,Juan Santos,F,31-03-1999,09811871111,300 Quezon St,Pasig,,Active
+P00417,John Cruz,,1993/07/26,N/A,575 Main St,Manila,PH,Inactive
+P00418,John Cruz,F,10/13/2006,098347-6904121,641 Mabini St,Pasig,Pilipinas,Active
+P00419,Angela Rivera,F,2019-11-18,093422-3545240,919 Quezon St,Makati,Philippines,
+P00420,Andrea Torres,male,04/17/2018,N/A,994 Mabini St,Bulacan,Pilipinas,
+P00421,Luis Reyes,Female,07/15/1998,+63 982659280,317 National St,Makati,,ACTIVE
+P00422,Bea Rivera,Female,1968-06-25,+63 981532887,326 Rizal St,Manila,Pilipinas,
+P00423,Liza Mendoza,F,22-11-2006,+63 935224021,27 National St,Bulacan,Pilipinas,ACTIVE
+P00424,Thomas Garcia,Female,2001-08-31,+63 920667011,515 National St,Malolos,Pilipinas,ACTIVE
+P00425,Ramon Cruz,F,05/03/1952,09307511166,948 Mabini St,Angeles,PH,ACTIVE
+P00426,Sofia Santos,Female,1979/05/30,N/A,415 Main St,Bulacan,,Inactive
+P00427,Ramon Aquino,female,1991/04/24,09675696756,463 Quezon St,Manila,PH,
+P00428,Maria Ramos,F,1986-04-21,095719-7678001,793 Mabini St,Malolos,PH,
+P00429,Mark Aquino,Male,2001/11/24,09252728624,740 National St,Quezon City,PH,ACTIVE
+P00430,Ramon Gonzales,M,1980-06-13,N/A,93 Mabini St,San Fernando,PH,Active
+P00431,Jose Santos,female,25-04-1980,+63 980305568,388 National St,Angeles,Philippines,ACTIVE
+P00432,John Aquino,,03/03/1999,N/A,316 Mabini St,Malolos,Pilipinas,ACTIVE
+P00433,Ana Rivera,Female,1958-03-14,N/A,876 Quezon St,Meycauayan,Philippines,
+P00434,Daniel Garcia,male,"Mar 01, 1999",09587197988,251 National St,Caloocan,PH,Active
+P00435,Miguel Reyes,Male,10-08-1998,091348-6007018,943 Main St,Manila,Philippines,
+P00436,Miguel Reyes,female,1965/07/06,N/A,768 National St,San Fernando,Philippines,Active
+P00437,Mark Bautista,M,"Jul 09, 2020",09980752567,300 Quezon St,Makati,Philippines,Inactive
+P00438,John Ramos,F,01/25/1987,09847141233,586 National St,Quezon City,,Inactive
+P00439,Liza Aquino,,23-05-1968,+63 987194344,630 National St,Malolos,,
+P00440,Miguel Rivera,male,16-11-1960,N/A,641 Main St,Pasig,,
+P00441,Maria Bautista,M,04/11/1990,093160-5724912,810 Main St,Caloocan,Pilipinas,Inactive
+P00442,Juan Santos,female,25-11-1969,+63 986359356,199 Mabini St,San Fernando,,
+P00443,Maria Torres,Female,03/13/1983,N/A,803 Quezon St,Manila,Pilipinas,Inactive
+P00444,Luis Ramos,Male,1958/09/07,09836042826,993 Rizal St,Caloocan,Philippines,Inactive
+P00445,Ramon Torres,male,07/29/2015,09713086866,886 Mabini St,San Fernando,Philippines,Inactive
+P00446,Liza Santos,F,09/07/2018,+63 970653840,538 Mabini St,Makati,Philippines,Inactive
+P00447,Maria Castillo,Female,2021-12-09,+63 977913458,195 Mabini St,Malolos,Pilipinas,Inactive
+P00448,Carlos Castillo,,1948/10/24,N/A,397 National St,Quezon City,Philippines,Inactive
+P00449,Maria Torres,,1993-04-25,091495-2729778,24 National St,Caloocan,PH,Inactive
+P00450,Sofia Garcia,M,1964/10/26,098206-2973853,153 Rizal St,Caloocan,Philippines,Active
+P00451,Thomas Ramos,male,03/08/1949,096898-6343290,145 Mabini St,Bulacan,PH,ACTIVE
+P00452,Jose Mendoza,male,18-01-2020,09680440242,483 Main St,Quezon City,,Active
+P00453,Jose Gonzales,F,1956/01/21,099978-8479891,320 Mabini St,Pasig,Philippines,
+P00454,Bea Reyes,Male,"Dec 03, 2012",N/A,238 Rizal St,Makati,Pilipinas,Inactive
+P00455,Ramon Reyes,female,04-09-1999,09946944681,67 Quezon St,Quezon City,Pilipinas,
+P00456,Grace Flores,Female,28-04-1965,09749012758,416 Main St,San Fernando,Philippines,Inactive
+P00457,Luis Cruz,F,"Dec 23, 1992",N/A,394 Main St,San Fernando,PH,
+P00458,Liza Aquino,,1970/09/13,N/A,118 National St,Bulacan,,Inactive
+P00459,Luis Santos,,12/10/1979,N/A,336 Quezon St,Manila,Philippines,ACTIVE
+P00460,Carlos Rivera,male,2021-01-12,N/A,545 Mabini St,Angeles,,ACTIVE
+P00461,Sofia Torres,M,1966/11/21,09952923229,597 Main St,Bulacan,,ACTIVE
+P00462,Mark Dela Cruz,M,2020/11/02,09157045020,882 Mabini St,Manila,PH,
+P00463,Bea Gonzales,female,"Jul 16, 1968",+63 961212793,487 Rizal St,Pasig,,Inactive
+P00464,Liza Reyes,M,04/18/2018,+63 911557295,739 Quezon St,Angeles,PH,Active
+P00465,Carlos Torres,,"Apr 22, 1977",N/A,522 Quezon St,Meycauayan,,
+P00466,Patricia Garcia,Female,1978/02/08,096348-4972005,421 National St,Bulacan,Pilipinas,Active
+P00467,Maria Aquino,F,28-03-2003,+63 987882357,748 National St,Caloocan,,Active
+P00468,Andrea Rivera,male,12/08/1947,098963-2309997,628 Main St,San Fernando,Philippines,
+P00469,Grace Ramos,F,29-06-1991,099570-5942868,172 Main St,Bulacan,Pilipinas,Inactive
+P00470,Maria Torres,F,11/13/1991,09715103737,294 Quezon St,Quezon City,PH,Active
+P00471,Angela Mendoza,Female,31-03-1995,+63 944488013,932 National St,Makati,,Inactive
+P00472,Miguel Mendoza,,11/13/2002,09620677295,352 Main St,Makati,PH,
+P00473,Liza Castillo,F,"May 07, 1961",092796-4537589,56 Mabini St,Quezon City,Philippines,ACTIVE
+P00474,Grace Gonzales,F,"Jan 14, 1967",N/A,486 Mabini St,Makati,,Active
+P00475,Mark Rivera,,"Apr 06, 1980",09828526750,940 National St,San Fernando,,Inactive
+P00476,John Mendoza,M,2011-12-24,N/A,792 Rizal St,Bulacan,PH,Inactive
+P00477,Miguel Bautista,male,1940-12-12,09993019801,538 Main St,Malolos,Pilipinas,ACTIVE
+P00478,Mark Mendoza,Female,1943-01-20,09765072705,726 Main St,Quezon City,PH,
+P00479,Bea Castillo,Female,2020-05-20,N/A,677 Main St,Malolos,Pilipinas,
+P00480,John Mendoza,Female,2010-01-16,095110-7519465,62 Mabini St,Caloocan,PH,
+P00481,Jose Cruz,Female,"Oct 02, 1994",+63 996635285,554 Quezon St,Pasig,Philippines,
+P00482,Angela Santos,Male,1946-07-17,09713476544,919 Quezon St,Makati,Philippines,Active
+P00483,Ramon Mendoza,Female,21-10-2002,N/A,490 Quezon St,Angeles,Philippines,ACTIVE
+P00484,Juan Gonzales,female,"May 20, 2013",096747-7021650,699 Mabini St,Angeles,Philippines,Active
+P00485,Patricia Ramos,,1970-07-05,+63 948917593,568 Main St,Angeles,PH,Inactive
+P00486,Ramon Rivera,Male,29-07-1996,+63 921390049,144 Main St,Pasig,Philippines,ACTIVE
+P00487,Kevin Gonzales,Male,2011/02/13,N/A,990 Main St,Manila,Pilipinas,Active
+P00488,John Castillo,female,"Nov 03, 1943",N/A,963 National St,Makati,PH,Active
+P00489,Maria Navarro,Female,1983-11-11,+63 992996496,15 Rizal St,Manila,Pilipinas,Active
+P00490,Grace Aquino,Female,2014/12/10,+63 924271532,65 Rizal St,Angeles,Pilipinas,
+P00491,John Santos,female,1991/09/03,09247456327,608 Rizal St,San Fernando,Philippines,Active
+P00492,Angela Reyes,,03/30/1977,N/A,250 National St,Manila,PH,Active
+P00493,Thomas Gonzales,,1954-02-25,+63 920834405,949 Main St,Bulacan,Pilipinas,
+P00494,Kevin Navarro,Female,06/30/1958,N/A,245 Rizal St,Bulacan,Philippines,ACTIVE
+P00495,Kevin Aquino,Male,07-04-1996,+63 966208488,121 National St,Quezon City,Pilipinas,ACTIVE
+P00496,Grace Castillo,female,02/24/1999,+63 917122803,702 Quezon St,Malolos,PH,ACTIVE
+P00497,Maria Dela Cruz,female,02-09-1972,N/A,45 Main St,Manila,PH,ACTIVE
+P00498,Juan Cruz,male,1950-05-31,N/A,204 Mabini St,Pasig,Philippines,Inactive
+P00499,Daniel Santos,Female,"Mar 09, 2006",N/A,600 Quezon St,Manila,,ACTIVE
+P00500,Sofia Rivera,male,10/26/1980,+63 960128319,648 Mabini St,Caloocan,PH,Inactive
+P00501,Carlos Dela Cruz,female,1991-01-07,N/A,429 Rizal St,San Fernando,PH,Inactive
+P00502,Thomas Reyes,,2011/04/14,09282466834,422 National St,Malolos,PH,
+P00503,Grace Mendoza,Male,"Jun 29, 2005",N/A,594 Rizal St,Bulacan,PH,Active
+P00504,Liza Dela Cruz,Male,1982/03/23,N/A,830 Main St,Malolos,,ACTIVE
+P00505,Jose Ramos,,"Feb 11, 1941",+63 927812303,664 Main St,Manila,,Inactive
+P00506,Miguel Navarro,F,2016/12/19,N/A,791 Rizal St,Angeles,PH,Inactive
+P00507,Grace Navarro,female,1940-02-14,096700-1548852,437 Mabini St,Bulacan,PH,Active
+P00508,Thomas Rivera,M,2006-01-03,N/A,375 Quezon St,Bulacan,Philippines,Inactive
+P00509,Patricia Reyes,female,1990-02-17,+63 937476059,553 Main St,Malolos,PH,ACTIVE
+P00510,John Bautista,M,"Mar 05, 1985",091680-7254777,464 Quezon St,Meycauayan,Philippines,
+P00511,Luis Torres,,21-10-1987,+63 993342668,914 Quezon St,Quezon City,Philippines,
+P00512,Miguel Mendoza,Male,10/23/1949,N/A,155 Rizal St,Meycauayan,Philippines,Inactive
+P00513,Liza Torres,male,"Nov 05, 1951",095765-1360413,194 Main St,Manila,PH,Inactive
+P00514,Liza Aquino,M,30-10-1998,N/A,469 Mabini St,Bulacan,PH,Inactive
+P00515,Miguel Castillo,M,"May 06, 1960",+63 948674340,362 Mabini St,Malolos,PH,ACTIVE
+P00516,Luis Mendoza,Female,09/25/1955,092255-1690406,589 Rizal St,Malolos,Pilipinas,Inactive
+P00517,Miguel Garcia,male,2003-06-10,094692-3482092,460 National St,Makati,Pilipinas,Active
+P00518,Juan Gonzales,F,12/11/2008,092675-1072046,663 Mabini St,Malolos,Pilipinas,ACTIVE
+P00519,Bea Navarro,F,1970-05-21,09885593029,316 Main St,Angeles,PH,
+P00520,Patricia Santos,M,1944/12/08,+63 936192555,801 Mabini St,Pasig,Philippines,Active
+P00521,Luis Flores,F,2000-09-28,093087-9228643,618 National St,Meycauayan,Philippines,Inactive
+P00522,Ramon Reyes,female,"Aug 06, 2016",095003-1204527,354 Mabini St,Caloocan,,Active
+P00523,Sofia Navarro,F,"Jul 11, 2006",N/A,747 Quezon St,Makati,Philippines,ACTIVE
+P00524,Sofia Mendoza,F,2017/10/30,09460150990,7 Quezon St,Caloocan,,ACTIVE
+P00525,Luis Cruz,female,12/13/1990,099936-7405029,568 Quezon St,Manila,Pilipinas,Inactive
+P00526,Kevin Ramos,female,07/30/1981,092653-5406989,979 Quezon St,Quezon City,Pilipinas,
+P00527,Miguel Cruz,female,11/05/1997,N/A,994 Main St,Bulacan,Pilipinas,
+P00528,Bea Gonzales,,"Feb 20, 1963",09845439994,866 Mabini St,Makati,Philippines,ACTIVE
+P00529,John Cruz,female,26-02-1952,N/A,652 Mabini St,Manila,Pilipinas,Inactive
+P00530,Andrea Torres,Male,02/06/1986,+63 994292753,557 Mabini St,San Fernando,Pilipinas,Inactive
+P00531,Patricia Santos,male,14-01-1992,091138-3297630,382 Quezon St,Angeles,Pilipinas,ACTIVE
+P00532,Ana Garcia,Female,02/27/1985,09992895309,428 Quezon St,Quezon City,Philippines,ACTIVE
+P00533,Juan Cruz,M,14-12-1967,097417-9776515,177 Mabini St,Manila,Philippines,ACTIVE
+P00534,Carlos Flores,female,10/08/1952,09430098648,436 Main St,Quezon City,Philippines,
+P00535,Liza Dela Cruz,Female,1949-09-02,N/A,122 Mabini St,Manila,Philippines,Inactive
+P00536,Juan Castillo,Male,2010-03-10,+63 937568480,687 Mabini St,Manila,Philippines,ACTIVE
+P00537,Angela Aquino,M,08/06/1971,09637552108,102 National St,Manila,PH,ACTIVE
+P00538,Mark Reyes,,1988-03-09,N/A,376 National St,Makati,,Active
+P00539,Miguel Flores,M,"Jan 21, 1974",09330074958,780 Mabini St,Quezon City,,Active
+P00540,Andrea Reyes,F,21-05-2008,09856699057,336 Quezon St,Quezon City,,Inactive
+P00541,Grace Aquino,female,"Dec 28, 1967",N/A,194 Main St,Malolos,Pilipinas,ACTIVE
+P00542,Juan Torres,F,2000-04-18,09525598787,147 Quezon St,Angeles,Philippines,ACTIVE
+P00543,Jose Bautista,Female,05/19/1970,N/A,743 Quezon St,Caloocan,Pilipinas,
+P00544,Patricia Cruz,female,"Feb 10, 1994",N/A,111 Main St,Caloocan,,
+P00545,Daniel Torres,Female,1942-08-31,N/A,695 Main St,Makati,,Inactive
+P00546,Carlos Mendoza,male,1995-11-30,N/A,812 Quezon St,Pasig,Pilipinas,
+P00547,Kevin Ramos,M,30-08-1988,09969174243,441 Main St,Angeles,,Inactive
+P00548,Ramon Cruz,F,1943-03-25,+63 984714519,504 Quezon St,Makati,Pilipinas,
+P00549,Kevin Castillo,Male,"Jan 13, 1991",N/A,576 Rizal St,Meycauayan,Philippines,
+P00550,Angela Cruz,male,1973/11/22,099229-5772070,63 Main St,Bulacan,Philippines,ACTIVE
+P00551,Patricia Bautista,,2006/07/28,09128883480,439 Mabini St,San Fernando,,Inactive
+P00552,Maria Torres,Female,03/19/1962,09795873638,890 Mabini St,Quezon City,Pilipinas,ACTIVE
+P00553,Juan Ramos,M,"May 09, 1943",N/A,274 Main St,Malolos,Philippines,Inactive
+P00554,Ramon Aquino,F,1968/12/04,092074-4454568,509 National St,San Fernando,PH,Inactive
+P00555,Patricia Gonzales,Female,1984-08-01,09675347404,305 National St,Angeles,PH,Active
+P00556,Bea Santos,male,21-03-1970,N/A,438 Rizal St,San Fernando,Philippines,Inactive
+P00557,Andrea Castillo,M,1978/11/02,095448-7749490,640 National St,Malolos,PH,Active
+P00558,Andrea Flores,Female,"Oct 02, 1991",099846-8839914,960 National St,Bulacan,,Active
+P00559,Andrea Garcia,M,06/28/1981,N/A,421 Mabini St,Quezon City,PH,
+P00560,Angela Flores,M,12/16/1997,+63 990696029,117 Rizal St,Pasig,Philippines,ACTIVE
+P00561,Mark Cruz,F,"Mar 23, 1990",+63 996828407,280 Rizal St,Manila,Pilipinas,Inactive
+P00562,Luis Reyes,female,2016-06-25,09875750551,881 Main St,San Fernando,Pilipinas,Active
+P00563,Liza Rivera,M,2000-04-04,09526162812,535 National St,Meycauayan,Pilipinas,
+P00564,Jose Garcia,male,20-12-1950,+63 988426937,958 Quezon St,Pasig,PH,Active
+P00565,Miguel Garcia,M,"Jun 05, 1979",091600-9226851,717 Main St,San Fernando,,
+P00566,Daniel Mendoza,,31-12-1952,09610265498,661 National St,Manila,Philippines,ACTIVE
+P00567,Angela Ramos,F,30-09-1967,N/A,398 Main St,Angeles,Pilipinas,Inactive
+P00568,Jose Rivera,,11/19/2007,092720-8362611,901 Quezon St,Manila,Pilipinas,Active
+P00569,Kevin Cruz,female,17-01-1977,+63 966689004,716 Mabini St,Meycauayan,Philippines,Inactive
+P00570,Liza Aquino,female,2012/12/22,09892191168,657 Rizal St,Malolos,PH,Active
+P00571,Ramon Garcia,female,31-05-1967,+63 921036999,529 Rizal St,Bulacan,,Inactive
+P00572,Grace Cruz,,12/15/2005,098381-6495887,204 Main St,Angeles,Pilipinas,ACTIVE
+P00573,Ramon Rivera,F,2014/11/18,09341041227,998 Quezon St,Pasig,Pilipinas,ACTIVE
+P00574,Maria Gonzales,male,1978/06/24,+63 930032157,970 National St,Quezon City,Philippines,
+P00575,Grace Flores,female,1984-05-01,093045-5466142,765 Quezon St,Angeles,PH,
+P00576,Sofia Aquino,Female,06-12-2013,N/A,812 Rizal St,Manila,Pilipinas,Inactive
+P00577,Daniel Aquino,F,05/26/2021,09496895499,11 Quezon St,Makati,Pilipinas,
+P00578,Sofia Navarro,F,"Jul 23, 2003",09890385760,571 Main St,Manila,Pilipinas,ACTIVE
+P00579,Kevin Rivera,M,1994/05/26,N/A,310 Quezon St,San Fernando,PH,Active
+P00580,Bea Reyes,M,1955/03/29,09629182734,325 National St,Angeles,PH,Inactive
+P00581,Ana Bautista,Male,"Jun 22, 1951",N/A,290 Mabini St,Bulacan,Pilipinas,Inactive
+P00582,Liza Rivera,Female,"Apr 22, 1968",09919990226,194 Rizal St,Manila,PH,ACTIVE
+P00583,Maria Cruz,M,"Sep 03, 1954",N/A,366 National St,Malolos,,
+P00584,Ana Flores,female,10/08/2017,092004-4418084,185 Rizal St,Meycauayan,Pilipinas,ACTIVE
+P00585,Bea Dela Cruz,male,2008/10/18,N/A,694 Main St,San Fernando,Philippines,Inactive
+P00586,Ana Gonzales,M,1992-12-17,09998697433,472 Quezon St,Malolos,Pilipinas,Active
+P00587,John Dela Cruz,female,"Nov 01, 1995",09448875327,821 Mabini St,San Fernando,Philippines,Active
+P00588,Luis Aquino,F,"Apr 20, 1948",09373980159,22 Rizal St,Makati,,
+P00589,Mark Torres,,09/05/1998,096270-8253770,926 National St,Makati,Pilipinas,Active
+P00590,Patricia Ramos,Female,"Dec 04, 1983",09516707955,775 Quezon St,San Fernando,PH,
+P00591,Liza Santos,Male,20-01-1986,N/A,540 National St,Quezon City,Pilipinas,
+P00592,Liza Santos,,06-11-1982,+63 927151649,536 Quezon St,Caloocan,Philippines,Active
+P00593,Maria Ramos,Male,"Oct 24, 1985",095989-5251016,261 National St,Quezon City,Philippines,Active
+P00594,Grace Reyes,,"May 06, 1956",095469-5993696,602 Quezon St,Malolos,Pilipinas,Inactive
+P00595,Miguel Garcia,Female,1947/01/07,09378440227,6 Quezon St,Quezon City,Philippines,ACTIVE
+P00596,Kevin Cruz,female,1976/05/05,N/A,824 Mabini St,Quezon City,PH,ACTIVE
+P00597,Juan Garcia,Male,2013-03-15,N/A,665 Rizal St,Pasig,,ACTIVE
+P00598,Jose Mendoza,,07/29/1981,+63 966623671,925 Rizal St,Malolos,,
+P00599,Juan Flores,F,07/02/1992,09316185483,342 Main St,Quezon City,,
+P00600,Kevin Navarro,male,1993/06/15,N/A,526 National St,Bulacan,,ACTIVE
+P00601,Maria Ramos,Male,1977/11/10,N/A,911 Quezon St,Quezon City,,Inactive
+P00602,Grace Navarro,F,11/12/1941,N/A,238 National St,Pasig,Pilipinas,
+P00603,Carlos Rivera,M,"Nov 11, 2004",N/A,819 Rizal St,Bulacan,PH,Inactive
+P00604,Jose Torres,F,08/01/1951,09314194552,813 Quezon St,Malolos,Pilipinas,ACTIVE
+P00605,Sofia Ramos,Male,17-08-1941,+63 957921617,848 National St,Manila,Philippines,Inactive
+P00606,Liza Santos,male,1960-05-03,096222-5325537,804 Mabini St,Manila,Pilipinas,ACTIVE
+P00607,Andrea Aquino,female,1949-05-05,09570112847,801 National St,Bulacan,Philippines,Active
+P00608,Andrea Santos,Female,1996-07-06,N/A,781 National St,Malolos,Philippines,ACTIVE
+P00609,Patricia Bautista,,1952-05-11,+63 968936139,855 Quezon St,San Fernando,Pilipinas,ACTIVE
+P00610,Jose Mendoza,M,"Feb 29, 2004",+63 994482060,772 National St,Angeles,PH,ACTIVE
+P00611,Liza Gonzales,F,"Jul 26, 2020",+63 958556533,789 Main St,Meycauayan,Philippines,Active
+P00612,John Bautista,F,04/17/2009,+63 918250139,925 National St,Manila,Pilipinas,
+P00613,Ramon Rivera,female,2002/11/14,094695-1132577,922 National St,Bulacan,PH,
+P00614,Grace Torres,Female,2019/08/18,098001-8417942,909 Quezon St,Pasig,Pilipinas,Active
+P00615,Maria Ramos,M,12/27/1974,09658850084,524 National St,Caloocan,Pilipinas,ACTIVE
+P00616,Juan Dela Cruz,,1988/06/09,N/A,518 Main St,Manila,Pilipinas,Inactive
+P00617,Andrea Bautista,Male,1944-04-13,N/A,348 Rizal St,Bulacan,PH,Inactive
+P00618,Mark Mendoza,female,2010/05/28,+63 928786655,108 Mabini St,Meycauayan,PH,Inactive
+P00619,Grace Santos,Female,"Nov 05, 2003",09989528128,436 Rizal St,Malolos,PH,
+P00620,Jose Bautista,female,"Mar 19, 1987",096572-7623350,599 Quezon St,Angeles,,
+P00621,Liza Flores,Female,1952/12/12,+63 975063976,992 National St,Meycauayan,Philippines,ACTIVE
+P00622,Grace Cruz,Male,12/21/2006,09700250339,124 Mabini St,Bulacan,Pilipinas,Active
+P00623,Andrea Reyes,Male,29-04-1973,09502073105,811 Rizal St,Makati,,Active
+P00624,Mark Rivera,M,05/05/1959,091022-3052321,70 Main St,Angeles,,Inactive
+P00625,Bea Cruz,M,"Feb 05, 2010",N/A,780 Quezon St,Malolos,PH,Inactive
+P00626,Jose Castillo,male,1999/08/13,093499-7633663,554 Main St,Malolos,Pilipinas,Active
+P00627,Miguel Navarro,Male,26-04-1991,+63 996591866,979 National St,Meycauayan,Philippines,ACTIVE
+P00628,Kevin Ramos,Male,1950/10/16,+63 912546591,850 National St,Malolos,Philippines,Inactive
+P00629,Ramon Aquino,Male,1984-02-03,09465025573,881 National St,San Fernando,,Inactive
+P00630,Jose Santos,Male,08/09/1988,09406394085,158 Mabini St,Angeles,PH,Active
+P00631,Thomas Bautista,Female,1942-06-09,+63 962336822,423 Mabini St,Caloocan,,Active
+P00632,Maria Garcia,Female,2007/06/23,N/A,973 Main St,Caloocan,Philippines,Inactive
+P00633,Grace Ramos,F,"Nov 14, 1945",09131038055,276 National St,Bulacan,Philippines,ACTIVE
+P00634,Luis Torres,,07-04-1951,+63 964592513,802 Rizal St,San Fernando,PH,ACTIVE
+P00635,Luis Gonzales,male,1980-07-11,+63 972364542,1 Main St,Malolos,Pilipinas,Inactive
+P00636,Ramon Bautista,,09/19/1996,+63 978495121,757 National St,Bulacan,Philippines,Inactive
+P00637,Jose Gonzales,female,01/12/1951,+63 984689357,626 National St,San Fernando,Pilipinas,Inactive
+P00638,Grace Mendoza,Female,01-06-1999,09466822211,936 Rizal St,Manila,,Active
+P00639,Juan Torres,Female,1977/01/24,09847850381,807 Main St,Meycauayan,Philippines,
+P00640,Ana Bautista,,1973/10/07,09484362791,474 Mabini St,Pasig,,Active
+P00641,Daniel Navarro,Male,15-01-2008,093056-2509387,828 Rizal St,Pasig,,Inactive
+P00642,Maria Mendoza,F,2021/02/22,09324504731,891 Mabini St,Bulacan,,ACTIVE
+P00643,Luis Garcia,female,2006/04/13,09821742994,603 Rizal St,Quezon City,PH,Inactive
+P00644,Bea Flores,Female,2019/01/14,093059-1387847,698 National St,Malolos,Philippines,
+P00645,Maria Flores,M,"Oct 21, 1978",N/A,508 Mabini St,Meycauayan,Philippines,ACTIVE
+P00646,Maria Mendoza,F,"Oct 07, 1987",095207-4264982,84 National St,Manila,PH,
+P00647,Jose Rivera,Female,08/30/1957,09453502263,492 Quezon St,Manila,Pilipinas,Inactive
+P00648,Daniel Santos,F,20-05-1961,+63 917305854,967 Main St,Bulacan,,Active
+P00649,Grace Aquino,Male,1947-09-03,+63 960653117,64 Quezon St,Manila,Pilipinas,
+P00650,Jose Santos,female,1945/01/02,09156052697,633 Quezon St,Pasig,Philippines,
+P00651,Ramon Cruz,,1978/05/29,N/A,530 Mabini St,Bulacan,PH,Active
+P00652,Ana Dela Cruz,male,2003-12-29,097154-3113620,364 Quezon St,Malolos,,ACTIVE
+P00653,Daniel Reyes,,1943-12-15,097276-8312318,319 National St,Meycauayan,PH,ACTIVE
+P00654,Kevin Mendoza,male,06-10-1970,09496028184,244 National St,Meycauayan,Philippines,
+P00655,Patricia Garcia,Female,06/19/1997,N/A,712 Quezon St,Bulacan,Pilipinas,Inactive
+P00656,Thomas Mendoza,F,06/25/1969,N/A,225 Main St,Pasig,PH,
+P00657,Thomas Garcia,Female,17-02-1983,+63 960454028,846 Main St,San Fernando,Philippines,Active
+P00658,Patricia Dela Cruz,male,05/02/1950,09412003832,999 Main St,Pasig,PH,Inactive
+P00659,Miguel Garcia,M,06/27/2004,+63 984424395,23 Rizal St,Caloocan,Philippines,Active
+P00660,Carlos Gonzales,female,2010-08-22,+63 938217583,379 Mabini St,Makati,,Active
+P00661,Ana Reyes,Female,04/25/2011,095060-7278962,614 Quezon St,Pasig,Philippines,ACTIVE
+P00662,Luis Mendoza,,30-04-1953,+63 917148298,872 National St,Bulacan,,ACTIVE
+P00663,Jose Castillo,F,2010/12/18,096461-7511503,511 National St,Malolos,PH,Inactive
+P00664,Patricia Ramos,female,"May 11, 1983",09608693948,213 Rizal St,Pasig,,ACTIVE
+P00665,Ramon Garcia,M,"Feb 17, 1978",09713504282,138 Main St,Caloocan,,Inactive
+P00666,Daniel Aquino,Male,1981/09/27,N/A,443 Quezon St,San Fernando,,Inactive
+P00667,Angela Gonzales,Male,"Feb 10, 1956",097929-2273196,924 Main St,Caloocan,Philippines,Inactive
+P00668,Daniel Santos,Male,26-05-1946,+63 983286377,692 Mabini St,Caloocan,Pilipinas,Inactive
+P00669,Sofia Navarro,male,1952/05/14,099268-6024342,843 Mabini St,Angeles,,Active
+P00670,Kevin Torres,male,04/14/2008,N/A,240 National St,Bulacan,,
+P00671,John Castillo,Male,02/01/1968,N/A,874 National St,Manila,Pilipinas,ACTIVE
+P00672,Bea Flores,Female,1967-05-31,099958-6950248,231 Quezon St,Angeles,,Inactive
+P00673,John Aquino,Male,1990-12-02,N/A,210 Quezon St,Quezon City,,ACTIVE
+P00674,Kevin Santos,M,"Feb 03, 1991",09786124569,692 National St,Makati,Philippines,
+P00675,Juan Reyes,Female,"Mar 27, 1946",09404746849,466 Main St,San Fernando,Philippines,ACTIVE
+P00676,John Flores,F,02/01/1975,N/A,761 Main St,Angeles,PH,ACTIVE
+P00677,Sofia Mendoza,F,"May 17, 2013",+63 991028510,515 Quezon St,Caloocan,PH,Active
+P00678,Carlos Cruz,Male,"Dec 22, 2013",N/A,472 Quezon St,Bulacan,Philippines,Active
+P00679,Mark Torres,F,10-02-1971,N/A,256 Rizal St,Bulacan,,
+P00680,Ramon Rivera,female,1956/06/16,+63 962821563,907 Rizal St,Caloocan,Pilipinas,Active
+P00681,Sofia Rivera,F,1976/11/23,091821-2765375,420 Quezon St,Makati,Pilipinas,ACTIVE
+P00682,Andrea Dela Cruz,F,1942-05-25,N/A,877 Rizal St,Angeles,Philippines,Active
+P00683,Angela Santos,female,30-03-1952,09819724388,85 National St,Pasig,,ACTIVE
+P00684,Kevin Flores,M,07/02/2015,+63 912424794,302 Main St,Meycauayan,,ACTIVE
+P00685,Jose Torres,,02-01-1941,+63 969144114,732 Main St,Meycauayan,PH,
+P00686,Maria Flores,female,2012/10/20,N/A,707 Mabini St,Malolos,Philippines,Active
+P00687,Maria Castillo,F,10/26/2008,09368113097,17 Quezon St,Manila,Philippines,Inactive
+P00688,Sofia Torres,female,09/01/1945,09203726898,426 National St,Quezon City,Pilipinas,Inactive
+P00689,Luis Torres,Female,01/16/1996,+63 963024581,219 Main St,San Fernando,Pilipinas,ACTIVE
+P00690,Juan Gonzales,female,1968-05-15,09517885994,674 Mabini St,Bulacan,Pilipinas,Active
+P00691,Jose Rivera,Female,17-11-1976,+63 990378849,258 Main St,Bulacan,Pilipinas,
+P00692,Carlos Bautista,Female,31-12-1996,09815509975,624 National St,Malolos,,ACTIVE
+P00693,Andrea Aquino,female,03/11/1941,099149-3081317,243 Quezon St,Pasig,Philippines,Active
+P00694,Carlos Bautista,F,08/11/1966,+63 960432035,946 National St,Malolos,Pilipinas,ACTIVE
+P00695,Angela Bautista,female,2010-08-08,09659282971,235 Mabini St,San Fernando,PH,ACTIVE
+P00696,Luis Dela Cruz,female,04/12/1962,+63 961202173,453 Main St,Quezon City,,Active
+P00697,Sofia Dela Cruz,female,09/11/1952,+63 922315737,520 Main St,Angeles,,Inactive
+P00698,Miguel Navarro,Female,"Dec 21, 1961",093673-6085186,591 Quezon St,Pasig,Pilipinas,
+P00699,Jose Bautista,F,11/20/1973,N/A,779 Rizal St,Malolos,Philippines,
+P00700,Liza Flores,Male,30-01-2008,092640-3947745,390 Quezon St,Caloocan,,Inactive
+P00701,Ramon Ramos,male,1983-02-20,+63 928341704,159 Rizal St,Manila,Philippines,Inactive
+P00702,Kevin Gonzales,F,28-05-1975,N/A,907 Main St,Quezon City,,ACTIVE
+P00703,Sofia Castillo,F,25-11-1962,09647187810,667 Quezon St,Angeles,PH,ACTIVE
+P00704,Kevin Dela Cruz,,1972-06-03,097929-3481086,620 Quezon St,Makati,Pilipinas,ACTIVE
+P00705,Thomas Aquino,female,06/30/2015,N/A,408 National St,Quezon City,PH,
+P00706,Miguel Flores,F,08-09-1962,098070-7422127,752 Quezon St,Quezon City,Philippines,Inactive
+P00707,Carlos Mendoza,female,"Oct 18, 1958",N/A,2 Main St,Quezon City,,
+P00708,Mark Navarro,F,04/23/1955,+63 935018189,499 Rizal St,Meycauayan,Philippines,
+P00709,Bea Flores,Female,08/26/1956,099688-4219293,924 Quezon St,Malolos,Philippines,ACTIVE
+P00710,Jose Mendoza,Male,1973-11-20,+63 918625158,490 Quezon St,Quezon City,Philippines,Active
+P00711,Angela Castillo,Male,1999/09/09,09947404741,385 National St,Meycauayan,Pilipinas,
+P00712,Kevin Castillo,M,"Mar 22, 1994",098321-6755884,837 Rizal St,San Fernando,,
+P00713,Thomas Dela Cruz,M,30-04-2018,N/A,743 Rizal St,Manila,Philippines,Inactive
+P00714,Daniel Bautista,F,"Jun 23, 1995",09652884702,654 Mabini St,Manila,Pilipinas,Active
+P00715,John Torres,F,1960/12/14,098937-2365149,439 Quezon St,Quezon City,,Inactive
+P00716,Thomas Garcia,female,1952/11/04,N/A,816 Main St,Caloocan,,ACTIVE
+P00717,Grace Santos,F,1999/06/13,09358666136,109 Quezon St,Manila,PH,Inactive
+P00718,Ramon Castillo,M,09-10-1959,+63 973928214,945 National St,Malolos,Philippines,Inactive
+P00719,Daniel Rivera,male,2008/10/01,N/A,670 National St,Angeles,PH,ACTIVE
+P00720,Angela Santos,M,1947-11-13,09195712730,587 Mabini St,Makati,Pilipinas,
+P00721,Bea Navarro,Male,1967-11-19,N/A,328 Mabini St,Makati,PH,Active
+P00722,Ramon Dela Cruz,male,"Jun 20, 2016",+63 929421410,512 Quezon St,Makati,Pilipinas,ACTIVE
+P00723,Maria Aquino,M,1967/09/17,+63 926571059,507 Mabini St,Angeles,Philippines,Inactive
+P00724,Carlos Flores,female,11/23/1958,N/A,745 Quezon St,Caloocan,PH,Active
+P00725,Luis Gonzales,M,"Nov 24, 1977",095199-2204993,290 Rizal St,Meycauayan,,Active
+P00726,Carlos Bautista,,2010/12/27,N/A,671 Rizal St,Bulacan,PH,
+P00727,Kevin Mendoza,Female,10/26/1958,098895-1153218,744 National St,Quezon City,PH,
+P00728,Liza Torres,,1955-02-03,09203130465,121 National St,San Fernando,,ACTIVE
+P00729,Ramon Garcia,Male,08/28/1950,N/A,795 Main St,Malolos,,Inactive
+P00730,Grace Bautista,Male,1950-10-07,+63 926381483,24 National St,Bulacan,,Inactive
+P00731,Ana Castillo,male,"Mar 31, 1956",098545-8275548,586 Rizal St,Quezon City,Pilipinas,Active
+P00732,Luis Reyes,F,2012-12-04,N/A,66 National St,Bulacan,Philippines,ACTIVE
+P00733,Ana Reyes,,09/30/1993,09105716605,41 Rizal St,Bulacan,PH,ACTIVE
+P00734,Jose Ramos,M,2016-05-21,096434-6009306,990 National St,Makati,,Active
+P00735,Daniel Mendoza,Male,08-08-1986,N/A,712 Mabini St,Meycauayan,Pilipinas,ACTIVE
+P00736,Ana Torres,,01/05/1944,+63 935242818,981 Rizal St,Bulacan,PH,Inactive
+P00737,Angela Reyes,female,"Oct 30, 1995",N/A,666 Rizal St,Angeles,,Active
+P00738,Angela Torres,F,04/22/2002,+63 937348593,732 Mabini St,Bulacan,PH,
+P00739,Carlos Bautista,,"Nov 26, 1978",093657-2300646,128 National St,Quezon City,,Active
+P00740,John Torres,Male,19-07-1972,092571-4787716,11 Main St,Angeles,PH,
+P00741,Ana Castillo,Male,1955/10/07,09882035603,542 Mabini St,Bulacan,Pilipinas,Inactive
+P00742,Thomas Santos,Male,27-04-1955,N/A,489 National St,Makati,Pilipinas,Active
+P00743,Andrea Navarro,Female,12/29/1998,09253190896,941 Mabini St,Pasig,,
+P00744,Miguel Cruz,M,"Aug 20, 2011",+63 948496283,313 Main St,Caloocan,,Inactive
+P00745,Jose Torres,Male,11/18/1946,09200538326,762 Mabini St,Meycauayan,,Active
+P00746,Liza Torres,male,07/24/2005,09615026653,416 Main St,Bulacan,PH,Active
+P00747,Liza Navarro,male,04-04-2007,09362235929,622 Quezon St,Makati,PH,ACTIVE
+P00748,Jose Bautista,,1951/12/17,N/A,175 Mabini St,Quezon City,Pilipinas,ACTIVE
+P00749,Luis Flores,,2016-12-15,096187-5924868,219 Main St,Bulacan,,ACTIVE
+P00750,Mark Rivera,female,1986-04-01,096242-1964635,7 National St,Malolos,Pilipinas,Inactive
+P00751,Patricia Santos,Male,05/17/1971,N/A,504 Rizal St,Quezon City,PH,
+P00752,Ana Rivera,F,08/14/1940,N/A,405 Mabini St,Caloocan,Pilipinas,
+P00753,Miguel Ramos,,1964-03-05,+63 998084362,363 Quezon St,Manila,Pilipinas,ACTIVE
+P00754,Ana Garcia,M,08/12/1943,09523640548,165 Rizal St,Malolos,Pilipinas,Active
+P00755,Liza Cruz,male,06/16/1984,+63 963670451,113 Main St,Manila,PH,ACTIVE
+P00756,Patricia Ramos,Male,11/04/2008,N/A,492 Mabini St,Caloocan,,Active
+P00757,Liza Garcia,male,1953/09/05,094018-2929715,718 Rizal St,Angeles,PH,
+P00758,Ana Navarro,female,1985/01/24,+63 935322723,124 Rizal St,Angeles,Philippines,Inactive
+P00759,Sofia Rivera,Female,1978-03-31,N/A,418 National St,Caloocan,PH,ACTIVE
+P00760,John Gonzales,F,1945/07/03,09558565952,276 Mabini St,Caloocan,Pilipinas,
+P00761,Daniel Bautista,Male,1956-04-21,+63 916996855,293 Quezon St,Caloocan,Philippines,
+P00762,Miguel Mendoza,F,13-08-1972,+63 924969117,340 Mabini St,San Fernando,Pilipinas,ACTIVE
+P00763,Angela Garcia,male,1974-06-15,09214209107,601 Rizal St,Pasig,,Active
+P00764,Jose Ramos,male,06-10-1970,+63 973645847,45 Rizal St,Pasig,,Inactive
+P00765,Luis Bautista,M,1980-03-26,09568286479,171 National St,Caloocan,PH,Inactive
+P00766,Maria Aquino,Male,04/08/2011,09895336885,170 Quezon St,Meycauayan,,
+P00767,Ramon Aquino,M,07/25/1958,09103866057,901 National St,Malolos,Pilipinas,Inactive
+P00768,Daniel Mendoza,female,1964/02/02,+63 932965874,299 Main St,Makati,Pilipinas,ACTIVE
+P00769,Angela Flores,,08/15/1944,09984130042,665 Mabini St,Bulacan,Pilipinas,Inactive
+P00770,Jose Navarro,male,09/09/1963,09538454827,641 Main St,San Fernando,PH,Inactive
+P00771,Miguel Mendoza,Male,1988/03/18,+63 961268618,837 Quezon St,Pasig,Pilipinas,Inactive
+P00772,Sofia Aquino,female,"Jun 18, 2012",093488-8279693,152 Quezon St,Quezon City,,ACTIVE
+P00773,Grace Reyes,,05/13/2017,096266-4026721,22 Mabini St,Makati,PH,
+P00774,Thomas Garcia,Male,1952-11-15,09557838178,742 National St,Makati,Philippines,Active
+P00775,Ramon Gonzales,Male,1949-11-14,+63 996500924,789 Main St,Caloocan,PH,Active
+P00776,Juan Castillo,Male,28-08-1988,N/A,778 National St,Malolos,PH,Inactive
+P00777,John Cruz,Female,1961-11-15,09683607071,845 Main St,Quezon City,Pilipinas,Active
+P00778,Andrea Rivera,,04/04/1977,N/A,395 Rizal St,San Fernando,Pilipinas,ACTIVE
+P00779,Ramon Torres,female,2013-10-25,09628088326,980 Mabini St,San Fernando,Philippines,Inactive
+P00780,Ana Bautista,Male,2020-05-06,092911-8191191,615 Rizal St,Angeles,PH,Inactive
+P00781,Thomas Flores,M,1971-04-03,098105-7192680,831 Main St,Manila,PH,ACTIVE
+P00782,John Reyes,F,"Jan 28, 1980",092215-8171473,149 Main St,San Fernando,PH,ACTIVE
+P00783,Ramon Bautista,M,"May 03, 1984",+63 965558669,822 Rizal St,Angeles,,
+P00784,Luis Ramos,F,1987/10/09,N/A,540 National St,Pasig,Philippines,ACTIVE
+P00785,Patricia Dela Cruz,Female,2016-04-23,09489122363,62 Mabini St,San Fernando,PH,Inactive
+P00786,Grace Reyes,,2016/07/21,09552127953,765 Rizal St,Quezon City,PH,
+P00787,Juan Navarro,F,1973-05-06,N/A,858 National St,Makati,Philippines,ACTIVE
+P00788,Patricia Reyes,Male,1961-12-25,+63 986394469,784 Rizal St,Malolos,PH,Inactive
+P00789,Kevin Gonzales,female,"Apr 06, 1970",098465-1221617,114 Rizal St,Manila,Philippines,ACTIVE
+P00790,Andrea Reyes,Male,"Jul 24, 1975",096950-5329433,727 Rizal St,Angeles,PH,Inactive
+P00791,Jose Ramos,F,03/24/1951,N/A,189 National St,Bulacan,Philippines,
+P00792,Kevin Bautista,female,"Aug 02, 1997",092769-1917238,663 Quezon St,Pasig,Pilipinas,Active
+P00793,Ana Santos,M,11-02-1994,09130117239,67 Rizal St,Bulacan,Philippines,Inactive
+P00794,Sofia Ramos,Female,1997-04-09,N/A,47 Main St,San Fernando,Philippines,Inactive
+P00795,Juan Bautista,,"May 02, 1965",094376-7553873,998 Rizal St,Quezon City,Pilipinas,
+P00796,Andrea Santos,male,06/10/2012,N/A,601 Main St,Caloocan,PH,ACTIVE
+P00797,Grace Santos,female,05/14/1948,092512-3701920,459 Rizal St,San Fernando,Pilipinas,Inactive
+P00798,Thomas Flores,F,"Aug 04, 1943",+63 938027431,581 Quezon St,Quezon City,Philippines,ACTIVE
+P00799,Mark Ramos,,2011-07-15,+63 922631766,957 Mabini St,Makati,Philippines,Inactive
+P00800,Bea Bautista,M,1948-01-02,093769-8940001,782 Quezon St,Makati,Philippines,
+P00801,Maria Bautista,,"Sep 18, 1965",N/A,376 National St,Bulacan,Pilipinas,Inactive
+P00802,Jose Torres,F,"May 22, 1985",+63 915727818,717 National St,Manila,PH,Active
+P00803,Mark Gonzales,Female,"Feb 24, 1991",09178360259,358 Quezon St,Malolos,,Active
+P00804,Jose Reyes,female,"Sep 20, 1949",093141-7736395,67 Mabini St,San Fernando,,ACTIVE
+P00805,Kevin Santos,M,1980-10-12,+63 930903218,328 National St,Manila,,Active
+P00806,Patricia Castillo,F,06/21/1982,091246-8095426,259 Rizal St,Quezon City,PH,Active
+P00807,Angela Gonzales,Male,"Oct 06, 1966",+63 980434503,851 Main St,Quezon City,,Inactive
+P00808,Mark Reyes,Female,"May 03, 1971",N/A,364 National St,Angeles,Philippines,ACTIVE
+P00809,Jose Navarro,female,1991/11/24,09255281581,155 Quezon St,Makati,,Inactive
+P00810,Ana Castillo,female,16-06-1976,N/A,655 National St,Quezon City,Philippines,ACTIVE
+P00811,Sofia Gonzales,female,12/28/1988,+63 960674785,976 Rizal St,Bulacan,Philippines,Inactive
+P00812,Patricia Dela Cruz,M,10-06-2020,N/A,424 Quezon St,San Fernando,Pilipinas,
+P00813,Andrea Castillo,M,03/04/1950,+63 967496675,556 Quezon St,Angeles,Pilipinas,
+P00814,Mark Navarro,male,2021-04-08,N/A,107 Quezon St,Bulacan,Philippines,
+P00815,Andrea Aquino,,05-12-1942,N/A,118 Rizal St,Malolos,Philippines,Inactive
+P00816,Grace Gonzales,,"Nov 07, 1997",099398-4757032,275 Mabini St,Caloocan,,ACTIVE
+P00817,Juan Rivera,F,1942-12-06,099488-7281485,344 Rizal St,Bulacan,,ACTIVE
+P00818,Luis Gonzales,Female,"Apr 15, 1995",+63 916923083,962 Quezon St,Makati,,Inactive
+P00819,Andrea Reyes,F,1960-09-20,N/A,864 Mabini St,Meycauayan,PH,Inactive
+P00820,Sofia Santos,Male,"Apr 20, 1942",09112388963,633 National St,Quezon City,,Active
+P00821,Carlos Cruz,female,27-08-1996,098006-4720435,199 National St,Pasig,,Inactive
+P00822,Maria Mendoza,Male,1952-11-24,N/A,950 National St,Quezon City,Philippines,ACTIVE
+P00823,Mark Mendoza,Female,1948-04-28,09630691582,503 Main St,Angeles,Philippines,
+P00824,Jose Garcia,female,"Sep 02, 1977",+63 995033882,306 Main St,Makati,Philippines,Active
+P00825,John Bautista,F,1995/01/31,092700-9753488,949 Main St,Pasig,Philippines,Active
+P00826,Andrea Ramos,,09/01/1953,093329-1494887,142 Rizal St,Quezon City,PH,Inactive
+P00827,Angela Cruz,Female,01-04-1948,N/A,764 Quezon St,Angeles,,ACTIVE
+P00828,Angela Reyes,Female,21-08-2001,+63 923810279,814 Rizal St,Malolos,,
+P00829,Liza Aquino,female,16-05-1964,N/A,205 National St,San Fernando,Pilipinas,Active
+P00830,Grace Reyes,Male,16-11-1985,094151-9900282,408 Main St,Quezon City,PH,Inactive
+P00831,Liza Castillo,Female,02/04/1972,098053-7235425,149 Mabini St,Quezon City,Philippines,Inactive
+P00832,Juan Navarro,M,"Mar 06, 1959",N/A,291 National St,Pasig,PH,Active
+P00833,Luis Mendoza,female,1994-07-15,095528-8301537,833 Mabini St,Pasig,PH,Active
+P00834,Kevin Cruz,Male,"Aug 14, 1964",095861-3871248,606 Quezon St,Pasig,Philippines,Inactive
+P00835,Juan Torres,,2016/10/20,N/A,38 National St,Meycauayan,Philippines,Inactive
+P00836,Juan Santos,F,"Jul 13, 1948",093949-6321559,410 Main St,Meycauayan,Pilipinas,
+P00837,Thomas Dela Cruz,F,"Oct 10, 1966",09629716164,30 Rizal St,Manila,Philippines,ACTIVE
+P00838,Ana Bautista,,"Sep 08, 2001",091945-4207127,836 National St,Manila,Philippines,Inactive
+P00839,Maria Santos,Male,1967-04-19,098386-7367900,716 Rizal St,Makati,,Active
+P00840,Carlos Bautista,,1953/04/11,+63 995483760,592 Quezon St,Malolos,Pilipinas,Inactive
+P00841,Kevin Garcia,Male,01-09-1963,+63 921112459,712 Main St,Quezon City,,Active
+P00842,Sofia Dela Cruz,female,"May 23, 1959",09978869972,349 Rizal St,Bulacan,Pilipinas,Inactive
+P00843,Grace Torres,Female,2016/01/22,N/A,999 Quezon St,Bulacan,PH,
+P00844,Sofia Santos,M,12/15/1977,+63 951224542,473 Main St,Quezon City,PH,Active
+P00845,Grace Reyes,M,"Jul 25, 1942",095860-6904855,122 National St,Quezon City,Pilipinas,
+P00846,Sofia Reyes,F,"Jan 19, 1985",091570-8404466,379 Main St,Manila,,
+P00847,Sofia Mendoza,Female,02/16/1976,N/A,112 Main St,Pasig,Philippines,ACTIVE
+P00848,Ana Dela Cruz,Male,10-08-1991,096713-2695035,232 National St,Angeles,,
+P00849,Ana Garcia,female,06-12-2013,092836-4415429,653 Mabini St,Bulacan,Pilipinas,Active
+P00850,Ana Reyes,male,2021/06/10,+63 950979918,323 Main St,Makati,PH,Inactive
+P00851,Grace Reyes,Male,"Oct 02, 1999",091223-3978208,903 Main St,Makati,Philippines,Inactive
+P00852,Kevin Aquino,Male,10/22/1983,091485-1291769,856 Rizal St,Meycauayan,PH,ACTIVE
+P00853,Ana Santos,M,13-02-2012,098890-6885129,680 Quezon St,Caloocan,Pilipinas,
+P00854,Juan Flores,M,06-01-1967,09656016860,277 National St,Manila,PH,
+P00855,Daniel Torres,Female,"Jan 17, 1972",097201-8226291,212 Main St,Pasig,,Active
+P00856,Angela Rivera,female,2000/11/23,092878-5451151,910 Mabini St,Angeles,,Inactive
+P00857,Mark Garcia,Male,1991/12/28,N/A,815 Quezon St,Bulacan,Pilipinas,Inactive
+P00858,Ana Dela Cruz,F,07/02/2001,+63 930163227,311 Quezon St,Caloocan,Philippines,Inactive
+P00859,Juan Cruz,Male,01-07-1959,N/A,314 Main St,Angeles,Pilipinas,Active
+P00860,Maria Mendoza,Female,02-06-1971,09943170042,731 Mabini St,Makati,PH,
+P00861,Bea Rivera,Male,02/02/1966,N/A,433 Quezon St,Quezon City,Pilipinas,Inactive
+P00862,Thomas Mendoza,Female,"Aug 04, 1990",+63 953282519,257 Rizal St,Angeles,PH,Inactive
+P00863,Mark Santos,M,"Nov 02, 1990",09686081231,142 National St,Malolos,Pilipinas,Inactive
+P00864,Grace Bautista,F,"Nov 08, 1981",N/A,91 Rizal St,Bulacan,Pilipinas,ACTIVE
+P00865,Bea Ramos,M,1951/06/02,N/A,129 Quezon St,Manila,,
+P00866,Maria Santos,Male,1964-03-28,N/A,708 Mabini St,Manila,Philippines,Active
+P00867,Sofia Ramos,Female,"Jun 04, 1990",098255-3596701,644 Mabini St,Manila,,ACTIVE
+P00868,Ana Santos,Male,1953/09/23,+63 979769403,107 Quezon St,Manila,,
+P00869,Maria Rivera,Male,"Nov 27, 1966",099807-4941435,842 National St,Malolos,Philippines,
+P00870,Carlos Torres,Male,07/30/1956,+63 998243507,488 Quezon St,Caloocan,Pilipinas,Active
+P00871,Bea Cruz,M,26-11-1999,N/A,427 Quezon St,Makati,Philippines,Inactive
+P00872,Grace Santos,male,1974-12-08,09723348011,930 Mabini St,Makati,,
+P00873,Angela Dela Cruz,Female,1972/02/04,N/A,526 Main St,Makati,PH,Inactive
+P00874,Bea Bautista,F,02/29/2004,09398865449,939 Quezon St,Angeles,,ACTIVE
+P00875,Bea Navarro,male,2009/07/25,098492-6437103,599 National St,Angeles,Philippines,Active
+P00876,Juan Flores,female,04/12/1954,N/A,332 Rizal St,Pasig,Philippines,ACTIVE
+P00877,Ramon Castillo,F,1945-10-10,09757026515,453 Mabini St,Bulacan,Philippines,ACTIVE
+P00878,John Santos,female,"Apr 29, 1980",+63 995549812,259 Quezon St,Malolos,Pilipinas,ACTIVE
+P00879,Sofia Navarro,Female,1978/12/10,09968305176,209 Main St,Makati,Philippines,Inactive
+P00880,Liza Aquino,male,2017-07-22,N/A,195 Rizal St,Bulacan,,Inactive
+P00881,Patricia Aquino,male,07/24/2016,N/A,895 Main St,Bulacan,Philippines,ACTIVE
+P00882,Andrea Mendoza,Male,"Jul 31, 1950",09347576416,230 Mabini St,Caloocan,,Inactive
+P00883,Jose Flores,,28-02-1954,097177-5049993,409 National St,Manila,Philippines,
+P00884,Angela Torres,Male,23-11-1942,09552480926,143 Rizal St,Meycauayan,Pilipinas,Active
+P00885,Daniel Cruz,Male,2012/04/11,N/A,613 National St,Quezon City,,ACTIVE
+P00886,Angela Navarro,Male,1949-05-02,N/A,490 Mabini St,Pasig,Philippines,Active
+P00887,Juan Castillo,,10/15/2012,N/A,54 Quezon St,Angeles,PH,
+P00888,Liza Ramos,Female,"May 15, 1950",+63 992631573,352 Quezon St,Manila,PH,ACTIVE
+P00889,Jose Aquino,Male,"May 17, 1960",09902595907,895 Rizal St,Manila,Philippines,Active
+P00890,Carlos Cruz,Female,1965-05-09,097468-5097740,133 National St,Angeles,,Active
+P00891,Jose Santos,M,10/09/1988,093365-8441397,965 Mabini St,Meycauayan,Pilipinas,ACTIVE
+P00892,Andrea Rivera,M,1968/08/09,N/A,723 National St,Malolos,Pilipinas,Active
+P00893,Sofia Rivera,Female,2015/06/27,09347536065,382 Rizal St,Manila,PH,
+P00894,Grace Santos,Male,1984-10-04,097316-7445414,848 Main St,Manila,Pilipinas,
+P00895,Kevin Dela Cruz,,"Apr 28, 1974",N/A,189 Quezon St,Meycauayan,Philippines,Inactive
+P00896,Maria Ramos,,1971-03-15,+63 955126455,776 Main St,San Fernando,,
+P00897,Maria Castillo,Male,"Aug 21, 1989",N/A,587 National St,Meycauayan,Pilipinas,ACTIVE
+P00898,Ramon Cruz,female,05/16/1961,09116303070,256 National St,Caloocan,Pilipinas,
+P00899,Maria Aquino,M,13-06-1972,09807842761,315 National St,San Fernando,Pilipinas,ACTIVE
+P00900,Grace Cruz,Male,1979-06-19,+63 914966560,419 Main St,Bulacan,Philippines,Inactive
+P00901,Thomas Ramos,M,"Sep 29, 1945",099224-5632933,890 Quezon St,Makati,PH,ACTIVE
+P00902,Carlos Flores,male,1998-11-07,+63 925360757,701 National St,Malolos,Pilipinas,Active
+P00903,Luis Navarro,Female,15-06-1945,09376429550,615 Rizal St,San Fernando,Philippines,Active
+P00904,Andrea Cruz,Male,1985-11-05,N/A,74 Quezon St,Caloocan,PH,Active
+P00905,John Aquino,,27-04-1972,095023-8896784,637 Main St,Makati,Pilipinas,Active
+P00906,Mark Rivera,Female,2021/10/22,097539-4548039,524 National St,Bulacan,Pilipinas,ACTIVE
+P00907,Ramon Flores,male,12/04/1942,+63 997135770,579 National St,Bulacan,,Active
+P00908,Andrea Castillo,Male,"Jun 19, 1994",096587-8399044,276 Rizal St,Bulacan,Pilipinas,ACTIVE
+P00909,John Garcia,,13-11-2008,+63 971179282,456 Quezon St,San Fernando,Philippines,Inactive
+P00910,Luis Ramos,Male,20-01-2022,N/A,806 Quezon St,Pasig,PH,ACTIVE
+P00911,Liza Torres,male,09/28/1999,099545-5813134,322 Main St,Quezon City,,
+P00912,Andrea Reyes,male,05/02/1984,09293183018,429 Mabini St,Meycauayan,,Active
+P00913,Carlos Flores,Male,"Oct 22, 2014",N/A,926 Quezon St,San Fernando,PH,
+P00914,Luis Garcia,female,1966-04-27,09461645150,76 Mabini St,Malolos,,
+P00915,Liza Mendoza,,10/20/1982,09887528569,156 Main St,Bulacan,Pilipinas,
+P00916,Ramon Bautista,F,1955/11/08,+63 988930879,305 Quezon St,San Fernando,Philippines,
+P00917,Mark Bautista,F,07/31/1968,N/A,532 Mabini St,Bulacan,Pilipinas,Active
+P00918,Patricia Mendoza,Female,20-08-1950,+63 975315141,296 Mabini St,Bulacan,Philippines,ACTIVE
+P00919,Angela Reyes,Male,1958/07/22,+63 932662988,7 Quezon St,Manila,Pilipinas,ACTIVE
+P00920,Mark Aquino,F,"Sep 05, 2005",099923-8614329,941 Main St,Quezon City,,
+P00921,Kevin Mendoza,Male,07/23/2017,09398986845,763 Rizal St,Quezon City,Pilipinas,ACTIVE
+P00922,Andrea Bautista,M,1980/09/06,09821641990,444 Main St,Meycauayan,Pilipinas,ACTIVE
+P00923,Luis Torres,,2018-09-24,+63 994192774,601 Quezon St,Pasig,PH,Inactive
+P00924,Kevin Reyes,F,01/05/2013,+63 976669489,651 Main St,Meycauayan,PH,Active
+P00925,Liza Santos,F,1990/01/13,091416-8015549,629 Quezon St,Bulacan,PH,Inactive
+P00926,Kevin Ramos,female,26-02-1956,N/A,816 Quezon St,Bulacan,Pilipinas,
+P00927,Mark Santos,Female,30-01-1950,N/A,119 Rizal St,Malolos,Pilipinas,Active
+P00928,Patricia Navarro,F,03/26/2003,N/A,704 Rizal St,Manila,Pilipinas,Inactive
+P00929,Andrea Garcia,,"Mar 25, 2010",099287-6422262,692 Mabini St,Angeles,,
+P00930,Liza Gonzales,M,2021-11-07,098818-4673341,652 Main St,Caloocan,,
+P00931,Daniel Aquino,Female,02/02/1988,+63 993924534,620 National St,Manila,Philippines,
+P00932,Jose Castillo,female,25-11-1969,+63 984208202,371 National St,Pasig,PH,
+P00933,Daniel Mendoza,,24-06-1954,09455947683,37 Main St,Meycauayan,Philippines,
+P00934,Kevin Dela Cruz,Female,25-05-1965,09126032185,279 Main St,Angeles,,ACTIVE
+P00935,Angela Flores,Male,1946-11-12,+63 965751363,98 National St,Angeles,PH,Inactive
+P00936,John Gonzales,male,2006-09-13,09424435363,271 National St,Malolos,,Inactive
+P00937,Liza Santos,Female,1976/06/14,+63 974874074,392 Main St,Malolos,,Inactive
+P00938,Luis Navarro,Male,07/28/1980,N/A,379 Quezon St,Bulacan,Philippines,Inactive
+P00939,John Reyes,,1996-07-06,N/A,608 Rizal St,Quezon City,PH,
+P00940,Thomas Flores,F,1986/12/15,091632-9278176,422 Mabini St,San Fernando,PH,Active
+P00941,John Navarro,male,"Sep 18, 1993",N/A,559 Quezon St,San Fernando,PH,Inactive
+P00942,Grace Navarro,F,1986/02/24,09894230707,385 Rizal St,Manila,PH,Active
+P00943,Miguel Garcia,F,2018-01-10,N/A,144 National St,Angeles,,Active
+P00944,Mark Santos,F,25-05-1966,+63 953269935,145 Mabini St,Meycauayan,PH,Inactive
+P00945,Andrea Aquino,M,"May 10, 1982",+63 954315629,537 Quezon St,Manila,Pilipinas,
+P00946,Miguel Reyes,F,1946-01-06,N/A,339 Main St,Manila,,ACTIVE
+P00947,Jose Bautista,female,03/01/1990,091151-4231974,292 Quezon St,Bulacan,Pilipinas,Inactive
+P00948,Thomas Castillo,F,1962/11/08,09680912575,607 Rizal St,Quezon City,PH,Inactive
+P00949,Miguel Mendoza,male,03/06/1949,097306-7424776,590 National St,Bulacan,Pilipinas,
+P00950,Sofia Reyes,Male,04/12/2010,+63 922259214,169 Quezon St,Manila,Pilipinas,Active
+P00951,Maria Reyes,male,"Jun 02, 2012",096064-6487648,513 Main St,Pasig,,
+P00952,Ramon Navarro,F,06-11-1971,+63 952543251,979 Rizal St,Caloocan,PH,
+P00953,Luis Cruz,F,12-05-2002,096990-8305024,183 Main St,San Fernando,,Inactive
+P00954,Liza Garcia,male,03/22/1990,+63 960225060,453 Mabini St,Meycauayan,PH,Active
+P00955,Bea Mendoza,M,10-06-1948,09372473079,663 Mabini St,Malolos,,Active
+P00956,Angela Mendoza,female,1945/02/18,N/A,503 Rizal St,Malolos,Philippines,Active
+P00957,Patricia Dela Cruz,male,03/24/2020,N/A,855 Main St,Manila,,Active
+P00958,John Santos,,23-10-1988,097592-1279750,858 Mabini St,Makati,Pilipinas,Active
+P00959,Ramon Gonzales,,1999-11-26,+63 935895959,747 Mabini St,Quezon City,PH,
+P00960,Maria Mendoza,male,1957/10/28,097821-1054096,281 National St,San Fernando,Philippines,Inactive
+P00961,Grace Aquino,,2002-06-20,09707941115,187 Main St,Makati,Pilipinas,Active
+P00962,Miguel Castillo,Male,07-07-1959,098776-5139478,858 Rizal St,Makati,Pilipinas,Active
+P00963,Ramon Navarro,M,20-12-1955,+63 985838379,856 Rizal St,Caloocan,PH,ACTIVE
+P00964,Mark Mendoza,female,09-06-1979,094813-7100417,791 National St,Malolos,PH,Active
+P00965,Bea Gonzales,Female,1988/04/05,+63 968230817,351 National St,Meycauayan,Pilipinas,Active
+P00966,Andrea Castillo,Female,03/02/1963,+63 945010146,487 Rizal St,Malolos,Pilipinas,Inactive
+P00967,Bea Gonzales,female,1992-10-14,09446144349,163 Quezon St,Malolos,Pilipinas,Inactive
+P00968,Ana Reyes,M,06/24/1967,N/A,829 National St,Malolos,,
+P00969,Kevin Flores,Female,29-08-1962,096181-7730232,42 Rizal St,Meycauayan,Philippines,
+P00970,Liza Castillo,M,"Oct 23, 1991",+63 913832610,945 Mabini St,Bulacan,PH,ACTIVE
+P00971,Carlos Torres,M,2010-09-29,099513-3373320,470 Quezon St,Makati,,Active
+P00972,Carlos Garcia,Female,11-01-1967,N/A,93 Rizal St,Makati,Pilipinas,Active
+P00973,Kevin Reyes,M,"Dec 17, 1948",N/A,685 Quezon St,Malolos,PH,Active
+P00974,Ramon Reyes,M,06/15/2008,N/A,547 Main St,San Fernando,,Active
+P00975,Daniel Rivera,male,12/25/1955,09496353078,626 National St,Angeles,Philippines,ACTIVE
+P00976,Carlos Cruz,Female,12/20/1943,N/A,670 Rizal St,Angeles,PH,Inactive
+P00977,Mark Gonzales,female,"Sep 05, 2013",+63 945033443,408 National St,Quezon City,,Active
+P00978,Patricia Torres,female,"Feb 04, 1949",+63 911640743,589 National St,Angeles,,Active
+P00979,Kevin Torres,female,"Jan 15, 1976",094252-8130001,760 Main St,Bulacan,,Inactive
+P00980,Kevin Navarro,M,2015/09/25,N/A,545 Quezon St,Quezon City,PH,Active
+P00981,John Rivera,female,11-12-1992,N/A,50 Quezon St,Caloocan,Philippines,Active
+P00982,Kevin Cruz,M,1944/06/28,093709-8142103,692 Mabini St,Manila,Pilipinas,ACTIVE
+P00983,Mark Bautista,F,"Jul 28, 1941",09448571549,366 Main St,Meycauayan,,ACTIVE
+P00984,Miguel Santos,male,06/25/1948,N/A,915 Mabini St,San Fernando,,ACTIVE
+P00985,Andrea Aquino,F,1943-08-24,09450671708,392 National St,Quezon City,Pilipinas,Inactive
+P00986,Liza Gonzales,Male,02-07-1956,N/A,989 Main St,Pasig,Pilipinas,Inactive
+P00987,Thomas Ramos,male,08/20/2016,+63 916554015,779 Quezon St,Caloocan,PH,Inactive
+P00988,Andrea Torres,Male,"Mar 30, 1994",N/A,213 Main St,Angeles,PH,Inactive
+P00989,Angela Cruz,male,24-11-2010,093414-1303213,227 Main St,Bulacan,Pilipinas,
+P00990,Bea Gonzales,female,26-05-1993,096106-1210843,349 Mabini St,San Fernando,,ACTIVE
+P00991,Grace Flores,female,10/06/1984,098226-7544141,413 Main St,Bulacan,Philippines,
+P00992,Luis Bautista,Male,1958/08/15,N/A,691 Quezon St,Manila,PH,ACTIVE
+P00993,Thomas Bautista,male,"Sep 18, 1978",N/A,241 Quezon St,Meycauayan,PH,
+P00994,Thomas Flores,Male,"Sep 12, 1948",+63 938360899,886 Rizal St,Angeles,,Inactive
+P00995,Sofia Gonzales,male,07-01-1965,097767-2772324,515 National St,Meycauayan,,ACTIVE
+P00996,Ramon Cruz,,14-08-1981,N/A,296 Main St,Meycauayan,Pilipinas,
+P00997,Miguel Torres,Male,1974/05/23,+63 966116418,652 Main St,Bulacan,PH,ACTIVE
+P00998,Thomas Aquino,male,1947/03/23,+63 964864887,171 National St,Malolos,Philippines,Inactive
+P00999,Juan Navarro,male,"Apr 06, 2019",N/A,378 Rizal St,Makati,,ACTIVE
+P01000,John Reyes,M,1945-10-24,+63 987524461,701 National St,Malolos,PH,ACTIVE
+P01001,Juan  Dela Cruz,M,1985/02/01,09171234567,123 Main Street,Manila,Philippines,Active
+P01002,Maria Santos,Female,1990/13/05,,45 Rizal St,Quezon City,Philippines,Active
+P01003,Maria  Santos,F,1990-05-13,+63 917 555 1111,45 Rizal Street,Quezon City,PH,ACTIVE

@@ -1,0 +1,151 @@
+nurse_id,nurse_name,credentials,department_id,shift,phone,salary
+N0001,Janet Cruz,RN,D003,Rotating,09531029772,"₱45,000"
+N0002,Karen Cruz,RN,D005,Day,096982-1992308,45000 PHP
+N0003,Christine Reyes,RN,D001,Day,094288-1463949,-30000
+N0004,Christine Reyes,R.N.,D008,Night,+63 939309642,46604.15
+N0005,Helen Bautista,R.N.,D008,Night,09644740074,
+N0006,Helen Dela Cruz,RN,D005,Rotating,+63 956849237,56365
+N0007,Christine Cruz,R.N.,D003,NIGHT,,"32,011"
+N0008,Christine Torres,RN,D006,Night,+63 928975887,"PHP 54,204"
+N0009,Monica Dela Cruz,Registered Nurse,D001,day,09970705148,
+N0010,Karen Rivera,,D004,Rotating,095809-4322585,57492.2
+N0011,Monica Gonzales,,D007,Day,096274-2750174,"56,437"
+N0012,Joy Cruz,,D005,day,09944347580,"29,222"
+N0013,Rose Santos,Registered Nurse,D003,Rotating,09893771221,62874.97
+N0014,Janet Gonzales,R.N.,D006,NIGHT,+63 968224195,
+N0015,Joy Bautista,RN,D004,Day,09590951003,"PHP 64,344"
+N0016,Rose Cruz,R.N.,D001,Day,098402-2951710,"PHP 27,080"
+N0017,Anna Rivera,R.N.,D006,Night,09518668865,"PHP 33,972"
+N0018,Michelle Reyes,R.N.,D005,day,+63 986576546,49699
+N0019,Janet Gonzales,RN,D007,day,093034-9190913,34411.23
+N0020,Helen Dela Cruz,,D001,day,09238392700,41493
+N0021,Christine Santos,R.N.,D008,Day,094515-3807947,"58,029"
+N0022,Monica Mendoza,Registered Nurse,D005,NIGHT,,32226
+N0023,Rose Santos,,D004,Night,09656440452,58885
+N0024,Christine Garcia,RN,D007,Night,093595-8314004,
+N0025,Leah Navarro,R.N.,D008,NIGHT,+63 915509893,33759.51
+N0026,Rose Navarro,Registered Nurse,D001,NIGHT,+63 930496460,54382
+N0027,Karen Cruz,R.N.,D001,day,09508058768,64674.58
+N0028,Rose Reyes,R.N.,D006,day,091744-5123439,
+N0029,Joy Reyes,R.N.,D006,Day,09219578115,"PHP 39,999"
+N0030,Helen Navarro,R.N.,D006,Rotating,09141263927,71256
+N0031,Monica Dela Cruz,RN,D007,NIGHT,09228464715,74484.72
+N0032,Anna Torres,,D007,Rotating,+63 992684709,54053.74
+N0033,Leah Aquino,Registered Nurse,D006,day,+63 930553823,47351.12
+N0034,Michelle Mendoza,R.N.,D007,Rotating,,42343
+N0035,Janet Reyes,RN,D008,day,+63 982678701,"PHP 55,622"
+N0036,Karen Garcia,,D007,day,,54545.4
+N0037,Karen Bautista,Registered Nurse,D007,Night,+63 981126909,39737.49
+N0038,Rose Aquino,R.N.,D006,day,+63 964788762,"26,140"
+N0039,Monica Reyes,,D002,NIGHT,09800334617,"PHP 32,574"
+N0040,Rose Garcia,Registered Nurse,D003,day,09655662313,
+N0041,Rose Gonzales,R.N.,D005,NIGHT,+63 930918595,"45,907"
+N0042,Michelle Gonzales,Registered Nurse,D008,Night,099188-9165219,49115.29
+N0043,Helen Rivera,RN,D002,Day,091093-1885043,48355.02
+N0044,Christine Bautista,Registered Nurse,D004,Night,091708-7089123,64136.56
+N0045,Helen Rivera,,D008,Rotating,09855488200,28247
+N0046,Joy Reyes,R.N.,D003,day,+63 981444791,
+N0047,Joy Ramos,,D005,Night,09221719840,38792.14
+N0048,Anna Reyes,,D008,day,099237-1334774,49332
+N0049,Leah Aquino,R.N.,D008,Day,09628030831,
+N0050,Karen Santos,R.N.,D003,NIGHT,+63 962830211,"PHP 49,535"
+N0051,Karen Mendoza,RN,D006,NIGHT,+63 976404207,47058
+N0052,Karen Flores,Registered Nurse,D004,NIGHT,091251-9214276,71891.6
+N0053,Michelle Dela Cruz,R.N.,D005,Rotating,094624-1678734,33050
+N0054,Leah Torres,RN,D006,NIGHT,09133687368,53586.8
+N0055,Janet Gonzales,R.N.,D008,day,,"PHP 52,112"
+N0056,Karen Bautista,,D007,Rotating,+63 956471424,"PHP 48,674"
+N0057,Leah Mendoza,Registered Nurse,D002,day,09821348271,
+N0058,Anna Castillo,R.N.,D002,Night,+63 933770928,
+N0059,Helen Castillo,R.N.,D002,Day,09110356496,72688.11
+N0060,Michelle Aquino,,D006,Day,+63 926371663,41578
+N0061,Christine Reyes,RN,D002,Day,09564897319,"52,250"
+N0062,Monica Bautista,R.N.,D008,Night,,51033.8
+N0063,Janet Navarro,RN,D008,Night,+63 910847369,"PHP 67,488"
+N0064,Janet Reyes,R.N.,D002,Day,+63 935105164,"46,945"
+N0065,Monica Torres,Registered Nurse,D007,NIGHT,093343-8155873,"39,227"
+N0066,Karen Navarro,R.N.,D001,Rotating,09402203708,"PHP 26,080"
+N0067,Leah Bautista,RN,D007,Day,091128-2480282,
+N0068,Helen Castillo,Registered Nurse,D002,NIGHT,,
+N0069,Karen Cruz,Registered Nurse,D008,Rotating,09686173802,25495.6
+N0070,Karen Gonzales,,D008,Rotating,,69808.41
+N0071,Michelle Reyes,,D007,Day,,52141
+N0072,Karen Dela Cruz,,D003,Night,09736661428,"32,012"
+N0073,Monica Cruz,R.N.,D005,Rotating,+63 912909930,40108.65
+N0074,Janet Flores,Registered Nurse,D004,Night,,"PHP 52,701"
+N0075,Monica Flores,R.N.,D008,Day,,40784.45
+N0076,Helen Mendoza,R.N.,D004,NIGHT,09630677125,30428.25
+N0077,Janet Torres,R.N.,D006,Rotating,+63 993011005,"58,299"
+N0078,Joy Mendoza,Registered Nurse,D006,Night,09496820123,"58,612"
+N0079,Leah Bautista,,D004,Night,094355-8989103,30943.82
+N0080,Joy Bautista,Registered Nurse,D004,Night,+63 994917104,
+N0081,Rose Cruz,,D001,Rotating,095124-3488991,37193.07
+N0082,Christine Ramos,,D008,NIGHT,,57971
+N0083,Rose Castillo,Registered Nurse,D003,Rotating,+63 917921698,"PHP 61,514"
+N0084,Anna Bautista,Registered Nurse,D008,NIGHT,094436-9131878,"PHP 61,349"
+N0085,Helen Rivera,R.N.,D004,NIGHT,+63 926154770,"71,938"
+N0086,Joy Castillo,Registered Nurse,D004,day,+63 911464854,63432
+N0087,Michelle Mendoza,RN,D001,day,,41033
+N0088,Monica Ramos,R.N.,D008,Rotating,+63 946715535,30387.31
+N0089,Helen Cruz,Registered Nurse,D003,NIGHT,09238014139,55732.92
+N0090,Karen Ramos,,D006,Night,,70800
+N0091,Karen Gonzales,R.N.,D006,NIGHT,097910-5746424,"PHP 73,757"
+N0092,Helen Castillo,RN,D001,Night,+63 918573546,36510
+N0093,Christine Ramos,R.N.,D004,Day,09910309537,36822
+N0094,Monica Bautista,RN,D008,day,,"26,870"
+N0095,Michelle Ramos,RN,D004,day,+63 925468478,"PHP 32,063"
+N0096,Rose Dela Cruz,RN,D001,Night,+63 915690138,52742
+N0097,Michelle Flores,R.N.,D006,Rotating,09516102081,"PHP 52,340"
+N0098,Joy Castillo,Registered Nurse,D008,Day,09819022698,43546
+N0099,Rose Aquino,RN,D004,Night,09725711439,"PHP 40,497"
+N0100,Helen Rivera,Registered Nurse,D003,day,096757-1123311,66489
+N0101,Janet Ramos,Registered Nurse,D007,Night,099097-5299635,
+N0102,Rose Bautista,Registered Nurse,D007,Day,,65412
+N0103,Helen Torres,,D004,Night,+63 915591522,73160
+N0104,Rose Castillo,Registered Nurse,D004,NIGHT,09978170803,40856
+N0105,Rose Aquino,Registered Nurse,D004,NIGHT,+63 951594284,35136.59
+N0106,Karen Garcia,,D007,Rotating,,72644
+N0107,Leah Ramos,Registered Nurse,D004,Day,09761822587,"PHP 56,741"
+N0108,Anna Mendoza,RN,D005,day,09509547590,
+N0109,Karen Garcia,R.N.,D007,Rotating,095482-1375717,56092.32
+N0110,Anna Rivera,RN,D005,Night,09382099523,"50,752"
+N0111,Anna Rivera,,D003,Day,,70276.88
+N0112,Helen Navarro,Registered Nurse,D005,Day,+63 985595538,"PHP 37,798"
+N0113,Rose Santos,,D007,Day,,
+N0114,Michelle Dela Cruz,RN,D002,Rotating,+63 947791498,71802.04
+N0115,Janet Dela Cruz,Registered Nurse,D004,Night,09840533109,"PHP 34,035"
+N0116,Helen Flores,,D008,Night,09868336705,33230
+N0117,Helen Bautista,,D008,NIGHT,+63 960099110,51657.25
+N0118,Karen Navarro,Registered Nurse,D007,Night,094995-8843082,"27,245"
+N0119,Janet Reyes,,D007,Rotating,+63 921602526,
+N0120,Karen Rivera,Registered Nurse,D008,day,09909282771,"PHP 46,754"
+N0121,Karen Ramos,R.N.,D006,NIGHT,+63 931398059,73468.05
+N0122,Monica Santos,,D002,NIGHT,09684112050,"PHP 74,618"
+N0123,Janet Rivera,R.N.,D004,Rotating,,32576
+N0124,Joy Torres,,D004,NIGHT,+63 964760624,"69,583"
+N0125,Leah Reyes,R.N.,D001,NIGHT,09958923889,29546.1
+N0126,Janet Garcia,,D005,Night,09681932510,"PHP 62,430"
+N0127,Anna Dela Cruz,Registered Nurse,D002,Night,,67282
+N0128,Christine Gonzales,Registered Nurse,D007,Day,,69539.05
+N0129,Karen Garcia,Registered Nurse,D007,NIGHT,,"PHP 36,170"
+N0130,Anna Cruz,Registered Nurse,D006,Day,09374644018,69672.1
+N0131,Monica Navarro,Registered Nurse,D008,Day,,30799.9
+N0132,Janet Ramos,RN,D002,Night,,50942.98
+N0133,Karen Garcia,,D001,Rotating,+63 984172174,"48,477"
+N0134,Helen Gonzales,RN,D001,Night,09737189607,40796.78
+N0135,Joy Reyes,,D005,NIGHT,098019-1817300,
+N0136,Helen Santos,,D003,day,091427-5870201,
+N0137,Monica Santos,R.N.,D002,Night,,
+N0138,Michelle Castillo,,D001,Rotating,+63 939987280,
+N0139,Leah Castillo,RN,D002,Night,,
+N0140,Leah Bautista,,D001,NIGHT,,43682
+N0141,Leah Dela Cruz,Registered Nurse,D007,NIGHT,09853818040,69314.51
+N0142,Janet Rivera,Registered Nurse,D008,day,09644509042,"PHP 29,723"
+N0143,Michelle Santos,R.N.,D004,day,,61830.46
+N0144,Christine Castillo,R.N.,D007,Day,+63 915335928,62339.39
+N0145,Janet Reyes,,D001,Rotating,09164418051,
+N0146,Joy Torres,Registered Nurse,D001,Rotating,,
+N0147,Rose Garcia,,D008,day,09329912272,"25,265"
+N0148,Michelle Torres,R.N.,D003,Day,+63 978905312,"71,840"
+N0149,Monica Flores,Registered Nurse,D004,Rotating,09536359513,72386
+N0150,Karen Castillo,,D001,Night,+63 960154780,37048

@@ -1,0 +1,81 @@
+room_id,ward_name,room_number,room_type,status,bed_capacity
+R0001,Surgical Ward,103,ICU,Maintenance,4
+R0002,Surgical Ward,103,Semi-Private,Maintenance,3
+R0003,Pediatric Ward,102,ICU,Maintenance,1
+R0004,Pediatric Ward,102,,Available,2
+R0005,,101,Shared,available,4
+R0006,ICU,302,Shared,available,3
+R0007,ICU,302,,OCCUPIED,4
+R0008,,ICU-02,,Maintenance,2
+R0009,Pediatric Ward,203,Private,OCCUPIED,3
+R0010,Emergency,ICU-01,,Available,3
+R0011,Surgical Ward,202,Shared,available,2
+R0012,ICU,203,Semi-Private,Maintenance,2
+R0013,ICU,202,Semi-Private,available,4
+R0014,ICU,202,,OCCUPIED,2
+R0015,,ICU-02,Semi-Private,available,2
+R0016,Surgical Ward,203,,Maintenance,3
+R0017,Ward B,302,,Maintenance,2
+R0018,Ward A,202,Semi-Private,Occupied,3
+R0019,Ward B,302,Shared,Occupied,4
+R0020,Pediatric Ward,202,,OCCUPIED,3
+R0021,Ward B,202,,Available,3
+R0022,Ward A,301,,OCCUPIED,1
+R0023,Ward A,201,Shared,OCCUPIED,4
+R0024,Emergency,ICU-02,Shared,Maintenance,4
+R0025,Ward B,202,Private,OCCUPIED,4
+R0026,Emergency,102,ICU,OCCUPIED,4
+R0027,ICU,102,Semi-Private,Occupied,1
+R0028,ICU,101,Private,Available,3
+R0029,Ward A,ICU-01,,available,2
+R0030,,102,ICU,Occupied,1
+R0031,Surgical Ward,ICU-02,Private,Available,1
+R0032,ICU,ICU-02,Shared,available,4
+R0033,Ward B,201,Semi-Private,Maintenance,3
+R0034,Emergency,203,Semi-Private,Occupied,1
+R0035,Emergency,ICU-02,Shared,Occupied,2
+R0036,,301,Semi-Private,Maintenance,1
+R0037,Ward B,102,,Maintenance,3
+R0038,,302,Private,Available,2
+R0039,,301,Semi-Private,Occupied,4
+R0040,Emergency,103,Semi-Private,Occupied,3
+R0041,Ward A,101,Semi-Private,available,4
+R0042,Emergency,ICU-02,ICU,OCCUPIED,2
+R0043,Ward B,102,Private,OCCUPIED,4
+R0044,Pediatric Ward,103,ICU,Maintenance,4
+R0045,Ward A,ICU-01,Shared,Occupied,4
+R0046,Pediatric Ward,ICU-01,Shared,available,1
+R0047,Pediatric Ward,ICU-01,,OCCUPIED,4
+R0048,Emergency,201,Shared,Occupied,1
+R0049,Emergency,301,Semi-Private,OCCUPIED,2
+R0050,Ward B,203,Shared,OCCUPIED,3
+R0051,Ward B,202,Semi-Private,OCCUPIED,4
+R0052,Ward A,ICU-02,Semi-Private,Available,4
+R0053,Surgical Ward,101,ICU,Maintenance,3
+R0054,ICU,301,Private,OCCUPIED,4
+R0055,Surgical Ward,302,ICU,Available,4
+R0056,ICU,203,Semi-Private,available,3
+R0057,ICU,302,Semi-Private,Occupied,2
+R0058,,ICU-02,,Maintenance,2
+R0059,,101,ICU,available,1
+R0060,,201,Private,Occupied,1
+R0061,Emergency,ICU-01,Private,available,1
+R0062,Emergency,202,ICU,Occupied,3
+R0063,Ward B,301,Shared,Occupied,2
+R0064,Pediatric Ward,202,Semi-Private,Maintenance,1
+R0065,Ward B,102,,Available,2
+R0066,ICU,ICU-01,ICU,OCCUPIED,2
+R0067,Ward B,101,Semi-Private,Maintenance,1
+R0068,Ward A,102,Shared,Occupied,1
+R0069,,302,,available,2
+R0070,Ward B,ICU-01,Semi-Private,Occupied,1
+R0071,ICU,103,Shared,Maintenance,1
+R0072,Emergency,ICU-01,Private,OCCUPIED,2
+R0073,Ward B,101,ICU,Occupied,2
+R0074,Ward B,ICU-02,Shared,Maintenance,3
+R0075,Pediatric Ward,201,ICU,Occupied,1
+R0076,Surgical Ward,201,Semi-Private,Maintenance,1
+R0077,Ward A,301,Semi-Private,Available,3
+R0078,Pediatric Ward,ICU-01,ICU,OCCUPIED,4
+R0079,Emergency,302,,available,4
+R0080,,202,,OCCUPIED,2
